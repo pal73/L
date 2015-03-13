@@ -14,7 +14,7 @@
             android:layout_height="wrap_content"
             android:text="Обновить"
             android:id="@+id/renew_button" android:textStyle="normal|bold" android:textSize="40dp"
-            android:onClick="setListFooter"/>
+            android:onClick="onMyButtonClick"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
