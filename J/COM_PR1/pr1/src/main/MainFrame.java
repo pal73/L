@@ -4,9 +4,11 @@
  * and open the template in the editor.
  */
 package main;
+import java.awt.event.ActionListener;
 import jssc.SerialPortList;
 import jssc.SerialPort;
 import jssc.SerialPortException;
+import javax.swing.Timer;
 
 /**
  *
@@ -130,9 +132,9 @@ public class MainFrame extends javax.swing.JFrame {
                 //Читаем данные в количестве 10 байт. Будте внимательны с методом readBytes(), если во входном буфере
                 //будет меньше байт, то метод будет ожидать нужного количества. Лучше использовать его совместно с
                 //интерфейсом SerialPortEventListener.
-                byte[] buffer = serialPort.readBytes(10);
+                //byte[] buffer = serialPort.readBytes(10);
                 //Закрываем порт
-                serialPort.closePort();
+                //serialPort.closePort();
             }
             catch (SerialPortException ex) {
                 System.out.println(ex);
@@ -177,6 +179,8 @@ public class MainFrame extends javax.swing.JFrame {
                 new MainFrame().setVisible(true);
             }
         });
+        
+
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
