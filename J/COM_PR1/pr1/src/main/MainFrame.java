@@ -52,7 +52,7 @@ public class MainFrame extends javax.swing.JFrame {
             }
         });
 
-        jToggleButton1.setText("jToggleButton1");
+        jToggleButton1.setText("jToggleButton11");
         jToggleButton1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
