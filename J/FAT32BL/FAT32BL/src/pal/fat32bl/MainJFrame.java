@@ -5,6 +5,13 @@
  */
 package pal.fat32bl;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import javax.swing.JFileChooser;
+import jssc.SerialPortList;
+
 /**
  *
  * @author user
@@ -15,6 +22,7 @@ public class MainJFrame extends javax.swing.JFrame {
      * Creates new form MainJFrame
      */
     public MainJFrame() {
+        this.fileBuffer = new char[1000000];
         initComponents();
         //jTextArea1.setText("123");
     }
@@ -39,7 +47,13 @@ public class MainJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(600, 800));
+        addWindowListener(new java.awt.event.WindowAdapter() {
+            public void windowOpened(java.awt.event.WindowEvent evt) {
+                formWindowOpened(evt);
+            }
+        });
 
+        jComboBox1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "COM1", "COM2", "COM3", "COM4", "COM5", "COM6" }));
 
         jButton1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
@@ -118,6 +132,8 @@ public class MainJFrame extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    char fileBuffer[];
+    
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         jTextArea1.setText("");
     }//GEN-LAST:event_jButton2ActionPerformed
@@ -127,8 +143,39 @@ public class MainJFrame extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        jTextArea1.append("12345"+"\n");
+        //jTextArea1.append("12345"+"\n");
+        //JOptionPane.showMessageDialog(null,"ddytytd");
+        JFileChooser fileopen = new JFileChooser();
+        int ret = fileopen.showDialog(null, "Открыть файл");                
+        if (ret == JFileChooser.APPROVE_OPTION) {
+            File file = fileopen.getSelectedFile();
+            jTextArea1.append(file.getAbsolutePath());
+            try {
+                FileReader myfile = new FileReader(file);
+                try {
+                    myfile.read(fileBuffer);
+                    System.out.println(fileBuffer);
+                } catch (IOException e) {
+                    System.out.println("123"/*e.toString()*/);
+                }
+                
+            } catch (FileNotFoundException e){
+                System.out.println("Файл не найден");
+            }
+            
+        }
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void formWindowOpened(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowOpened
+    String[] portNames = SerialPortList.getPortNames();
+        jComboBox1.removeAllItems();
+        for(int i = 0; i < portNames.length; i++){
+        System.out.println(portNames[i]);       // TODO add your handling code here:
+            
+        jComboBox1.addItem(portNames[i]);
+        }
+        //jToggleButton1.setText("Открыть");
+    }//GEN-LAST:event_formWindowOpened
 
     /**
      * @param args the command line arguments
