@@ -22,7 +22,7 @@ public class MainJFrame extends javax.swing.JFrame {
      * Creates new form MainJFrame
      */
     public MainJFrame() {
-        this.fileBuffer = new char[1000000];
+        this.fileBuffer = new byte[1000000];
         initComponents();
         //jTextArea1.setText("123");
     }
@@ -132,7 +132,8 @@ public class MainJFrame extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    char fileBuffer[];
+    byte fileBuffer[];
+    long fileLenght;
     
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         jTextArea1.setText("");
@@ -150,13 +151,19 @@ public class MainJFrame extends javax.swing.JFrame {
         if (ret == JFileChooser.APPROVE_OPTION) {
             File file = fileopen.getSelectedFile();
             jTextArea1.append(file.getAbsolutePath());
+            fileLenght = file.length();
+            System.out.println(fileLenght);
             try {
                 FileReader myfile = new FileReader(file);
                 try {
-                    myfile.read(fileBuffer);
-                    System.out.println(fileBuffer);
+                    for (int i = 0; i < fileLenght; i++) {
+                    fileBuffer[i] = (byte) myfile.read();
+                    //jTextArea1.append(fileBuffer[i].toString());
+                    System.out.println(fileBuffer[i]);
+                    }
+                    //System.out.println(fileBuffer);
                 } catch (IOException e) {
-                    System.out.println("123"/*e.toString()*/);
+                    System.out.println("123");
                 }
                 
             } catch (FileNotFoundException e){
