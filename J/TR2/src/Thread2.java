@@ -8,24 +8,10 @@ public class Thread2 implements Runnable{
         this.mc = mc;
     }
     public void run() {
-        while (mc.mainTempIsZero()!=false) {
-            if (mc.mainTempIsEven()) {
-                System.out.println("Pong");
-                notify();
-                try {
-                    wait();
-                } catch (InterruptedException e) {
-
-                }
-            } else {
-                notify();
-                try {
-                    wait();
-                } catch (InterruptedException e) {
-
-                }
-            }
+        while (mc.ponger()) {
+            System.out.println("2");
         }
+        //mc.notify();
     }
 
 }

@@ -7,25 +7,10 @@ public class Thread1 implements Runnable{
     public Thread1(Tr2mainclass mc) {
         this.mc = mc;
     }
-
     public void run() {
-        while (mc.mainTempIsZero() != true) {
-            if (mc.mainTempIsOdd()) {
-                System.out.println("Ping");
-                notify();
-                try {
-                    wait();
-                } catch (InterruptedException e) {
-
-                }
-            } else {
-                notify();
-                try {
-                    wait();
-                } catch (InterruptedException e) {
-
-                }
-            }
+        while (mc.pinger()) {
+            System.out.println("1");
         }
+        //mc.notify();
     }
 }
