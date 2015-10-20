@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 /**
  * Created by PAL73 on 08.04.15.
@@ -19,11 +20,15 @@ public class Sort2demo {
         aList.add(new Inputstr("dfhfth","yttyuu",25));
         aList.add(new Inputstr("1fhdfh","ytulkj",26));
 
-        System.out.println(aList.get(0).firstName.toString()).
-        System.out.println(aList.get(1));
-        System.out.println(aList.get(2));
-        System.out.println(aList.get(3));
+        System.out.println("На входе:");
+
+        System.out.println(((Inputstr)aList.get(0)).firstName.toString() + "   " + ((Inputstr)aList.get(0)).secondName.toString() + "   " + ((Inputstr)aList.get(0)).age);
+        System.out.println(((Inputstr)aList.get(1)).firstName.toString() + "   " + ((Inputstr)aList.get(1)).secondName.toString() + "   " + ((Inputstr)aList.get(1)).age);
+        System.out.println(((Inputstr)aList.get(2)).firstName.toString() + "   " + ((Inputstr)aList.get(2)).secondName.toString() + "   " + ((Inputstr)aList.get(2)).age);
+        System.out.println(((Inputstr)aList.get(3)).firstName.toString() + "   " + ((Inputstr)aList.get(3)).secondName.toString() + "   " + ((Inputstr)aList.get(3)).age);
 
         //for(int i = 0; i < input)
+
+        Collections
     }
 }
