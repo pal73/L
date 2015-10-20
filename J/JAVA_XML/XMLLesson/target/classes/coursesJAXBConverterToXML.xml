@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<course id="1">
+    <day>friday</day>
+    <hours>20</hours>
+    <name>Java Level 1</name>
+    <teacher>Ivanov Ivan</teacher>
+</course>

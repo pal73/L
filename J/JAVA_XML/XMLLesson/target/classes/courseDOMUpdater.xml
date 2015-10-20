@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><progschool>
+    <course id="25">
+        <name>Java Level 1</name>
+        <teacher>Ivanov Ivan</teacher>
+        <hours>100</hours>
+        
+    <category>programming</category>
+    </course>
+    <course id="2">
+        <name>Java Level 2</name>
+        <teacher>Ivanov Ivan</teacher>
+        <hours>30</hours>
+        <day>saturday</day>
+    </course>
+    <course id="3">
+        <name>PHP Level 1</name>
+        <teacher>Petrov Tom</teacher>
+        <hours>20</hours>
+        <day>monday</day>
+    </course>
+    <course id="4">
+        <name>Objective C</name>
+        <teacher>Vasya Pupkin</teacher>
+        <hours>25</hours>
+        <day>monday</day>
+    </course>
+    <course id="5">
+        <name>Node JS</name>
+        <teacher>Petrov Tom</teacher>
+        <hours>30</hours>
+        <day>thursday</day>
+    </course>
+</progschool>
