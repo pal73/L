@@ -29,6 +29,6 @@ public class Sort2demo {
 
         //for(int i = 0; i < input)
 
-        Collections
+        //Collections
     }
 }
