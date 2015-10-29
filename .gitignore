@@ -1,22 +1,13 @@
-<<<<<<< HEAD
-out
+
 /J/FAT32BL/FAT32BL/nbproject/private/
 /J/FAT32BL/FAT32BL/build/
 /J/FAT32BL/FAT32BL/dist/
-=======
-<<<<<<< HEAD
 /J/COM_PR1/pr1/nbproject/private/
 /J/COM_PR1/pr1/build/
-=======
-out
->>>>>>> 541c5a16b1b092e93f5be9e26a38f7538b74e489
-<<<<<<< HEAD
 /J/COM_PR1/pr1/dist/
-=======
->>>>>>> 57fd4b20cb118ba6714b73b9b09703e5809837ea
->>>>>>> 22fb7d33b2ef8eb7b54347d89023eec4240f4565
 /J/Tree/Tree/nbproject/private/
 /J/Tree/Tree/build/
 /J/Tree/Tree/dist/
 /J/IO1/nbproject/private/
 /J/IO1/build/
+.idea
