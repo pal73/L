@@ -73,15 +73,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CanvasView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CanvasView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/cyrk/CanvasView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.125" vertical-offset="211" max-vertical-offset="1075">
-              <caret line="34" column="90" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="900">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/cyrk/GameManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.51584506" vertical-offset="132" max-vertical-offset="900">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
+                <element signature="e#670#671#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/com/example/cyrk/MainCircle.java" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/src/com/example/cyrk/CanvasView.java" />
+        <option value="$PROJECT_DIR$/src/com/example/cyrk/GameManager.java" />
       </list>
     </option>
   </component>
@@ -304,6 +317,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="IntroduceConstantDialog.RECENTS_KEY">
@@ -491,6 +505,9 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9cd1c284-8132-4e42-ad5f-30e25e7bfa3d" name="Default" comment="" />
@@ -501,8 +518,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1698" height="1020" extended-state="7" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1698" height="1020" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -611,12 +628,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/cyrk/CanvasView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.125" vertical-offset="211" max-vertical-offset="1075">
-          <caret line="34" column="90" selection-start-line="34" selection-start-column="90" selection-end-line="34" selection-end-column="90" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="900">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/cyrk/GameManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.51584506" vertical-offset="132" max-vertical-offset="900">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+            <element signature="e#670#671#0" expanded="true" />
           </folding>
         </state>
       </provider>
