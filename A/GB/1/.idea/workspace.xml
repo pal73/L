@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="name" value="app: com.example.cyrk" />
+        <option name="packageNamePattern" value="com.example.cyrk" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <target>android-16</target>
+      </config>
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout/main.xml">
+        <config>
+          <theme>@android:style/Theme.Holo</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cd1c284-8132-4e42-ad5f-30e25e7bfa3d" name="Default" comment="" />
+    <ignored path="cyrk.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="cyrk" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="550">
+              <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="400">
+              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CanvasView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/cyrk/CanvasView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="1275">
+              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/cyrk/GameManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.64788735" vertical-offset="507" max-vertical-offset="1075">
+              <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Paint.java" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Android/ASDK/sources/android-21/android/graphics/Paint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="7899" max-vertical-offset="55250">
+              <caret line="316" column="11" selection-start-line="316" selection-start-column="11" selection-end-line="316" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#84539#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#10399#10400#0" expanded="false" />
+                <element signature="e#10449#10450#0" expanded="false" />
+                <element signature="e#11096#11097#0" expanded="false" />
+                <element signature="e#11146#11147#0" expanded="false" />
+                <element signature="e#11702#11703#0" expanded="false" />
+                <element signature="e#11752#11753#0" expanded="false" />
+                <element signature="e#12306#12307#0" expanded="false" />
+                <element signature="e#12356#12357#0" expanded="false" />
+                <element signature="e#12478#12479#0" expanded="false" />
+                <element signature="e#12501#12502#0" expanded="false" />
+                <element signature="e#16305#16306#0" expanded="false" />
+                <element signature="e#16338#16339#0" expanded="false" />
+                <element signature="e#17848#17849#0" expanded="false" />
+                <element signature="e#17906#17907#0" expanded="false" />
+                <element signature="e#18866#18867#0" expanded="false" />
+                <element signature="e#18920#18921#0" expanded="false" />
+                <element signature="e#19683#19684#0" expanded="false" />
+                <element signature="e#19742#19743#0" expanded="false" />
+                <element signature="e#20235#20236#0" expanded="false" />
+                <element signature="e#20296#20297#0" expanded="false" />
+                <element signature="e#20809#20810#0" expanded="false" />
+                <element signature="e#20871#20872#0" expanded="false" />
+                <element signature="e#21394#21395#0" expanded="false" />
+                <element signature="e#21458#21459#0" expanded="false" />
+                <element signature="e#21982#21983#0" expanded="false" />
+                <element signature="e#22044#22045#0" expanded="false" />
+                <element signature="e#22739#22740#0" expanded="false" />
+                <element signature="e#22800#22801#0" expanded="false" />
+                <element signature="e#23599#23600#0" expanded="false" />
+                <element signature="e#23664#23665#0" expanded="false" />
+                <element signature="e#23942#23943#0" expanded="false" />
+                <element signature="e#24004#24005#0" expanded="false" />
+                <element signature="e#25901#25902#0" expanded="false" />
+                <element signature="e#25963#25964#0" expanded="false" />
+                <element signature="e#27654#27655#0" expanded="false" />
+                <element signature="e#27721#27722#0" expanded="false" />
+                <element signature="e#27941#27942#0" expanded="false" />
+                <element signature="e#28005#28006#0" expanded="false" />
+                <element signature="e#28140#28141#0" expanded="false" />
+                <element signature="e#28209#28210#0" expanded="false" />
+                <element signature="e#28425#28426#0" expanded="false" />
+                <element signature="e#28491#28492#0" expanded="false" />
+                <element signature="e#29043#29044#0" expanded="false" />
+                <element signature="e#29118#29119#0" expanded="false" />
+                <element signature="e#29256#29257#0" expanded="false" />
+                <element signature="e#29286#29287#0" expanded="false" />
+                <element signature="e#30020#30021#0" expanded="false" />
+                <element signature="e#30055#30056#0" expanded="false" />
+                <element signature="e#30690#30691#0" expanded="false" />
+                <element signature="e#30722#30723#0" expanded="false" />
+                <element signature="e#31467#31468#0" expanded="false" />
+                <element signature="e#31501#31502#0" expanded="false" />
+                <element signature="e#32252#32253#0" expanded="false" />
+                <element signature="e#32286#32287#0" expanded="false" />
+                <element signature="e#33206#33207#0" expanded="false" />
+                <element signature="e#33238#33239#0" expanded="false" />
+                <element signature="e#34246#34247#0" expanded="false" />
+                <element signature="e#34280#34281#0" expanded="false" />
+                <element signature="e#35827#35828#0" expanded="false" />
+                <element signature="e#35869#35870#0" expanded="false" />
+                <element signature="e#36080#36081#0" expanded="false" />
+                <element signature="e#36136#36137#0" expanded="false" />
+                <element signature="e#36538#36539#0" expanded="false" />
+                <element signature="e#36607#36608#0" expanded="false" />
+                <element signature="e#37011#37012#0" expanded="false" />
+                <element signature="e#37077#37078#0" expanded="false" />
+                <element signature="e#37234#37235#0" expanded="false" />
+                <element signature="e#37264#37265#0" expanded="false" />
+                <element signature="e#41099#41100#0" expanded="false" />
+                <element signature="e#41159#41160#0" expanded="false" />
+                <element signature="e#41520#41521#0" expanded="false" />
+                <element signature="e#41588#41589#0" expanded="false" />
+                <element signature="e#41773#41774#0" expanded="false" />
+                <element signature="e#41816#41817#0" expanded="false" />
+                <element signature="e#46469#46470#0" expanded="false" />
+                <element signature="e#46512#46513#0" expanded="false" />
+                <element signature="e#62174#62175#0" expanded="false" />
+                <element signature="e#62242#62243#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainCircle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/cyrk/MainCircle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="925">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+              <folding>
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#354#355#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="250">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/cyrk/MainCircle.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/cyrk/CanvasView.java" />
+        <option value="$PROJECT_DIR$/src/com/example/cyrk/GameManager.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1698" />
+    <option name="height" value="1020" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cyrk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cyrk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cyrk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cyrk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cyrk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cyrk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cyrk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cyrk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-ldpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cyrk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable-hdpi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="com.example.cyrk.MainCircle" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.1">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="1" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="1" />
+      <option name="ACTIVITY_CLASS" value="com.example.cyrk.MyActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.1" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cd1c284-8132-4e42-ad5f-30e25e7bfa3d" name="Default" comment="" />
+      <created>1446749166904</created>
+      <option name="number" value="Default" />
+      <updated>1446749166904</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1698" height="1020" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32998884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="550">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="400">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/cyrk/CanvasView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="900">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/cyrk/GameManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Android/ASDK/sources/android-21/android/graphics/Paint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7899" max-vertical-offset="55250">
+          <caret line="316" column="11" selection-start-line="316" selection-start-column="11" selection-end-line="316" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#84539#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#10399#10400#0" expanded="false" />
+            <element signature="e#10449#10450#0" expanded="false" />
+            <element signature="e#11096#11097#0" expanded="false" />
+            <element signature="e#11146#11147#0" expanded="false" />
+            <element signature="e#11702#11703#0" expanded="false" />
+            <element signature="e#11752#11753#0" expanded="false" />
+            <element signature="e#12306#12307#0" expanded="false" />
+            <element signature="e#12356#12357#0" expanded="false" />
+            <element signature="e#12478#12479#0" expanded="false" />
+            <element signature="e#12501#12502#0" expanded="false" />
+            <element signature="e#16305#16306#0" expanded="false" />
+            <element signature="e#16338#16339#0" expanded="false" />
+            <element signature="e#17848#17849#0" expanded="false" />
+            <element signature="e#17906#17907#0" expanded="false" />
+            <element signature="e#18866#18867#0" expanded="false" />
+            <element signature="e#18920#18921#0" expanded="false" />
+            <element signature="e#19683#19684#0" expanded="false" />
+            <element signature="e#19742#19743#0" expanded="false" />
+            <element signature="e#20235#20236#0" expanded="false" />
+            <element signature="e#20296#20297#0" expanded="false" />
+            <element signature="e#20809#20810#0" expanded="false" />
+            <element signature="e#20871#20872#0" expanded="false" />
+            <element signature="e#21394#21395#0" expanded="false" />
+            <element signature="e#21458#21459#0" expanded="false" />
+            <element signature="e#21982#21983#0" expanded="false" />
+            <element signature="e#22044#22045#0" expanded="false" />
+            <element signature="e#22739#22740#0" expanded="false" />
+            <element signature="e#22800#22801#0" expanded="false" />
+            <element signature="e#23599#23600#0" expanded="false" />
+            <element signature="e#23664#23665#0" expanded="false" />
+            <element signature="e#23942#23943#0" expanded="false" />
+            <element signature="e#24004#24005#0" expanded="false" />
+            <element signature="e#25901#25902#0" expanded="false" />
+            <element signature="e#25963#25964#0" expanded="false" />
+            <element signature="e#27654#27655#0" expanded="false" />
+            <element signature="e#27721#27722#0" expanded="false" />
+            <element signature="e#27941#27942#0" expanded="false" />
+            <element signature="e#28005#28006#0" expanded="false" />
+            <element signature="e#28140#28141#0" expanded="false" />
+            <element signature="e#28209#28210#0" expanded="false" />
+            <element signature="e#28425#28426#0" expanded="false" />
+            <element signature="e#28491#28492#0" expanded="false" />
+            <element signature="e#29043#29044#0" expanded="false" />
+            <element signature="e#29118#29119#0" expanded="false" />
+            <element signature="e#29256#29257#0" expanded="false" />
+            <element signature="e#29286#29287#0" expanded="false" />
+            <element signature="e#30020#30021#0" expanded="false" />
+            <element signature="e#30055#30056#0" expanded="false" />
+            <element signature="e#30690#30691#0" expanded="false" />
+            <element signature="e#30722#30723#0" expanded="false" />
+            <element signature="e#31467#31468#0" expanded="false" />
+            <element signature="e#31501#31502#0" expanded="false" />
+            <element signature="e#32252#32253#0" expanded="false" />
+            <element signature="e#32286#32287#0" expanded="false" />
+            <element signature="e#33206#33207#0" expanded="false" />
+            <element signature="e#33238#33239#0" expanded="false" />
+            <element signature="e#34246#34247#0" expanded="false" />
+            <element signature="e#34280#34281#0" expanded="false" />
+            <element signature="e#35827#35828#0" expanded="false" />
+            <element signature="e#35869#35870#0" expanded="false" />
+            <element signature="e#36080#36081#0" expanded="false" />
+            <element signature="e#36136#36137#0" expanded="false" />
+            <element signature="e#36538#36539#0" expanded="false" />
+            <element signature="e#36607#36608#0" expanded="false" />
+            <element signature="e#37011#37012#0" expanded="false" />
+            <element signature="e#37077#37078#0" expanded="false" />
+            <element signature="e#37234#37235#0" expanded="false" />
+            <element signature="e#37264#37265#0" expanded="false" />
+            <element signature="e#41099#41100#0" expanded="false" />
+            <element signature="e#41159#41160#0" expanded="false" />
+            <element signature="e#41520#41521#0" expanded="false" />
+            <element signature="e#41588#41589#0" expanded="false" />
+            <element signature="e#41773#41774#0" expanded="false" />
+            <element signature="e#41816#41817#0" expanded="false" />
+            <element signature="e#46469#46470#0" expanded="false" />
+            <element signature="e#46512#46513#0" expanded="false" />
+            <element signature="e#62174#62175#0" expanded="false" />
+            <element signature="e#62242#62243#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/cyrk/MainCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="925">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="250">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="550">
+          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/cyrk/MainCircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="25" max-vertical-offset="925">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#354#355#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Android/ASDK/sources/android-21/android/graphics/Paint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7899" max-vertical-offset="55250">
+          <caret line="316" column="11" selection-start-line="316" selection-start-column="11" selection-end-line="316" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#84539#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#10399#10400#0" expanded="false" />
+            <element signature="e#10449#10450#0" expanded="false" />
+            <element signature="e#11096#11097#0" expanded="false" />
+            <element signature="e#11146#11147#0" expanded="false" />
+            <element signature="e#11702#11703#0" expanded="false" />
+            <element signature="e#11752#11753#0" expanded="false" />
+            <element signature="e#12306#12307#0" expanded="false" />
+            <element signature="e#12356#12357#0" expanded="false" />
+            <element signature="e#12478#12479#0" expanded="false" />
+            <element signature="e#12501#12502#0" expanded="false" />
+            <element signature="e#16305#16306#0" expanded="false" />
+            <element signature="e#16338#16339#0" expanded="false" />
+            <element signature="e#17848#17849#0" expanded="false" />
+            <element signature="e#17906#17907#0" expanded="false" />
+            <element signature="e#18866#18867#0" expanded="false" />
+            <element signature="e#18920#18921#0" expanded="false" />
+            <element signature="e#19683#19684#0" expanded="false" />
+            <element signature="e#19742#19743#0" expanded="false" />
+            <element signature="e#20235#20236#0" expanded="false" />
+            <element signature="e#20296#20297#0" expanded="false" />
+            <element signature="e#20809#20810#0" expanded="false" />
+            <element signature="e#20871#20872#0" expanded="false" />
+            <element signature="e#21394#21395#0" expanded="false" />
+            <element signature="e#21458#21459#0" expanded="false" />
+            <element signature="e#21982#21983#0" expanded="false" />
+            <element signature="e#22044#22045#0" expanded="false" />
+            <element signature="e#22739#22740#0" expanded="false" />
+            <element signature="e#22800#22801#0" expanded="false" />
+            <element signature="e#23599#23600#0" expanded="false" />
+            <element signature="e#23664#23665#0" expanded="false" />
+            <element signature="e#23942#23943#0" expanded="false" />
+            <element signature="e#24004#24005#0" expanded="false" />
+            <element signature="e#25901#25902#0" expanded="false" />
+            <element signature="e#25963#25964#0" expanded="false" />
+            <element signature="e#27654#27655#0" expanded="false" />
+            <element signature="e#27721#27722#0" expanded="false" />
+            <element signature="e#27941#27942#0" expanded="false" />
+            <element signature="e#28005#28006#0" expanded="false" />
+            <element signature="e#28140#28141#0" expanded="false" />
+            <element signature="e#28209#28210#0" expanded="false" />
+            <element signature="e#28425#28426#0" expanded="false" />
+            <element signature="e#28491#28492#0" expanded="false" />
+            <element signature="e#29043#29044#0" expanded="false" />
+            <element signature="e#29118#29119#0" expanded="false" />
+            <element signature="e#29256#29257#0" expanded="false" />
+            <element signature="e#29286#29287#0" expanded="false" />
+            <element signature="e#30020#30021#0" expanded="false" />
+            <element signature="e#30055#30056#0" expanded="false" />
+            <element signature="e#30690#30691#0" expanded="false" />
+            <element signature="e#30722#30723#0" expanded="false" />
+            <element signature="e#31467#31468#0" expanded="false" />
+            <element signature="e#31501#31502#0" expanded="false" />
+            <element signature="e#32252#32253#0" expanded="false" />
+            <element signature="e#32286#32287#0" expanded="false" />
+            <element signature="e#33206#33207#0" expanded="false" />
+            <element signature="e#33238#33239#0" expanded="false" />
+            <element signature="e#34246#34247#0" expanded="false" />
+            <element signature="e#34280#34281#0" expanded="false" />
+            <element signature="e#35827#35828#0" expanded="false" />
+            <element signature="e#35869#35870#0" expanded="false" />
+            <element signature="e#36080#36081#0" expanded="false" />
+            <element signature="e#36136#36137#0" expanded="false" />
+            <element signature="e#36538#36539#0" expanded="false" />
+            <element signature="e#36607#36608#0" expanded="false" />
+            <element signature="e#37011#37012#0" expanded="false" />
+            <element signature="e#37077#37078#0" expanded="false" />
+            <element signature="e#37234#37235#0" expanded="false" />
+            <element signature="e#37264#37265#0" expanded="false" />
+            <element signature="e#41099#41100#0" expanded="false" />
+            <element signature="e#41159#41160#0" expanded="false" />
+            <element signature="e#41520#41521#0" expanded="false" />
+            <element signature="e#41588#41589#0" expanded="false" />
+            <element signature="e#41773#41774#0" expanded="false" />
+            <element signature="e#41816#41817#0" expanded="false" />
+            <element signature="e#46469#46470#0" expanded="false" />
+            <element signature="e#46512#46513#0" expanded="false" />
+            <element signature="e#62174#62175#0" expanded="false" />
+            <element signature="e#62242#62243#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="125" max-vertical-offset="400">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/cyrk/CanvasView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="1275">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/cyrk/GameManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64788735" vertical-offset="507" max-vertical-offset="1075">
+          <caret line="36" column="52" selection-start-line="36" selection-start-column="52" selection-end-line="36" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
