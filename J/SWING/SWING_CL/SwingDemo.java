@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package swing1;
+
 
 import javax.swing.*;
 
@@ -27,12 +27,12 @@ public class SwingDemo {
     }
     
     public static void main (String[] args) {
-      /*  SwingUtilities.invokeLater(new Runnable() {
+        /*SwingUtilities.invokeLater(new Runnable() {
 			public void run(){
 				new SwingDemo();
 			}
 		});*/
-        System.out.println ("Hello World");
+		new SwingDemo();
     }
     
 }
