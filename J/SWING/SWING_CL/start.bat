@@ -1,2 +1,2 @@
-java swing1.SwingDemo
+java SwingDemo
 pause
