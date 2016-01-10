@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<progschool>
+    <course id="1">
+        <name>Java Level 1</name>
+        <teacher>Ivanov Ivan</teacher>
+        <hours>20</hours>
+        <day>friday</day>
+    </course>
+</progschool>
+=======
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><progschool><course id="1"><name>Java Level 1</name><teacher>Ivanov Ivan</teacher><hours>20</hours><day>friday</day></course></progschool>
+>>>>>>> 1315642bb120fb7988d15e6a16748eade1933e18

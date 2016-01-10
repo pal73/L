@@ -1,0 +1,2 @@
+javac SwingDemo.java
+pause

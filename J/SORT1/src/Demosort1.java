@@ -22,14 +22,14 @@ public class Demosort1 {
         System.out.println(input[3]);
         System.out.println(input[4]);
 
-        ArrayList aList = new ArrayList<String>();
+       /* ArrayList aList = new ArrayList<String>();
         for (int i=0; i<input.length; i++) {
             aList.add(input[i]);
-        }
+        }*/
 
         Arrays.sort(input);
 
-        Collections.sort(aList);
+        //Collections.sort(aList);
 
         System.out.println("На выходе:");
         System.out.println(input[0]);

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+<<<<<<< HEAD
+Built-By: user
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.8.0_45
+=======
+Built-By: PAL73
+Created-By: IntelliJ IDEA
+Build-Jdk: 1.7.0_71
+>>>>>>> 1315642bb120fb7988d15e6a16748eade1933e18
+
