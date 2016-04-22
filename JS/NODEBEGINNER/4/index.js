@@ -3,11 +3,11 @@ var router = require("./router");
 var requestHandlers = require("./requestHandlers");
 
 var handle = {}
-handle["/"] = requestHandlers.starttt;
-handle["/start"] = requestHandlers.starttt;
-handle["/upload"] = requestHandlers.uploaddd;
+handle["/"] = requestHandlers.start;
+handle["/start"] = requestHandlers.start;
+handle["/upload"] = requestHandlers.upload;
 
-server.startttt(router.routeee, handle);
+server.start(router.route, handle);
 
 
 
