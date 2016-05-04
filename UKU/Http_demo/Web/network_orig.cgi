@@ -22,6 +22,13 @@ t  <th width=60%>Setting</th></tr>
 t <tr><td><img src=pabb.gif>LAN IP Address</td>
 c a i <td><input type=text name=ip value="%d.%d.%d.%d" size=18 maxlength=18></td></tr>
 t <tr><td><IMG SRC=pabb.gif>LAN Net Mask</td>
+c a m <td><input type=text name=msk value="%d.%d.%d.%d" size=18 maxlength=18></td></tr>
+t <tr><td><IMG SRC=pabb.gif>Default Gateway</td>
+c a g <td><input type=text name=gw value="%d.%d.%d.%d" size=18 maxlength=18></td></tr>
+t <tr><td><IMG SRC=pabb.gif>Primary DNS Server</td>
+c a p <td><input type=text name=pdns value="%d.%d.%d.%d" size=18 maxlength=18></td></tr>
+t <tr><td><IMG SRC=pabb.gif>Secondary DNS Server</td>
+c a s <td><input type=text name=sdns value="%d.%d.%d.%d" size=18 maxlength=18></td></tr>
 t </font></table>
 # Here begin button definitions
 t <p align=center>
