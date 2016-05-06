@@ -286,7 +286,7 @@ int main (void) {
     main_TcpNet ();
     //dhcp_check ();
     blink_led ();
-    plazma++;
+    if (tick == __TRUE) plazma++;
     if (tick == __TRUE) tick = __FALSE;
   }
 }

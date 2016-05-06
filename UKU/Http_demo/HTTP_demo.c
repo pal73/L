@@ -182,6 +182,7 @@ U8 get_button (void) {
     val |= 0x20;
   }
 
+  val=plazma;
   return (val);
 }
 
