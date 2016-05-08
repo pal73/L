@@ -1,0 +1,11 @@
+width="500" height="500"
+
+
+         div {
+             width: 500px;
+             height: 500px;
+             margin: auto;
+         }
+         canvas {
+             margin: auto;
+         }
