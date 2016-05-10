@@ -51,7 +51,6 @@ extern U8   lcd_text[2][16+1];
 
 /* Local variables. */
 static U8 P2;
-extern char plazma;
 static char const state[][11] = {
   "FREE",
   "CLOSED",
@@ -281,7 +280,7 @@ U16 cgi_func (U8 *env, U8 *buf, U16 buflen, U32 *pcgi) {
           /* Write the local IP address. The format string is included */
           /* in environment string of the script line.                 */
           len = sprintf((char *)buf,(const char *)&env[4],LocM.IpAdr[0],
-                        LocM.IpAdr[1],LocM.IpAdr[2],plazma/*LocM.IpAdr[3]*/);
+                        LocM.IpAdr[1],LocM.IpAdr[2],LocM.IpAdr[3]);
           break;
         case 'm':
           /* Write local Net mask. */

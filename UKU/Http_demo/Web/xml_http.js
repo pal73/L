@@ -54,6 +54,10 @@ function processResponse(xmlDoc) {
    }
   }
  }
+ shortValue = xmlDoc.getElementsByTagName("value");
+ if(shortValue.length!=0) document.getElementById("value1").innerHTML = shortValue[0].childNodes[0].nodeValue;
+
+
  checkboxElementArr = xmlDoc.getElementsByTagName("checkbox");
  for(var i = 0; i < checkboxElementArr.length; i++) {
   try {

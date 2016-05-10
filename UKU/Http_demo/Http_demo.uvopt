@@ -769,6 +769,34 @@
       <PathWithFileName>.\Web\xml_http.js</PathWithFileName>
       <FilenameWithoutPath>xml_http.js</FilenameWithoutPath>
     </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>0</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <ColumnNumber>0</ColumnNumber>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Web\mypage.cgi</PathWithFileName>
+      <FilenameWithoutPath>mypage.cgi</FilenameWithoutPath>
+    </File>
+    <File>
+      <GroupNumber>1</GroupNumber>
+      <FileNumber>0</FileNumber>
+      <FileType>5</FileType>
+      <tvExp>0</tvExp>
+      <Focus>0</Focus>
+      <ColumnNumber>0</ColumnNumber>
+      <tvExpOptDlg>0</tvExpOptDlg>
+      <TopLine>0</TopLine>
+      <CurrentLine>0</CurrentLine>
+      <bDave2>0</bDave2>
+      <PathWithFileName>.\Web\mypage.cgx</PathWithFileName>
+      <FilenameWithoutPath>mypage.cgx</FilenameWithoutPath>
+    </File>
   </Group>
 
   <Group>
@@ -784,8 +812,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>1</CurrentLine>
+      <TopLine>261</TopLine>
+      <CurrentLine>261</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\HTTP_demo.c</PathWithFileName>
       <FilenameWithoutPath>HTTP_demo.c</FilenameWithoutPath>
@@ -798,8 +826,8 @@
       <Focus>0</Focus>
       <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>1</TopLine>
-      <CurrentLine>1</CurrentLine>
+      <TopLine>427</TopLine>
+      <CurrentLine>453</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\HTTP_CGI.c</PathWithFileName>
       <FilenameWithoutPath>HTTP_CGI.c</FilenameWithoutPath>
@@ -1034,6 +1062,12 @@
       <ActiveTab>0</ActiveTab>
       <Documents>
         <Doc>
+          <Name>C:\Keil\ARM\Boards\Keil\MCB1700\RL\TCPnet\Http_demo\Web\Web.inp</Name>
+          <ColumnNumber>0</ColumnNumber>
+          <TopLine>1</TopLine>
+          <CurrentLine>1</CurrentLine>
+        </Doc>
+        <Doc>
           <Name>.\Web\buttons.cgi</Name>
           <ColumnNumber>10</ColumnNumber>
           <TopLine>1</TopLine>
@@ -1054,8 +1088,8 @@
         <Doc>
           <Name>.\HTTP_CGI.c</Name>
           <ColumnNumber>0</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>1</CurrentLine>
+          <TopLine>427</TopLine>
+          <CurrentLine>453</CurrentLine>
         </Doc>
         <Doc>
           <Name>C:\Keil\ARM\RV31\INC\RTL.h</Name>
@@ -1066,12 +1100,12 @@
         <Doc>
           <Name>.\HTTP_demo.c</Name>
           <ColumnNumber>0</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>1</CurrentLine>
+          <TopLine>261</TopLine>
+          <CurrentLine>261</CurrentLine>
         </Doc>
         <Doc>
           <Name>E:\L\UKU\Http_demo\Web\Web.inp</Name>
-          <ColumnNumber>9</ColumnNumber>
+          <ColumnNumber>19</ColumnNumber>
           <TopLine>1</TopLine>
           <CurrentLine>1</CurrentLine>
         </Doc>
@@ -1088,12 +1122,6 @@
           <CurrentLine>381</CurrentLine>
         </Doc>
         <Doc>
-          <Name>.\Web\xml_http.js</Name>
-          <ColumnNumber>17</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>1</CurrentLine>
-        </Doc>
-        <Doc>
           <Name>.\Abstract.txt</Name>
           <ColumnNumber>0</ColumnNumber>
           <TopLine>1</TopLine>
@@ -1101,7 +1129,7 @@
         </Doc>
         <Doc>
           <Name>.\Web\index.htm</Name>
-          <ColumnNumber>11</ColumnNumber>
+          <ColumnNumber>0</ColumnNumber>
           <TopLine>1</TopLine>
           <CurrentLine>1</CurrentLine>
         </Doc>
@@ -1116,12 +1144,6 @@
           <ColumnNumber>25</ColumnNumber>
           <TopLine>1</TopLine>
           <CurrentLine>5</CurrentLine>
-        </Doc>
-        <Doc>
-          <Name>C:\Keil\ARM\Boards\Keil\MCB1700\RL\TCPnet\Http_demo\Web\Web.inp</Name>
-          <ColumnNumber>0</ColumnNumber>
-          <TopLine>1</TopLine>
-          <CurrentLine>1</CurrentLine>
         </Doc>
       </Documents>
     </MDIGroup>

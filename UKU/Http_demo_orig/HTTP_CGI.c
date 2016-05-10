@@ -444,8 +444,7 @@ U16 cgi_func (U8 *env, U8 *buf, U16 buflen, U32 *pcgi) {
 
     case 'y':
       /* Button state - xml file 'button.cgx' */
-      len = sprintf((char *)buf,"<checkbox><id>button%c</id><on>%s</on></checkbox>",
-                    env[1],(get_button () & (1 << (env[1]-'0'))) ? "true" : "false");
+      len = sprintf((char *)buf,"<value>%d</value>",get_button () );
       break;
   }
   return ((U16)len);
