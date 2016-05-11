@@ -1,0 +1,30 @@
+<html><head><title>Short value</title>
+<script language=JavaScript type="text/javascript" src="xml_http.js"></script>
+<script language=JavaScript type="text/javascript">
+var formUpdate = new periodicObj("mypage.cgx", 300);
+function periodicUpdate() {
+  updateMultiple(formUpdate);
+  periodicFormTime = setTimeout("periodicUpdate()", formUpdate.period);
+}
+</script></head>
+
+<body style="width: 833; height: 470">
+<h3 align="center"><br>Short value on the board</h3>
+<form action="buttons.cgi" method="post" id="form1" name="form1">
+<table border="0" width=99%><font size="3">
+<tr bgcolor=#aaccff>
+ <th width=40%>Item</th>
+ <th width=60%>Status</th>
+</tr>
+<tr>
+<td><img src="pabb.gif">Buttons [7..0]:</td>
+<td id = "value1"> Value44 </td>
+</tr>
+<tr>
+</tr>
+</font></table>
+<p align="center">
+ <input type="button" id="refreshBtn" value="Refresh" onclick="updateMultiple(formUpdate)">
+ Periodic:<input type="checkbox" id="refreshChkBox" onclick="periodicUpdate()">
+</p></form>
+</body>
