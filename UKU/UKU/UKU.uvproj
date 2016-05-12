@@ -391,6 +391,21 @@
               <FileType>7</FileType>
               <FilePath>.\WEB\web.inp</FilePath>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -475,6 +490,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -978,6 +998,21 @@
               <FileType>7</FileType>
               <FilePath>.\WEB\web.inp</FilePath>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1062,6 +1097,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1565,6 +1605,21 @@
               <FileType>7</FileType>
               <FilePath>.\WEB\web.inp</FilePath>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1649,6 +1704,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2152,6 +2212,21 @@
               <FileType>7</FileType>
               <FilePath>.\WEB\web.inp</FilePath>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2236,6 +2311,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -2739,6 +2819,21 @@
               <FileType>7</FileType>
               <FilePath>.\WEB\web.inp</FilePath>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2823,6 +2918,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -3326,6 +3426,21 @@
               <FileType>7</FileType>
               <FilePath>.\WEB\web.inp</FilePath>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -3410,6 +3525,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -3913,6 +4033,21 @@
               <FileType>7</FileType>
               <FilePath>.\WEB\web.inp</FilePath>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -3997,6 +4132,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -4500,6 +4640,21 @@
               <FileType>7</FileType>
               <FilePath>.\WEB\web.inp</FilePath>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -4584,6 +4739,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -4859,7 +5019,7 @@
             <DriverSelection>4096</DriverSelection>
           </Flash1>
           <Flash2>BIN\UL2CM3.DLL</Flash2>
-          <Flash3></Flash3>
+          <Flash3>"FM.EXE" (DEVICE($D,$X,0) ERASE(DEVICE,PROTECTISP) HEXFILE(#H,NOCHECKSUMS,NOFILL,PROTECTISP) COM(15,230400) HARDWARE(BOOTEXEC,100,50))</Flash3>
           <Flash4></Flash4>
         </Utilities>
         <TargetArmAds>
@@ -5105,6 +5265,21 @@
                 <FileArmAds/>
               </FileOption>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -5189,6 +5364,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -5866,6 +6046,21 @@
                 <FileArmAds/>
               </FileOption>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -5950,6 +6145,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -6492,6 +6692,21 @@
               <FileType>7</FileType>
               <FilePath>.\WEB\web.inp</FilePath>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -6576,6 +6791,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -7079,6 +7299,21 @@
               <FileType>7</FileType>
               <FilePath>.\WEB\web.inp</FilePath>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -7163,6 +7398,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -7684,6 +7924,21 @@
                 <FileArmAds/>
               </FileOption>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -7768,6 +8023,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -8406,6 +8666,21 @@
                 <FileArmAds/>
               </FileOption>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -8490,6 +8765,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -9011,6 +9291,21 @@
                 <FileArmAds/>
               </FileOption>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -9212,6 +9507,11 @@
                   </Cads>
                 </FileArmAds>
               </FileOption>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -9946,6 +10246,21 @@
                 <FileArmAds/>
               </FileOption>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -10030,6 +10345,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -10668,6 +10988,21 @@
                 <FileArmAds/>
               </FileOption>
             </File>
+            <File>
+              <FileName>xml_http.js</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.html</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.html</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\WEB\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -10752,6 +11087,11 @@
               <FileName>SNMP_MIB.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\SNMP_MIB.c</FilePath>
+            </File>
+            <File>
+              <FileName>HTTP_CGI.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\HTTP_CGI.c</FilePath>
             </File>
           </Files>
         </Group>

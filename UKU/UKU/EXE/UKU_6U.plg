@@ -1,240 +1,17 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\L\UKU\UKU\UKU.uvproj
+Project File Date:  05/12/2016
+
+<h2>Output:</h2>
 Build target 'UKU-6U'
 custom translating web.inp...
 Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
 FCARM FILE CONVERTER V2.29
-Completed 4 File(s), Ratio 99%
-assembling startup_LPC17xx.s...
-compiling Net_Config_HTTP.c...
-compiling common_func.c...
-common_func.c(1): error:  #5: cannot open source input file "common_func.h": No such file or directory
-compiling control.c...
-control.c(1): error:  #5: cannot open source input file "25lc640.h": No such file or directory
-compiling mess.c...
-mess.c(1): error:  #5: cannot open source input file "global_define.h": No such file or directory
-compiling ret.c...
-ret.c(1): error:  #5: cannot open source input file "global_define.h": No such file or directory
-compiling gran.c...
-gran.c(1): error:  #5: cannot open source input file "global_define.h": No such file or directory
-compiling avar_hndl.c...
-avar_hndl.c(1): error:  #5: cannot open source input file "avar_hndl.h": No such file or directory
-compiling eeprom_map.c...
-eeprom_map.c(1): error:  #5: cannot open source input file "eeprom_map.h": No such file or directory
-compiling main.c...
-main.c(9): error:  #5: cannot open source input file "lcd_AGM1232_uku207_3.h": No such file or directory
-compiling simbols.c...
-simbols.c(1): error:  #5: cannot open source input file "simbols.h": No such file or directory
-compiling graphic.c...
-graphic.c(1): error:  #5: cannot open source input file "graphic.h": No such file or directory
-compiling snmp_data_file.c...
-snmp_data_file.c(1): error:  #5: cannot open source input file "snmp_data_file.h": No such file or directory
-compiling SNMP_MIB.c...
-SNMP_MIB.c(14): error:  #5: cannot open source input file "main.H": No such file or directory
-compiling memo.c...
-memo.c(1): error:  #5: cannot open source input file "25lc640.h": No such file or directory
-compiling system_LPC17xx.c...
-compiling Timer.c...
-Timer.c(12): error:  #5: cannot open source input file "type.h": No such file or directory
-compiling beep.c...
-beep.c(1): error:  #5: cannot open source input file "beep.h": No such file or directory
-compiling ad7705.c...
-ad7705.c(1): error:  #5: cannot open source input file "ad7705.h": No such file or directory
-compiling lcd_AGM1232_uku207_3.c...
-lcd_AGM1232_uku207_3.c(2): error:  #5: cannot open source input file "lcd_AGM1232_uku207_3.h": No such file or directory
-compiling 25lc640.c...
-25lc640.c(1): error:  #5: cannot open source input file "25lc640.h": No such file or directory
-compiling Web.c...
-compiling full_can.c...
-full_can.c(1): error:  #5: cannot open source input file "main.h": No such file or directory
-compiling uart0.c...
-uart0.c(1): error:  #5: cannot open source input file "uart0.h": No such file or directory
-compiling modbus.c...
-modbus.c(3): error:  #5: cannot open source input file "modbus.h": No such file or directory
-compiling bat_driver.c...
-bat_driver.c(1): error:  #5: cannot open source input file "bat_driver.h": No such file or directory
-compiling sacred_sun.c...
-sacred_sun.c(1): error:  #5: cannot open source input file "sacred_sun.h": No such file or directory
-compiling sc16is7xx.c...
-sc16is7xx.c(2): error:  #5: cannot open source input file "sc16is7xx.h": No such file or directory
-compiling EMAC_LPC17xx.c...
-Target not created
-Build target 'UKU-6U'
-custom translating web.inp...
-Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
-FCARM FILE CONVERTER V2.29
-Completed 4 File(s), Ratio 99%
-assembling startup_LPC17xx.s...
-compiling Net_Config_HTTP.c...
-compiling common_func.c...
-common_func.c(1): error:  #5: cannot open source input file "common_func.h": No such file or directory
-compiling control.c...
-control.c(1): error:  #5: cannot open source input file "25lc640.h": No such file or directory
-compiling mess.c...
-mess.c(1): error:  #5: cannot open source input file "global_define.h": No such file or directory
-compiling ret.c...
-ret.c(1): error:  #5: cannot open source input file "global_define.h": No such file or directory
-compiling gran.c...
-gran.c(1): error:  #5: cannot open source input file "global_define.h": No such file or directory
-compiling avar_hndl.c...
-avar_hndl.c(1): error:  #5: cannot open source input file "avar_hndl.h": No such file or directory
-compiling eeprom_map.c...
-eeprom_map.c(1): error:  #5: cannot open source input file "eeprom_map.h": No such file or directory
-compiling main.c...
-main.c(9): error:  #5: cannot open source input file "lcd_AGM1232_uku207_3.h": No such file or directory
-compiling simbols.c...
-simbols.c(1): error:  #5: cannot open source input file "simbols.h": No such file or directory
-compiling graphic.c...
-graphic.c(1): error:  #5: cannot open source input file "graphic.h": No such file or directory
-compiling snmp_data_file.c...
-snmp_data_file.c(1): error:  #5: cannot open source input file "snmp_data_file.h": No such file or directory
-compiling SNMP_MIB.c...
-SNMP_MIB.c(14): error:  #5: cannot open source input file "main.H": No such file or directory
-compiling memo.c...
-memo.c(1): error:  #5: cannot open source input file "25lc640.h": No such file or directory
-compiling system_LPC17xx.c...
-compiling Timer.c...
-Timer.c(12): error:  #5: cannot open source input file "type.h": No such file or directory
-compiling beep.c...
-beep.c(1): error:  #5: cannot open source input file "beep.h": No such file or directory
-compiling ad7705.c...
-ad7705.c(1): error:  #5: cannot open source input file "ad7705.h": No such file or directory
-compiling lcd_AGM1232_uku207_3.c...
-lcd_AGM1232_uku207_3.c(2): error:  #5: cannot open source input file "lcd_AGM1232_uku207_3.h": No such file or directory
-compiling 25lc640.c...
-25lc640.c(1): error:  #5: cannot open source input file "25lc640.h": No such file or directory
-compiling Web.c...
-compiling full_can.c...
-full_can.c(1): error:  #5: cannot open source input file "main.h": No such file or directory
-compiling uart0.c...
-uart0.c(1): error:  #5: cannot open source input file "uart0.h": No such file or directory
-compiling modbus.c...
-modbus.c(3): error:  #5: cannot open source input file "modbus.h": No such file or directory
-compiling bat_driver.c...
-bat_driver.c(1): error:  #5: cannot open source input file "bat_driver.h": No such file or directory
-compiling sacred_sun.c...
-sacred_sun.c(1): error:  #5: cannot open source input file "sacred_sun.h": No such file or directory
-compiling sc16is7xx.c...
-sc16is7xx.c(2): error:  #5: cannot open source input file "sc16is7xx.h": No such file or directory
-compiling EMAC_LPC17xx.c...
-Target not created
-Build target 'UKU-6U'
-custom translating web.inp...
-Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
-FCARM FILE CONVERTER V2.29
-Completed 4 File(s), Ratio 99%
-assembling startup_LPC17xx.s...
-compiling Net_Config_HTTP.c...
-compiling common_func.c...
-compiling control.c...
-control.c(3): error:  #5: cannot open source input file "mess.h": No such file or directory
-compiling mess.c...
-mess.c(2): error:  #5: cannot open source input file "mess.h": No such file or directory
-compiling ret.c...
-compiling gran.c...
-compiling avar_hndl.c...
-avar_hndl.c(271): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(357): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(456): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(467): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(478): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(844): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(848): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
-compiling eeprom_map.c...
-compiling main.c...
-main.c(11): error:  #5: cannot open source input file "type.h": No such file or directory
-compiling simbols.c...
-simbols.c(1): error:  #5: cannot open source input file "simbols.h": No such file or directory
-compiling graphic.c...
-graphic.c(4): error:  #5: cannot open source input file "simbols.h": No such file or directory
-compiling snmp_data_file.c...
-snmp_data_file.c(1): error:  #5: cannot open source input file "snmp_data_file.h": No such file or directory
-compiling SNMP_MIB.c...
-SNMP_MIB.c(16): error:  #5: cannot open source input file "snmp_data_file.h": No such file or directory
-compiling memo.c...
-memo.c(2): error:  #5: cannot open source input file "memo.h": No such file or directory
-compiling system_LPC17xx.c...
-compiling Timer.c...
-Timer.c(12): error:  #5: cannot open source input file "type.h": No such file or directory
-compiling beep.c...
-compiling ad7705.c...
-ad7705.c(19): warning:  #61-D: integer operation result is out of range
-ad7705.c(19): warning:  #68-D: integer conversion resulted in a change of sign
-compiling lcd_AGM1232_uku207_3.c...
-compiling 25lc640.c...
-25lc640.c(30): warning:  #61-D: integer operation result is out of range
-25lc640.c(30): warning:  #68-D: integer conversion resulted in a change of sign
-25lc640.c(48): warning:  #61-D: integer operation result is out of range
-25lc640.c(48): warning:  #68-D: integer conversion resulted in a change of sign
-compiling Web.c...
-compiling full_can.c...
-full_can.c(5): error:  #5: cannot open source input file "mess.h": No such file or directory
-compiling uart0.c...
-uart0.c(1): error:  #5: cannot open source input file "uart0.h": No such file or directory
-compiling modbus.c...
-modbus.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
-modbus.c(133): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(138): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(143): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(148): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(152): warning:  #186-D: pointless comparison of unsigned integer with zero
-modbus.c(153): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(159): warning:  #186-D: pointless comparison of unsigned integer with zero
-modbus.c(163): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(167): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(171): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(175): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(179): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(183): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(187): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(191): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(195): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(199): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(203): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(207): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(211): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(215): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(219): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(223): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(227): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(231): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(63): warning:  #550-D: variable "modbus_rx_arg2" was set but never used
-modbus.c(64): warning:  #550-D: variable "modbus_rx_arg3" was set but never used
-modbus.c(419): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(423): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(566): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(570): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(653): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(657): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(754): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(759): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(920): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(924): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-compiling bat_driver.c...
-bat_driver.c(7): warning:  #223-D: function "lc640_read_int" declared implicitly
-bat_driver.c(31): warning:  #223-D: function "uart_out_buff0" declared implicitly
-bat_driver.c(38): warning:  #223-D: function "lc640_read_int" declared implicitly
-bat_driver.c(40): warning:  #223-D: function "UARTInit" declared implicitly
-bat_driver.c(42): warning:  #1-D: last line of file ends without a newline
-compiling sacred_sun.c...
-sacred_sun.c(14): warning:  #223-D: function "UARTInit" declared implicitly
-sacred_sun.c(23): warning:  #223-D: function "uart_out_buff0" declared implicitly
-sacred_sun.c(32): warning:  #223-D: function "uart_out_buff0" declared implicitly
-sacred_sun.c(46): warning:  #223-D: function "isalnum" declared implicitly
-sacred_sun.c(48): warning:  #223-D: function "isdigit" declared implicitly
-sacred_sun.c(52): warning:  #223-D: function "islower" declared implicitly
-sacred_sun.c(56): warning:  #223-D: function "isupper" declared implicitly
-sacred_sun.c(61): warning:  #1-D: last line of file ends without a newline
-sacred_sun.c(61): warning:  #940-D: missing return statement at end of non-void function "ascii2halFhex"
-compiling sc16is7xx.c...
-sc16is7xx.c(2): error:  #5: cannot open source input file "sc16is7xx.h": No such file or directory
-compiling EMAC_LPC17xx.c...
-Target not created
-Build target 'UKU-6U'
-custom translating web.inp...
-Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
-FCARM FILE CONVERTER V2.29
-Completed 4 File(s), Ratio 99%
+Completed 1 File(s), Ratio 92%
 assembling startup_LPC17xx.s...
 compiling Net_Config_HTTP.c...
 compiling common_func.c...
@@ -261,7 +38,36 @@ avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitl
 avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
 compiling eeprom_map.c...
 compiling main.c...
-main.c(13): error:  #5: cannot open source input file "simbol.h": No such file or directory
+main.c(6910): warning:  #177-D: variable "sss" was declared but never referenced
+main.c(6911): warning:  #177-D: variable "i" was declared but never referenced
+main.c(9013): warning:  #9-D: nested comment is not allowed
+main.c(18326): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18283)
+main.c(18438): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18382)
+main.c(18482): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18438)
+main.c(18560): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18566): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18571): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18576): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18581): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18601): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18607): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18612): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18617): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18622): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18643): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18653): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18696): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18482)
+main.c(18796): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18696)
+main.c(25103): warning:  #223-D: function "can2_out" declared implicitly
+main.c(26389): warning:  #223-D: function "can2_out" declared implicitly
+main.c(27402): warning:  #223-D: function "UARTInit" declared implicitly
+main.c(27460): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(27515): warning:  #223-D: function "modbus_in" declared implicitly
+main.c(27704): warning:  #223-D: function "mnemo_hndl" declared implicitly
+main.c(27742): warning:  #223-D: function "npn_hndl" declared implicitly
+main.c(27757): warning:  #223-D: function "powerAntiAliasingHndl" declared implicitly
+main.c(642): warning:  #177-D: function "timer_poll" was declared but never referenced
+main.c(1503): warning: C3017W: ii_ may be used before being set
 compiling simbols.c...
 compiling graphic.c...
 graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
@@ -282,153 +88,7 @@ SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be us
 SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-compiling memo.c...
-memo.c(70): warning:  #223-D: function "gran" declared implicitly
-compiling system_LPC17xx.c...
-compiling Timer.c...
-Timer.c(13): error:  #5: cannot open source input file "timer.h": No such file or directory
-compiling beep.c...
-compiling ad7705.c...
-ad7705.c(19): warning:  #61-D: integer operation result is out of range
-ad7705.c(19): warning:  #68-D: integer conversion resulted in a change of sign
-compiling lcd_AGM1232_uku207_3.c...
-compiling 25lc640.c...
-25lc640.c(30): warning:  #61-D: integer operation result is out of range
-25lc640.c(30): warning:  #68-D: integer conversion resulted in a change of sign
-25lc640.c(48): warning:  #61-D: integer operation result is out of range
-25lc640.c(48): warning:  #68-D: integer conversion resulted in a change of sign
-compiling Web.c...
-compiling full_can.c...
-full_can.c(643): warning:  #174-D: expression has no effect
-full_can.c(899): warning:  #550-D: variable "temp" was set but never used
-full_can.c(1441): warning:  #514-D: pointless comparison of unsigned integer with a negative constant
-full_can.c(1525): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1541): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1556): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1621): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1638): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1655): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1672): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1689): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1706): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1716): warning:  #177-D: label "CAN_IN_AN1_end" was declared but never referenced
-full_can.c(1800): warning:  #177-D: variable "ptr" was declared but never referenced
-full_can.c(1800): warning:  #177-D: variable "j" was declared but never referenced
-full_can.c(1922): warning:  #550-D: variable "temp" was set but never used
-full_can.c(1949): warning:  #550-D: variable "temp" was set but never used
-compiling uart0.c...
-uart0.c(1): error:  #5: cannot open source input file "uart0.h": No such file or directory
-compiling modbus.c...
-modbus.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
-modbus.c(133): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(138): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(143): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(148): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(152): warning:  #186-D: pointless comparison of unsigned integer with zero
-modbus.c(153): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(159): warning:  #186-D: pointless comparison of unsigned integer with zero
-modbus.c(163): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(167): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(171): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(175): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(179): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(183): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(187): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(191): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(195): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(199): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(203): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(207): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(211): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(215): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(219): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(223): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(227): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(231): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(63): warning:  #550-D: variable "modbus_rx_arg2" was set but never used
-modbus.c(64): warning:  #550-D: variable "modbus_rx_arg3" was set but never used
-modbus.c(419): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(423): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(566): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(570): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(653): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(657): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(754): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(759): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(920): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(924): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-compiling bat_driver.c...
-bat_driver.c(7): warning:  #223-D: function "lc640_read_int" declared implicitly
-bat_driver.c(31): warning:  #223-D: function "uart_out_buff0" declared implicitly
-bat_driver.c(38): warning:  #223-D: function "lc640_read_int" declared implicitly
-bat_driver.c(40): warning:  #223-D: function "UARTInit" declared implicitly
-bat_driver.c(42): warning:  #1-D: last line of file ends without a newline
-compiling sacred_sun.c...
-sacred_sun.c(14): warning:  #223-D: function "UARTInit" declared implicitly
-sacred_sun.c(23): warning:  #223-D: function "uart_out_buff0" declared implicitly
-sacred_sun.c(32): warning:  #223-D: function "uart_out_buff0" declared implicitly
-sacred_sun.c(46): warning:  #223-D: function "isalnum" declared implicitly
-sacred_sun.c(48): warning:  #223-D: function "isdigit" declared implicitly
-sacred_sun.c(52): warning:  #223-D: function "islower" declared implicitly
-sacred_sun.c(56): warning:  #223-D: function "isupper" declared implicitly
-sacred_sun.c(61): warning:  #1-D: last line of file ends without a newline
-sacred_sun.c(61): warning:  #940-D: missing return statement at end of non-void function "ascii2halFhex"
-compiling sc16is7xx.c...
-sc16is7xx.c(2): error:  #5: cannot open source input file "sc16is7xx.h": No such file or directory
-compiling EMAC_LPC17xx.c...
-Target not created
-Build target 'UKU-6U'
-custom translating web.inp...
-Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
-FCARM FILE CONVERTER V2.29
-Completed 4 File(s), Ratio 99%
-assembling startup_LPC17xx.s...
-compiling Net_Config_HTTP.c...
-compiling common_func.c...
-compiling control.c...
-control.c(491): warning:  #550-D: variable "ibat_ips" was set but never used
-control.c(491): warning:  #550-D: variable "ibat_ips_" was set but never used
-control.c(765): warning:  #177-D: variable "temp_SS" was declared but never referenced
-control.c(2743): warning:  #9-D: nested comment is not allowed
-control.c(3760): warning:  #175-D: subscript out of range
-control.c(3760): warning:  #174-D: expression has no effect
-control.c(3762): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "signed char *"
-compiling mess.c...
-compiling ret.c...
-compiling gran.c...
-compiling avar_hndl.c...
-avar_hndl.c(271): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(357): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(456): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(467): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(478): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(844): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(848): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
-compiling eeprom_map.c...
-compiling main.c...
-main.c(13): error:  #5: cannot open source input file "simbol.h": No such file or directory
-compiling simbols.c...
-compiling graphic.c...
-graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
-graphic.c(183): warning:  #177-D: variable "y_bit_begin" was declared but never referenced
-graphic.c(348): warning:  #550-D: variable "s" was set but never used
-graphic.c(349): warning:  #550-D: variable "minus" was set but never used
-graphic.c(350): warning:  #550-D: variable "zero_on" was set but never used
-graphic.c(351): warning:  #550-D: variable "simb_num" was set but never used
-compiling snmp_data_file.c...
-snmp_data_file.c(617): warning:  #175-D: subscript out of range
-snmp_data_file.c(621): warning:  #175-D: subscript out of range
-snmp_data_file.c(621): warning:  #175-D: subscript out of range
-snmp_data_file.c(628): warning:  #175-D: subscript out of range
-snmp_data_file.c(628): warning:  #175-D: subscript out of range
-snmp_data_file.c(1325): warning:  #1166-D: returning pointer to local variable
-compiling SNMP_MIB.c...
-SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+compiling HTTP_CGI.c...
 compiling memo.c...
 memo.c(70): warning:  #223-D: function "gran" declared implicitly
 compiling system_LPC17xx.c...
@@ -463,153 +123,8 @@ full_can.c(1800): warning:  #177-D: variable "j" was declared but never referenc
 full_can.c(1922): warning:  #550-D: variable "temp" was set but never used
 full_can.c(1949): warning:  #550-D: variable "temp" was set but never used
 compiling uart0.c...
-uart0.c(1): error:  #5: cannot open source input file "uart0.h": No such file or directory
-compiling modbus.c...
-modbus.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
-modbus.c(133): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(138): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(143): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(148): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(152): warning:  #186-D: pointless comparison of unsigned integer with zero
-modbus.c(153): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(159): warning:  #186-D: pointless comparison of unsigned integer with zero
-modbus.c(163): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(167): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(171): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(175): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(179): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(183): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(187): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(191): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(195): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(199): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(203): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(207): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(211): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(215): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(219): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(223): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(227): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(231): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(63): warning:  #550-D: variable "modbus_rx_arg2" was set but never used
-modbus.c(64): warning:  #550-D: variable "modbus_rx_arg3" was set but never used
-modbus.c(419): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(423): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(566): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(570): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(653): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(657): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(754): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(759): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(920): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(924): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-compiling bat_driver.c...
-bat_driver.c(7): warning:  #223-D: function "lc640_read_int" declared implicitly
-bat_driver.c(31): warning:  #223-D: function "uart_out_buff0" declared implicitly
-bat_driver.c(38): warning:  #223-D: function "lc640_read_int" declared implicitly
-bat_driver.c(40): warning:  #223-D: function "UARTInit" declared implicitly
-bat_driver.c(42): warning:  #1-D: last line of file ends without a newline
-compiling sacred_sun.c...
-sacred_sun.c(14): warning:  #223-D: function "UARTInit" declared implicitly
-sacred_sun.c(23): warning:  #223-D: function "uart_out_buff0" declared implicitly
-sacred_sun.c(32): warning:  #223-D: function "uart_out_buff0" declared implicitly
-sacred_sun.c(46): warning:  #223-D: function "isalnum" declared implicitly
-sacred_sun.c(48): warning:  #223-D: function "isdigit" declared implicitly
-sacred_sun.c(52): warning:  #223-D: function "islower" declared implicitly
-sacred_sun.c(56): warning:  #223-D: function "isupper" declared implicitly
-sacred_sun.c(61): warning:  #1-D: last line of file ends without a newline
-sacred_sun.c(61): warning:  #940-D: missing return statement at end of non-void function "ascii2halFhex"
-compiling sc16is7xx.c...
-sc16is7xx.c(2): error:  #5: cannot open source input file "sc16is7xx.h": No such file or directory
-compiling EMAC_LPC17xx.c...
-Target not created
-Build target 'UKU-6U'
-custom translating web.inp...
-Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
-FCARM FILE CONVERTER V2.29
-Completed 4 File(s), Ratio 99%
-assembling startup_LPC17xx.s...
-compiling Net_Config_HTTP.c...
-compiling common_func.c...
-compiling control.c...
-control.c(491): warning:  #550-D: variable "ibat_ips" was set but never used
-control.c(491): warning:  #550-D: variable "ibat_ips_" was set but never used
-control.c(765): warning:  #177-D: variable "temp_SS" was declared but never referenced
-control.c(2743): warning:  #9-D: nested comment is not allowed
-control.c(3760): warning:  #175-D: subscript out of range
-control.c(3760): warning:  #174-D: expression has no effect
-control.c(3762): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "signed char *"
-compiling mess.c...
-compiling ret.c...
-compiling gran.c...
-compiling avar_hndl.c...
-avar_hndl.c(271): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(357): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(456): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(467): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(478): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(844): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(848): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
-compiling eeprom_map.c...
-compiling main.c...
-main.c(13): error:  #5: cannot open source input file "simbol.h": No such file or directory
-compiling simbols.c...
-compiling graphic.c...
-graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
-graphic.c(183): warning:  #177-D: variable "y_bit_begin" was declared but never referenced
-graphic.c(348): warning:  #550-D: variable "s" was set but never used
-graphic.c(349): warning:  #550-D: variable "minus" was set but never used
-graphic.c(350): warning:  #550-D: variable "zero_on" was set but never used
-graphic.c(351): warning:  #550-D: variable "simb_num" was set but never used
-compiling snmp_data_file.c...
-snmp_data_file.c(617): warning:  #175-D: subscript out of range
-snmp_data_file.c(621): warning:  #175-D: subscript out of range
-snmp_data_file.c(621): warning:  #175-D: subscript out of range
-snmp_data_file.c(628): warning:  #175-D: subscript out of range
-snmp_data_file.c(628): warning:  #175-D: subscript out of range
-snmp_data_file.c(1325): warning:  #1166-D: returning pointer to local variable
-compiling SNMP_MIB.c...
-SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-compiling memo.c...
-memo.c(70): warning:  #223-D: function "gran" declared implicitly
-compiling system_LPC17xx.c...
-compiling Timer.c...
-compiling beep.c...
-compiling ad7705.c...
-ad7705.c(19): warning:  #61-D: integer operation result is out of range
-ad7705.c(19): warning:  #68-D: integer conversion resulted in a change of sign
-compiling lcd_AGM1232_uku207_3.c...
-compiling 25lc640.c...
-25lc640.c(30): warning:  #61-D: integer operation result is out of range
-25lc640.c(30): warning:  #68-D: integer conversion resulted in a change of sign
-25lc640.c(48): warning:  #61-D: integer operation result is out of range
-25lc640.c(48): warning:  #68-D: integer conversion resulted in a change of sign
-compiling Web.c...
-compiling full_can.c...
-full_can.c(643): warning:  #174-D: expression has no effect
-full_can.c(899): warning:  #550-D: variable "temp" was set but never used
-full_can.c(1441): warning:  #514-D: pointless comparison of unsigned integer with a negative constant
-full_can.c(1525): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1541): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1556): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1621): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1638): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1655): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1672): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1689): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1706): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1716): warning:  #177-D: label "CAN_IN_AN1_end" was declared but never referenced
-full_can.c(1800): warning:  #177-D: variable "ptr" was declared but never referenced
-full_can.c(1800): warning:  #177-D: variable "j" was declared but never referenced
-full_can.c(1922): warning:  #550-D: variable "temp" was set but never used
-full_can.c(1949): warning:  #550-D: variable "temp" was set but never used
-compiling uart0.c...
-uart0.c(1): error:  #5: cannot open source input file "uart0.h": No such file or directory
+uart0.c(204): warning:  #177-D: variable "UOB" was declared but never referenced
+uart0.c(561): warning:  #223-D: function "mem_copy" declared implicitly
 compiling modbus.c...
 modbus.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
 modbus.c(133): warning:  #223-D: function "lc640_write_int" declared implicitly
@@ -673,12 +188,20 @@ sc16is7xx.c(41): warning:  #223-D: function "spi1" declared implicitly
 sc16is7xx.c(51): warning:  #223-D: function "spi1" declared implicitly
 sc16is7xx.c(63): warning:  #223-D: function "spi1" declared implicitly
 compiling EMAC_LPC17xx.c...
+linking...
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol AD_in (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol LCDupdate (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol LED_out (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol LEDrun (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol get_button (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol lcd_text (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol plazma (referred from http_cgi.o).
 Target not created
 Build target 'UKU-6U'
 custom translating web.inp...
 Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
 FCARM FILE CONVERTER V2.29
-Completed 4 File(s), Ratio 99%
+Completed 1 File(s), Ratio 92%
 assembling startup_LPC17xx.s...
 compiling Net_Config_HTTP.c...
 compiling common_func.c...
@@ -705,7 +228,36 @@ avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitl
 avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
 compiling eeprom_map.c...
 compiling main.c...
-main.c(17): error:  #5: cannot open source input file "uart0.h": No such file or directory
+main.c(6910): warning:  #177-D: variable "sss" was declared but never referenced
+main.c(6911): warning:  #177-D: variable "i" was declared but never referenced
+main.c(9013): warning:  #9-D: nested comment is not allowed
+main.c(18326): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18283)
+main.c(18438): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18382)
+main.c(18482): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18438)
+main.c(18560): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18566): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18571): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18576): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18581): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18601): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18607): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18612): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18617): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18622): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18643): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18653): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18696): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18482)
+main.c(18796): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18696)
+main.c(25103): warning:  #223-D: function "can2_out" declared implicitly
+main.c(26389): warning:  #223-D: function "can2_out" declared implicitly
+main.c(27402): warning:  #223-D: function "UARTInit" declared implicitly
+main.c(27460): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(27515): warning:  #223-D: function "modbus_in" declared implicitly
+main.c(27704): warning:  #223-D: function "mnemo_hndl" declared implicitly
+main.c(27742): warning:  #223-D: function "npn_hndl" declared implicitly
+main.c(27757): warning:  #223-D: function "powerAntiAliasingHndl" declared implicitly
+main.c(642): warning:  #177-D: function "timer_poll" was declared but never referenced
+main.c(1503): warning: C3017W: ii_ may be used before being set
 compiling simbols.c...
 compiling graphic.c...
 graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
@@ -726,6 +278,9 @@ SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be us
 SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+compiling HTTP_CGI.c...
+HTTP_CGI.c(427): warning:  #223-D: function "AD_in" declared implicitly
+HTTP_CGI.c(442): warning:  #223-D: function "AD_in" declared implicitly
 compiling memo.c...
 memo.c(70): warning:  #223-D: function "gran" declared implicitly
 compiling system_LPC17xx.c...
@@ -760,7 +315,8 @@ full_can.c(1800): warning:  #177-D: variable "j" was declared but never referenc
 full_can.c(1922): warning:  #550-D: variable "temp" was set but never used
 full_can.c(1949): warning:  #550-D: variable "temp" was set but never used
 compiling uart0.c...
-uart0.c(1): error:  #5: cannot open source input file "uart0.h": No such file or directory
+uart0.c(204): warning:  #177-D: variable "UOB" was declared but never referenced
+uart0.c(561): warning:  #223-D: function "mem_copy" declared implicitly
 compiling modbus.c...
 modbus.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
 modbus.c(133): warning:  #223-D: function "lc640_write_int" declared implicitly
@@ -824,94 +380,32 @@ sc16is7xx.c(41): warning:  #223-D: function "spi1" declared implicitly
 sc16is7xx.c(51): warning:  #223-D: function "spi1" declared implicitly
 sc16is7xx.c(63): warning:  #223-D: function "spi1" declared implicitly
 compiling EMAC_LPC17xx.c...
+linking...
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol AD_in (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol LCDupdate (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol LED_out (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol LEDrun (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol get_button (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol lcd_text (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol plazma (referred from http_cgi.o).
 Target not created
+compiling HTTP_CGI.c...
+HTTP_CGI.c(427): warning:  #223-D: function "AD_in" declared implicitly
+HTTP_CGI.c(442): warning:  #223-D: function "AD_in" declared implicitly
+HTTP_CGI.c - 0 Error(s), 2 Warning(s).
+compiling HTTP_CGI.c...
+HTTP_CGI.c(442): warning:  #223-D: function "AD_in" declared implicitly
+HTTP_CGI.c - 0 Error(s), 1 Warning(s).
+compiling HTTP_CGI.c...
+HTTP_CGI.c(436): warning:  #111-D: statement is unreachable
+HTTP_CGI.c(272): warning:  #177-D: variable "adv" was declared but never referenced
+HTTP_CGI.c - 0 Error(s), 2 Warning(s).
 Build target 'UKU-6U'
 custom translating web.inp...
 Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
 FCARM FILE CONVERTER V2.29
-Completed 4 File(s), Ratio 99%
-assembling startup_LPC17xx.s...
-compiling Net_Config_HTTP.c...
-compiling common_func.c...
-compiling control.c...
-control.c(491): warning:  #550-D: variable "ibat_ips" was set but never used
-control.c(491): warning:  #550-D: variable "ibat_ips_" was set but never used
-control.c(765): warning:  #177-D: variable "temp_SS" was declared but never referenced
-control.c(2743): warning:  #9-D: nested comment is not allowed
-control.c(3760): warning:  #175-D: subscript out of range
-control.c(3760): warning:  #174-D: expression has no effect
-control.c(3762): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "signed char *"
-compiling mess.c...
-compiling ret.c...
-compiling gran.c...
-compiling avar_hndl.c...
-avar_hndl.c(271): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(357): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(456): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(467): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(478): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(844): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(848): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
-compiling eeprom_map.c...
-compiling main.c...
-main.c(18): error:  #5: cannot open source input file "uart1.h": No such file or directory
-compiling simbols.c...
-compiling graphic.c...
-graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
-graphic.c(183): warning:  #177-D: variable "y_bit_begin" was declared but never referenced
-graphic.c(348): warning:  #550-D: variable "s" was set but never used
-graphic.c(349): warning:  #550-D: variable "minus" was set but never used
-graphic.c(350): warning:  #550-D: variable "zero_on" was set but never used
-graphic.c(351): warning:  #550-D: variable "simb_num" was set but never used
-compiling snmp_data_file.c...
-snmp_data_file.c(617): warning:  #175-D: subscript out of range
-snmp_data_file.c(621): warning:  #175-D: subscript out of range
-snmp_data_file.c(621): warning:  #175-D: subscript out of range
-snmp_data_file.c(628): warning:  #175-D: subscript out of range
-snmp_data_file.c(628): warning:  #175-D: subscript out of range
-snmp_data_file.c(1325): warning:  #1166-D: returning pointer to local variable
-compiling SNMP_MIB.c...
-SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-compiling memo.c...
-memo.c(70): warning:  #223-D: function "gran" declared implicitly
-compiling system_LPC17xx.c...
-compiling Timer.c...
-compiling beep.c...
-compiling ad7705.c...
-ad7705.c(19): warning:  #61-D: integer operation result is out of range
-ad7705.c(19): warning:  #68-D: integer conversion resulted in a change of sign
-compiling lcd_AGM1232_uku207_3.c...
-compiling 25lc640.c...
-25lc640.c(30): warning:  #61-D: integer operation result is out of range
-25lc640.c(30): warning:  #68-D: integer conversion resulted in a change of sign
-25lc640.c(48): warning:  #61-D: integer operation result is out of range
-25lc640.c(48): warning:  #68-D: integer conversion resulted in a change of sign
+Completed 1 File(s), Ratio 92%
 compiling Web.c...
-compiling full_can.c...
-full_can.c(643): warning:  #174-D: expression has no effect
-full_can.c(899): warning:  #550-D: variable "temp" was set but never used
-full_can.c(1441): warning:  #514-D: pointless comparison of unsigned integer with a negative constant
-full_can.c(1525): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1541): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1556): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1621): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1638): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1655): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1672): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1689): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1706): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1716): warning:  #177-D: label "CAN_IN_AN1_end" was declared but never referenced
-full_can.c(1800): warning:  #177-D: variable "ptr" was declared but never referenced
-full_can.c(1800): warning:  #177-D: variable "j" was declared but never referenced
-full_can.c(1922): warning:  #550-D: variable "temp" was set but never used
-full_can.c(1949): warning:  #550-D: variable "temp" was set but never used
-compiling uart0.c...
-uart0.c(5): error:  #5: cannot open source input file "cmd.c": No such file or directory
 compiling modbus.c...
 modbus.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
 modbus.c(133): warning:  #223-D: function "lc640_write_int" declared implicitly
@@ -951,36 +445,19 @@ modbus.c(754): warning:  #223-D: function "putchar0" declared implicitly
 modbus.c(759): warning:  #223-D: function "putchar_sc16is700" declared implicitly
 modbus.c(920): warning:  #223-D: function "putchar0" declared implicitly
 modbus.c(924): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-compiling bat_driver.c...
-bat_driver.c(7): warning:  #223-D: function "lc640_read_int" declared implicitly
-bat_driver.c(31): warning:  #223-D: function "uart_out_buff0" declared implicitly
-bat_driver.c(38): warning:  #223-D: function "lc640_read_int" declared implicitly
-bat_driver.c(40): warning:  #223-D: function "UARTInit" declared implicitly
-bat_driver.c(42): warning:  #1-D: last line of file ends without a newline
-compiling sacred_sun.c...
-sacred_sun.c(14): warning:  #223-D: function "UARTInit" declared implicitly
-sacred_sun.c(23): warning:  #223-D: function "uart_out_buff0" declared implicitly
-sacred_sun.c(32): warning:  #223-D: function "uart_out_buff0" declared implicitly
-sacred_sun.c(46): warning:  #223-D: function "isalnum" declared implicitly
-sacred_sun.c(48): warning:  #223-D: function "isdigit" declared implicitly
-sacred_sun.c(52): warning:  #223-D: function "islower" declared implicitly
-sacred_sun.c(56): warning:  #223-D: function "isupper" declared implicitly
-sacred_sun.c(61): warning:  #1-D: last line of file ends without a newline
-sacred_sun.c(61): warning:  #940-D: missing return statement at end of non-void function "ascii2halFhex"
-compiling sc16is7xx.c...
-sc16is7xx.h(46): warning:  #1-D: last line of file ends without a newline
-sc16is7xx.c(21): warning:  #61-D: integer operation result is out of range
-sc16is7xx.c(21): warning:  #68-D: integer conversion resulted in a change of sign
-sc16is7xx.c(41): warning:  #223-D: function "spi1" declared implicitly
-sc16is7xx.c(51): warning:  #223-D: function "spi1" declared implicitly
-sc16is7xx.c(63): warning:  #223-D: function "spi1" declared implicitly
-compiling EMAC_LPC17xx.c...
+linking...
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol LCDupdate (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol LED_out (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol LEDrun (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol get_button (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol lcd_text (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol plazma (referred from http_cgi.o).
 Target not created
 Build target 'UKU-6U'
 custom translating web.inp...
 Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
 FCARM FILE CONVERTER V2.29
-Completed 4 File(s), Ratio 99%
+Completed 1 File(s), Ratio 92%
 assembling startup_LPC17xx.s...
 compiling Net_Config_HTTP.c...
 compiling common_func.c...
@@ -1007,7 +484,36 @@ avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitl
 avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
 compiling eeprom_map.c...
 compiling main.c...
-main.c(18): error:  #5: cannot open source input file "uart1.h": No such file or directory
+main.c(6910): warning:  #177-D: variable "sss" was declared but never referenced
+main.c(6911): warning:  #177-D: variable "i" was declared but never referenced
+main.c(9013): warning:  #9-D: nested comment is not allowed
+main.c(18326): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18283)
+main.c(18438): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18382)
+main.c(18482): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18438)
+main.c(18560): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18566): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18571): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18576): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18581): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18601): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18607): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18612): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18617): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18622): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18643): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18653): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18696): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18482)
+main.c(18796): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18696)
+main.c(25103): warning:  #223-D: function "can2_out" declared implicitly
+main.c(26389): warning:  #223-D: function "can2_out" declared implicitly
+main.c(27402): warning:  #223-D: function "UARTInit" declared implicitly
+main.c(27460): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(27515): warning:  #223-D: function "modbus_in" declared implicitly
+main.c(27704): warning:  #223-D: function "mnemo_hndl" declared implicitly
+main.c(27742): warning:  #223-D: function "npn_hndl" declared implicitly
+main.c(27757): warning:  #223-D: function "powerAntiAliasingHndl" declared implicitly
+main.c(642): warning:  #177-D: function "timer_poll" was declared but never referenced
+main.c(1503): warning: C3017W: ii_ may be used before being set
 compiling simbols.c...
 compiling graphic.c...
 graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
@@ -1028,6 +534,12 @@ SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be us
 SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+compiling HTTP_CGI.c...
+HTTP_CGI.c(225): error:  #20: identifier "lcd_text" is undefined
+HTTP_CGI.c(230): error:  #20: identifier "lcd_text" is undefined
+HTTP_CGI.c(415): error:  #20: identifier "lcd_text" is undefined
+HTTP_CGI.c(436): warning:  #111-D: statement is unreachable
+HTTP_CGI.c(272): warning:  #177-D: variable "adv" was declared but never referenced
 compiling memo.c...
 memo.c(70): warning:  #223-D: function "gran" declared implicitly
 compiling system_LPC17xx.c...
@@ -1132,7 +644,7 @@ Build target 'UKU-6U'
 custom translating web.inp...
 Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
 FCARM FILE CONVERTER V2.29
-Completed 4 File(s), Ratio 99%
+Completed 1 File(s), Ratio 92%
 assembling startup_LPC17xx.s...
 compiling Net_Config_HTTP.c...
 compiling common_func.c...
@@ -1159,7 +671,36 @@ avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitl
 avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
 compiling eeprom_map.c...
 compiling main.c...
-main.c(19): error:  #5: cannot open source input file "uart2.h": No such file or directory
+main.c(6910): warning:  #177-D: variable "sss" was declared but never referenced
+main.c(6911): warning:  #177-D: variable "i" was declared but never referenced
+main.c(9013): warning:  #9-D: nested comment is not allowed
+main.c(18326): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18283)
+main.c(18438): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18382)
+main.c(18482): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18438)
+main.c(18560): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18566): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18571): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18576): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18581): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18601): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18607): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18612): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18617): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18622): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18643): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18653): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18696): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18482)
+main.c(18796): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18696)
+main.c(25103): warning:  #223-D: function "can2_out" declared implicitly
+main.c(26389): warning:  #223-D: function "can2_out" declared implicitly
+main.c(27402): warning:  #223-D: function "UARTInit" declared implicitly
+main.c(27460): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(27515): warning:  #223-D: function "modbus_in" declared implicitly
+main.c(27704): warning:  #223-D: function "mnemo_hndl" declared implicitly
+main.c(27742): warning:  #223-D: function "npn_hndl" declared implicitly
+main.c(27757): warning:  #223-D: function "powerAntiAliasingHndl" declared implicitly
+main.c(642): warning:  #177-D: function "timer_poll" was declared but never referenced
+main.c(1503): warning: C3017W: ii_ may be used before being set
 compiling simbols.c...
 compiling graphic.c...
 graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
@@ -1180,6 +721,10 @@ SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be us
 SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+compiling HTTP_CGI.c...
+HTTP_CGI.c(415): error:  #20: identifier "lcd_text" is undefined
+HTTP_CGI.c(436): warning:  #111-D: statement is unreachable
+HTTP_CGI.c(272): warning:  #177-D: variable "adv" was declared but never referenced
 compiling memo.c...
 memo.c(70): warning:  #223-D: function "gran" declared implicitly
 compiling system_LPC17xx.c...
@@ -1284,7 +829,7 @@ Build target 'UKU-6U'
 custom translating web.inp...
 Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
 FCARM FILE CONVERTER V2.29
-Completed 4 File(s), Ratio 99%
+Completed 1 File(s), Ratio 92%
 assembling startup_LPC17xx.s...
 compiling Net_Config_HTTP.c...
 compiling common_func.c...
@@ -1311,7 +856,36 @@ avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitl
 avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
 compiling eeprom_map.c...
 compiling main.c...
-main.c(27): error:  #5: cannot open source input file "watchdog.h": No such file or directory
+main.c(6910): warning:  #177-D: variable "sss" was declared but never referenced
+main.c(6911): warning:  #177-D: variable "i" was declared but never referenced
+main.c(9013): warning:  #9-D: nested comment is not allowed
+main.c(18326): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18283)
+main.c(18438): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18382)
+main.c(18482): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18438)
+main.c(18560): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18566): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18571): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18576): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18581): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18601): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18607): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18612): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18617): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18622): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18643): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18653): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18696): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18482)
+main.c(18796): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18696)
+main.c(25103): warning:  #223-D: function "can2_out" declared implicitly
+main.c(26389): warning:  #223-D: function "can2_out" declared implicitly
+main.c(27402): warning:  #223-D: function "UARTInit" declared implicitly
+main.c(27460): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(27515): warning:  #223-D: function "modbus_in" declared implicitly
+main.c(27704): warning:  #223-D: function "mnemo_hndl" declared implicitly
+main.c(27742): warning:  #223-D: function "npn_hndl" declared implicitly
+main.c(27757): warning:  #223-D: function "powerAntiAliasingHndl" declared implicitly
+main.c(642): warning:  #177-D: function "timer_poll" was declared but never referenced
+main.c(1503): warning: C3017W: ii_ may be used before being set
 compiling simbols.c...
 compiling graphic.c...
 graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
@@ -1332,6 +906,206 @@ SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be us
 SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+compiling HTTP_CGI.c...
+HTTP_CGI.c(436): warning:  #111-D: statement is unreachable
+HTTP_CGI.c(272): warning:  #177-D: variable "adv" was declared but never referenced
+compiling memo.c...
+memo.c(70): warning:  #223-D: function "gran" declared implicitly
+compiling system_LPC17xx.c...
+compiling Timer.c...
+compiling beep.c...
+compiling ad7705.c...
+ad7705.c(19): warning:  #61-D: integer operation result is out of range
+ad7705.c(19): warning:  #68-D: integer conversion resulted in a change of sign
+compiling lcd_AGM1232_uku207_3.c...
+compiling 25lc640.c...
+25lc640.c(30): warning:  #61-D: integer operation result is out of range
+25lc640.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+25lc640.c(48): warning:  #61-D: integer operation result is out of range
+25lc640.c(48): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Web.c...
+compiling full_can.c...
+full_can.c(643): warning:  #174-D: expression has no effect
+full_can.c(899): warning:  #550-D: variable "temp" was set but never used
+full_can.c(1441): warning:  #514-D: pointless comparison of unsigned integer with a negative constant
+full_can.c(1525): warning:  #186-D: pointless comparison of unsigned integer with zero
+full_can.c(1541): warning:  #186-D: pointless comparison of unsigned integer with zero
+full_can.c(1556): warning:  #186-D: pointless comparison of unsigned integer with zero
+full_can.c(1621): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1638): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1655): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1672): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1689): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1706): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1716): warning:  #177-D: label "CAN_IN_AN1_end" was declared but never referenced
+full_can.c(1800): warning:  #177-D: variable "ptr" was declared but never referenced
+full_can.c(1800): warning:  #177-D: variable "j" was declared but never referenced
+full_can.c(1922): warning:  #550-D: variable "temp" was set but never used
+full_can.c(1949): warning:  #550-D: variable "temp" was set but never used
+compiling uart0.c...
+uart0.c(204): warning:  #177-D: variable "UOB" was declared but never referenced
+uart0.c(561): warning:  #223-D: function "mem_copy" declared implicitly
+compiling modbus.c...
+modbus.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+modbus.c(133): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(138): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(143): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(148): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(152): warning:  #186-D: pointless comparison of unsigned integer with zero
+modbus.c(153): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(159): warning:  #186-D: pointless comparison of unsigned integer with zero
+modbus.c(163): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(167): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(171): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(175): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(179): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(183): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(187): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(191): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(195): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(199): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(203): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(207): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(211): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(215): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(219): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(223): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(227): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(231): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(63): warning:  #550-D: variable "modbus_rx_arg2" was set but never used
+modbus.c(64): warning:  #550-D: variable "modbus_rx_arg3" was set but never used
+modbus.c(419): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(423): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(566): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(570): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(653): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(657): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(754): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(759): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(920): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(924): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+compiling bat_driver.c...
+bat_driver.c(7): warning:  #223-D: function "lc640_read_int" declared implicitly
+bat_driver.c(31): warning:  #223-D: function "uart_out_buff0" declared implicitly
+bat_driver.c(38): warning:  #223-D: function "lc640_read_int" declared implicitly
+bat_driver.c(40): warning:  #223-D: function "UARTInit" declared implicitly
+bat_driver.c(42): warning:  #1-D: last line of file ends without a newline
+compiling sacred_sun.c...
+sacred_sun.c(14): warning:  #223-D: function "UARTInit" declared implicitly
+sacred_sun.c(23): warning:  #223-D: function "uart_out_buff0" declared implicitly
+sacred_sun.c(32): warning:  #223-D: function "uart_out_buff0" declared implicitly
+sacred_sun.c(46): warning:  #223-D: function "isalnum" declared implicitly
+sacred_sun.c(48): warning:  #223-D: function "isdigit" declared implicitly
+sacred_sun.c(52): warning:  #223-D: function "islower" declared implicitly
+sacred_sun.c(56): warning:  #223-D: function "isupper" declared implicitly
+sacred_sun.c(61): warning:  #1-D: last line of file ends without a newline
+sacred_sun.c(61): warning:  #940-D: missing return statement at end of non-void function "ascii2halFhex"
+compiling sc16is7xx.c...
+sc16is7xx.h(46): warning:  #1-D: last line of file ends without a newline
+sc16is7xx.c(21): warning:  #61-D: integer operation result is out of range
+sc16is7xx.c(21): warning:  #68-D: integer conversion resulted in a change of sign
+sc16is7xx.c(41): warning:  #223-D: function "spi1" declared implicitly
+sc16is7xx.c(51): warning:  #223-D: function "spi1" declared implicitly
+sc16is7xx.c(63): warning:  #223-D: function "spi1" declared implicitly
+compiling EMAC_LPC17xx.c...
+linking...
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol LCDupdate (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol LED_out (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol LEDrun (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol get_button (referred from http_cgi.o).
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol plazma (referred from http_cgi.o).
+Target not created
+Build target 'UKU-6U'
+custom translating web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
+FCARM FILE CONVERTER V2.29
+Completed 1 File(s), Ratio 92%
+assembling startup_LPC17xx.s...
+compiling Net_Config_HTTP.c...
+compiling common_func.c...
+compiling control.c...
+control.c(491): warning:  #550-D: variable "ibat_ips" was set but never used
+control.c(491): warning:  #550-D: variable "ibat_ips_" was set but never used
+control.c(765): warning:  #177-D: variable "temp_SS" was declared but never referenced
+control.c(2743): warning:  #9-D: nested comment is not allowed
+control.c(3760): warning:  #175-D: subscript out of range
+control.c(3760): warning:  #174-D: expression has no effect
+control.c(3762): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "signed char *"
+compiling mess.c...
+compiling ret.c...
+compiling gran.c...
+compiling avar_hndl.c...
+avar_hndl.c(271): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(357): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(456): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(467): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(478): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(844): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(848): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
+compiling eeprom_map.c...
+compiling main.c...
+main.c(6910): warning:  #177-D: variable "sss" was declared but never referenced
+main.c(6911): warning:  #177-D: variable "i" was declared but never referenced
+main.c(9013): warning:  #9-D: nested comment is not allowed
+main.c(18326): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18283)
+main.c(18438): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18382)
+main.c(18482): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18438)
+main.c(18560): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18566): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18571): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18576): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18581): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18601): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18607): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18612): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18617): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18622): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18643): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18653): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18696): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18482)
+main.c(18796): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18696)
+main.c(25103): warning:  #223-D: function "can2_out" declared implicitly
+main.c(26389): warning:  #223-D: function "can2_out" declared implicitly
+main.c(27402): warning:  #223-D: function "UARTInit" declared implicitly
+main.c(27460): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(27515): warning:  #223-D: function "modbus_in" declared implicitly
+main.c(27704): warning:  #223-D: function "mnemo_hndl" declared implicitly
+main.c(27742): warning:  #223-D: function "npn_hndl" declared implicitly
+main.c(27757): warning:  #223-D: function "powerAntiAliasingHndl" declared implicitly
+main.c(642): warning:  #177-D: function "timer_poll" was declared but never referenced
+main.c(1503): warning: C3017W: ii_ may be used before being set
+compiling simbols.c...
+compiling graphic.c...
+graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
+graphic.c(183): warning:  #177-D: variable "y_bit_begin" was declared but never referenced
+graphic.c(348): warning:  #550-D: variable "s" was set but never used
+graphic.c(349): warning:  #550-D: variable "minus" was set but never used
+graphic.c(350): warning:  #550-D: variable "zero_on" was set but never used
+graphic.c(351): warning:  #550-D: variable "simb_num" was set but never used
+compiling snmp_data_file.c...
+snmp_data_file.c(617): warning:  #175-D: subscript out of range
+snmp_data_file.c(621): warning:  #175-D: subscript out of range
+snmp_data_file.c(621): warning:  #175-D: subscript out of range
+snmp_data_file.c(628): warning:  #175-D: subscript out of range
+snmp_data_file.c(628): warning:  #175-D: subscript out of range
+snmp_data_file.c(1325): warning:  #1166-D: returning pointer to local variable
+compiling SNMP_MIB.c...
+SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+compiling HTTP_CGI.c...
+HTTP_CGI.c(173): error:  #20: identifier "LEDrun" is undefined
+HTTP_CGI.c(176): warning:  #223-D: function "LED_out" declared implicitly
+HTTP_CGI.c(226): error:  #20: identifier "LCDupdate" is undefined
+HTTP_CGI.c(231): error:  #20: identifier "LCDupdate" is undefined
+HTTP_CGI.c(236): warning:  #223-D: function "LED_out" declared implicitly
+HTTP_CGI.c(284): error:  #20: identifier "plazma" is undefined
+HTTP_CGI.c(313): error:  #20: identifier "LEDrun" is undefined
+HTTP_CGI.c(436): warning:  #111-D: statement is unreachable
+HTTP_CGI.c(272): warning:  #177-D: variable "adv" was declared but never referenced
 compiling memo.c...
 memo.c(70): warning:  #223-D: function "gran" declared implicitly
 compiling system_LPC17xx.c...
@@ -1436,7 +1210,7 @@ Build target 'UKU-6U'
 custom translating web.inp...
 Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
 FCARM FILE CONVERTER V2.29
-Completed 4 File(s), Ratio 99%
+Completed 1 File(s), Ratio 92%
 assembling startup_LPC17xx.s...
 compiling Net_Config_HTTP.c...
 compiling common_func.c...
@@ -1463,7 +1237,36 @@ avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitl
 avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
 compiling eeprom_map.c...
 compiling main.c...
-main.c(40): error:  #5: cannot open source input file "mcp2515.h": No such file or directory
+main.c(6910): warning:  #177-D: variable "sss" was declared but never referenced
+main.c(6911): warning:  #177-D: variable "i" was declared but never referenced
+main.c(9013): warning:  #9-D: nested comment is not allowed
+main.c(18326): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18283)
+main.c(18438): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18382)
+main.c(18482): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18438)
+main.c(18560): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18566): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18571): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18576): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18581): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18601): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18607): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18612): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18617): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18622): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18643): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18653): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18696): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18482)
+main.c(18796): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18696)
+main.c(25103): warning:  #223-D: function "can2_out" declared implicitly
+main.c(26389): warning:  #223-D: function "can2_out" declared implicitly
+main.c(27402): warning:  #223-D: function "UARTInit" declared implicitly
+main.c(27460): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(27515): warning:  #223-D: function "modbus_in" declared implicitly
+main.c(27704): warning:  #223-D: function "mnemo_hndl" declared implicitly
+main.c(27742): warning:  #223-D: function "npn_hndl" declared implicitly
+main.c(27757): warning:  #223-D: function "powerAntiAliasingHndl" declared implicitly
+main.c(642): warning:  #177-D: function "timer_poll" was declared but never referenced
+main.c(1503): warning: C3017W: ii_ may be used before being set
 compiling simbols.c...
 compiling graphic.c...
 graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
@@ -1484,6 +1287,11 @@ SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be us
 SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+compiling HTTP_CGI.c...
+HTTP_CGI.c(211): error:  #20: identifier "LEDrun" is undefined
+HTTP_CGI.c(284): error:  #20: identifier "plazma" is undefined
+HTTP_CGI.c(436): warning:  #111-D: statement is unreachable
+HTTP_CGI.c(272): warning:  #177-D: variable "adv" was declared but never referenced
 compiling memo.c...
 memo.c(70): warning:  #223-D: function "gran" declared implicitly
 compiling system_LPC17xx.c...
@@ -1583,6 +1391,221 @@ sc16is7xx.c(41): warning:  #223-D: function "spi1" declared implicitly
 sc16is7xx.c(51): warning:  #223-D: function "spi1" declared implicitly
 sc16is7xx.c(63): warning:  #223-D: function "spi1" declared implicitly
 compiling EMAC_LPC17xx.c...
+Target not created
+compiling HTTP_CGI.c...
+HTTP_CGI.c(436): warning:  #111-D: statement is unreachable
+HTTP_CGI.c(272): warning:  #177-D: variable "adv" was declared but never referenced
+HTTP_CGI.c - 0 Error(s), 2 Warning(s).
+Build target 'UKU-6U'
+custom translating web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
+FCARM FILE CONVERTER V2.29
+Completed 1 File(s), Ratio 92%
+assembling startup_LPC17xx.s...
+compiling Net_Config_HTTP.c...
+compiling common_func.c...
+compiling control.c...
+control.c(491): warning:  #550-D: variable "ibat_ips" was set but never used
+control.c(491): warning:  #550-D: variable "ibat_ips_" was set but never used
+control.c(765): warning:  #177-D: variable "temp_SS" was declared but never referenced
+control.c(2743): warning:  #9-D: nested comment is not allowed
+control.c(3760): warning:  #175-D: subscript out of range
+control.c(3760): warning:  #174-D: expression has no effect
+control.c(3762): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "signed char *"
+compiling mess.c...
+compiling ret.c...
+compiling gran.c...
+compiling avar_hndl.c...
+avar_hndl.c(271): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(357): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(456): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(467): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(478): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(844): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(848): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
+compiling eeprom_map.c...
+compiling main.c...
+main.c(6910): warning:  #177-D: variable "sss" was declared but never referenced
+main.c(6911): warning:  #177-D: variable "i" was declared but never referenced
+main.c(9013): warning:  #9-D: nested comment is not allowed
+main.c(18326): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18283)
+main.c(18438): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18382)
+main.c(18482): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18438)
+main.c(18560): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18566): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18571): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18576): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18581): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18601): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18607): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18612): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18617): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18622): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18643): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18653): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18696): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18482)
+main.c(18796): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18696)
+main.c(25103): warning:  #223-D: function "can2_out" declared implicitly
+main.c(26389): warning:  #223-D: function "can2_out" declared implicitly
+main.c(27402): warning:  #223-D: function "UARTInit" declared implicitly
+main.c(27460): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(27515): warning:  #223-D: function "modbus_in" declared implicitly
+main.c(27704): warning:  #223-D: function "mnemo_hndl" declared implicitly
+main.c(27742): warning:  #223-D: function "npn_hndl" declared implicitly
+main.c(27757): warning:  #223-D: function "powerAntiAliasingHndl" declared implicitly
+main.c(642): warning:  #177-D: function "timer_poll" was declared but never referenced
+main.c(1503): warning: C3017W: ii_ may be used before being set
+compiling simbols.c...
+compiling graphic.c...
+graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
+graphic.c(183): warning:  #177-D: variable "y_bit_begin" was declared but never referenced
+graphic.c(348): warning:  #550-D: variable "s" was set but never used
+graphic.c(349): warning:  #550-D: variable "minus" was set but never used
+graphic.c(350): warning:  #550-D: variable "zero_on" was set but never used
+graphic.c(351): warning:  #550-D: variable "simb_num" was set but never used
+compiling snmp_data_file.c...
+snmp_data_file.c(617): warning:  #175-D: subscript out of range
+snmp_data_file.c(621): warning:  #175-D: subscript out of range
+snmp_data_file.c(621): warning:  #175-D: subscript out of range
+snmp_data_file.c(628): warning:  #175-D: subscript out of range
+snmp_data_file.c(628): warning:  #175-D: subscript out of range
+snmp_data_file.c(1325): warning:  #1166-D: returning pointer to local variable
+compiling SNMP_MIB.c...
+SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+compiling HTTP_CGI.c...
+HTTP_CGI.c(436): warning:  #111-D: statement is unreachable
+HTTP_CGI.c(272): warning:  #177-D: variable "adv" was declared but never referenced
+compiling memo.c...
+memo.c(70): warning:  #223-D: function "gran" declared implicitly
+compiling system_LPC17xx.c...
+compiling Timer.c...
+compiling beep.c...
+compiling ad7705.c...
+ad7705.c(19): warning:  #61-D: integer operation result is out of range
+ad7705.c(19): warning:  #68-D: integer conversion resulted in a change of sign
+compiling lcd_AGM1232_uku207_3.c...
+compiling 25lc640.c...
+25lc640.c(30): warning:  #61-D: integer operation result is out of range
+25lc640.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+25lc640.c(48): warning:  #61-D: integer operation result is out of range
+25lc640.c(48): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Web.c...
+compiling full_can.c...
+full_can.c(643): warning:  #174-D: expression has no effect
+full_can.c(899): warning:  #550-D: variable "temp" was set but never used
+full_can.c(1441): warning:  #514-D: pointless comparison of unsigned integer with a negative constant
+full_can.c(1525): warning:  #186-D: pointless comparison of unsigned integer with zero
+full_can.c(1541): warning:  #186-D: pointless comparison of unsigned integer with zero
+full_can.c(1556): warning:  #186-D: pointless comparison of unsigned integer with zero
+full_can.c(1621): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1638): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1655): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1672): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1689): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1706): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1716): warning:  #177-D: label "CAN_IN_AN1_end" was declared but never referenced
+full_can.c(1800): warning:  #177-D: variable "ptr" was declared but never referenced
+full_can.c(1800): warning:  #177-D: variable "j" was declared but never referenced
+full_can.c(1922): warning:  #550-D: variable "temp" was set but never used
+full_can.c(1949): warning:  #550-D: variable "temp" was set but never used
+compiling uart0.c...
+uart0.c(204): warning:  #177-D: variable "UOB" was declared but never referenced
+uart0.c(561): warning:  #223-D: function "mem_copy" declared implicitly
+compiling modbus.c...
+modbus.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+modbus.c(133): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(138): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(143): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(148): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(152): warning:  #186-D: pointless comparison of unsigned integer with zero
+modbus.c(153): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(159): warning:  #186-D: pointless comparison of unsigned integer with zero
+modbus.c(163): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(167): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(171): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(175): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(179): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(183): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(187): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(191): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(195): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(199): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(203): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(207): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(211): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(215): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(219): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(223): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(227): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(231): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(63): warning:  #550-D: variable "modbus_rx_arg2" was set but never used
+modbus.c(64): warning:  #550-D: variable "modbus_rx_arg3" was set but never used
+modbus.c(419): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(423): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(566): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(570): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(653): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(657): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(754): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(759): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(920): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(924): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+compiling bat_driver.c...
+bat_driver.c(7): warning:  #223-D: function "lc640_read_int" declared implicitly
+bat_driver.c(31): warning:  #223-D: function "uart_out_buff0" declared implicitly
+bat_driver.c(38): warning:  #223-D: function "lc640_read_int" declared implicitly
+bat_driver.c(40): warning:  #223-D: function "UARTInit" declared implicitly
+bat_driver.c(42): warning:  #1-D: last line of file ends without a newline
+compiling sacred_sun.c...
+sacred_sun.c(14): warning:  #223-D: function "UARTInit" declared implicitly
+sacred_sun.c(23): warning:  #223-D: function "uart_out_buff0" declared implicitly
+sacred_sun.c(32): warning:  #223-D: function "uart_out_buff0" declared implicitly
+sacred_sun.c(46): warning:  #223-D: function "isalnum" declared implicitly
+sacred_sun.c(48): warning:  #223-D: function "isdigit" declared implicitly
+sacred_sun.c(52): warning:  #223-D: function "islower" declared implicitly
+sacred_sun.c(56): warning:  #223-D: function "isupper" declared implicitly
+sacred_sun.c(61): warning:  #1-D: last line of file ends without a newline
+sacred_sun.c(61): warning:  #940-D: missing return statement at end of non-void function "ascii2halFhex"
+compiling sc16is7xx.c...
+sc16is7xx.h(46): warning:  #1-D: last line of file ends without a newline
+sc16is7xx.c(21): warning:  #61-D: integer operation result is out of range
+sc16is7xx.c(21): warning:  #68-D: integer conversion resulted in a change of sign
+sc16is7xx.c(41): warning:  #223-D: function "spi1" declared implicitly
+sc16is7xx.c(51): warning:  #223-D: function "spi1" declared implicitly
+sc16is7xx.c(63): warning:  #223-D: function "spi1" declared implicitly
+compiling EMAC_LPC17xx.c...
+linking...
+Program Size: Code=184824 RO-data=4720 RW-data=21608 ZI-data=43804  
+FromELF: creating hex file...
+".\EXE\UKU_6U.axf" - 0 Error(s), 148 Warning(s).
+Build target 'UKU-6U'
+custom translating web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
+FCARM FILE CONVERTER V2.29
+*** ERROR F204: INVALID KEYWORD
+    POS: 24
+    C:\KEIL\ARM\BIN\FCARM.EXE mipage.html mypage.cgx 
+Target not created
+Build target 'UKU-6U'
+custom translating web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
+FCARM FILE CONVERTER V2.29
+*** ERROR F204: INVALID KEYWORD
+    POS: 24
+    C:\KEIL\ARM\BIN\FCARM.EXE mypage.html mypage.cgx 
+Target not created
+Build target 'UKU-6U'
+custom translating web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
+FCARM FILE CONVERTER V2.29
+*** ERROR F204: INVALID KEYWORD
+    POS: 24
+    C:\KEIL\ARM\BIN\FCARM.EXE mypage.html mypage.cgx 
 Target not created
 Build target 'UKU-6U'
 custom translating web.inp...
@@ -1665,6 +1688,9 @@ SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be us
 SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+compiling HTTP_CGI.c...
+HTTP_CGI.c(436): warning:  #111-D: statement is unreachable
+HTTP_CGI.c(272): warning:  #177-D: variable "adv" was declared but never referenced
 compiling memo.c...
 memo.c(70): warning:  #223-D: function "gran" declared implicitly
 compiling system_LPC17xx.c...
@@ -1765,417 +1791,14 @@ sc16is7xx.c(51): warning:  #223-D: function "spi1" declared implicitly
 sc16is7xx.c(63): warning:  #223-D: function "spi1" declared implicitly
 compiling EMAC_LPC17xx.c...
 linking...
-Program Size: Code=183924 RO-data=3372 RW-data=21604 ZI-data=43496  
+Program Size: Code=184824 RO-data=297388 RW-data=21608 ZI-data=43804  
 FromELF: creating hex file...
-".\EXE\UKU_6U.axf" - 0 Error(s), 146 Warning(s).
-Build target 'UKU-6U'
-assembling startup_LPC17xx.s...
-compiling Net_Config_HTTP.c...
-compiling common_func.c...
-compiling control.c...
-control.c(491): warning:  #550-D: variable "ibat_ips" was set but never used
-control.c(491): warning:  #550-D: variable "ibat_ips_" was set but never used
-control.c(765): warning:  #177-D: variable "temp_SS" was declared but never referenced
-control.c(2743): warning:  #9-D: nested comment is not allowed
-control.c(3760): warning:  #175-D: subscript out of range
-control.c(3760): warning:  #174-D: expression has no effect
-control.c(3762): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "signed char *"
-compiling mess.c...
-compiling ret.c...
-compiling gran.c...
-compiling avar_hndl.c...
-avar_hndl.c(271): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(357): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(456): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(467): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(478): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(844): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(848): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
-compiling eeprom_map.c...
-compiling main.c...
-main.c(6910): warning:  #177-D: variable "sss" was declared but never referenced
-main.c(6911): warning:  #177-D: variable "i" was declared but never referenced
-main.c(9013): warning:  #9-D: nested comment is not allowed
-main.c(18326): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18283)
-main.c(18438): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18382)
-main.c(18482): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18438)
-main.c(18560): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18566): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18571): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18576): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18581): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18601): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18607): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18612): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18617): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18622): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18643): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18653): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18696): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18482)
-main.c(18796): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18696)
-main.c(25103): warning:  #223-D: function "can2_out" declared implicitly
-main.c(26389): warning:  #223-D: function "can2_out" declared implicitly
-main.c(27402): warning:  #223-D: function "UARTInit" declared implicitly
-main.c(27460): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(27515): warning:  #223-D: function "modbus_in" declared implicitly
-main.c(27704): warning:  #223-D: function "mnemo_hndl" declared implicitly
-main.c(27742): warning:  #223-D: function "npn_hndl" declared implicitly
-main.c(27757): warning:  #223-D: function "powerAntiAliasingHndl" declared implicitly
-main.c(642): warning:  #177-D: function "timer_poll" was declared but never referenced
-main.c(1503): warning: C3017W: ii_ may be used before being set
-compiling simbols.c...
-compiling graphic.c...
-graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
-graphic.c(183): warning:  #177-D: variable "y_bit_begin" was declared but never referenced
-graphic.c(348): warning:  #550-D: variable "s" was set but never used
-graphic.c(349): warning:  #550-D: variable "minus" was set but never used
-graphic.c(350): warning:  #550-D: variable "zero_on" was set but never used
-graphic.c(351): warning:  #550-D: variable "simb_num" was set but never used
-compiling snmp_data_file.c...
-snmp_data_file.c(617): warning:  #175-D: subscript out of range
-snmp_data_file.c(621): warning:  #175-D: subscript out of range
-snmp_data_file.c(621): warning:  #175-D: subscript out of range
-snmp_data_file.c(628): warning:  #175-D: subscript out of range
-snmp_data_file.c(628): warning:  #175-D: subscript out of range
-snmp_data_file.c(1325): warning:  #1166-D: returning pointer to local variable
-compiling SNMP_MIB.c...
-SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-compiling memo.c...
-memo.c(70): warning:  #223-D: function "gran" declared implicitly
-compiling system_LPC17xx.c...
-compiling Timer.c...
-compiling beep.c...
-compiling ad7705.c...
-ad7705.c(19): warning:  #61-D: integer operation result is out of range
-ad7705.c(19): warning:  #68-D: integer conversion resulted in a change of sign
-compiling lcd_AGM1232_uku207_3.c...
-compiling 25lc640.c...
-25lc640.c(30): warning:  #61-D: integer operation result is out of range
-25lc640.c(30): warning:  #68-D: integer conversion resulted in a change of sign
-25lc640.c(48): warning:  #61-D: integer operation result is out of range
-25lc640.c(48): warning:  #68-D: integer conversion resulted in a change of sign
-compiling Web.c...
-compiling full_can.c...
-full_can.c(643): warning:  #174-D: expression has no effect
-full_can.c(899): warning:  #550-D: variable "temp" was set but never used
-full_can.c(1441): warning:  #514-D: pointless comparison of unsigned integer with a negative constant
-full_can.c(1525): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1541): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1556): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1621): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1638): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1655): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1672): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1689): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1706): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1716): warning:  #177-D: label "CAN_IN_AN1_end" was declared but never referenced
-full_can.c(1800): warning:  #177-D: variable "ptr" was declared but never referenced
-full_can.c(1800): warning:  #177-D: variable "j" was declared but never referenced
-full_can.c(1922): warning:  #550-D: variable "temp" was set but never used
-full_can.c(1949): warning:  #550-D: variable "temp" was set but never used
-compiling uart0.c...
-uart0.c(204): warning:  #177-D: variable "UOB" was declared but never referenced
-uart0.c(561): warning:  #223-D: function "mem_copy" declared implicitly
-compiling modbus.c...
-modbus.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
-modbus.c(133): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(138): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(143): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(148): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(152): warning:  #186-D: pointless comparison of unsigned integer with zero
-modbus.c(153): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(159): warning:  #186-D: pointless comparison of unsigned integer with zero
-modbus.c(163): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(167): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(171): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(175): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(179): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(183): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(187): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(191): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(195): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(199): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(203): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(207): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(211): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(215): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(219): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(223): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(227): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(231): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(63): warning:  #550-D: variable "modbus_rx_arg2" was set but never used
-modbus.c(64): warning:  #550-D: variable "modbus_rx_arg3" was set but never used
-modbus.c(419): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(423): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(566): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(570): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(653): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(657): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(754): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(759): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(920): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(924): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-compiling bat_driver.c...
-bat_driver.c(7): warning:  #223-D: function "lc640_read_int" declared implicitly
-bat_driver.c(31): warning:  #223-D: function "uart_out_buff0" declared implicitly
-bat_driver.c(38): warning:  #223-D: function "lc640_read_int" declared implicitly
-bat_driver.c(40): warning:  #223-D: function "UARTInit" declared implicitly
-bat_driver.c(42): warning:  #1-D: last line of file ends without a newline
-compiling sacred_sun.c...
-sacred_sun.c(14): warning:  #223-D: function "UARTInit" declared implicitly
-sacred_sun.c(23): warning:  #223-D: function "uart_out_buff0" declared implicitly
-sacred_sun.c(32): warning:  #223-D: function "uart_out_buff0" declared implicitly
-sacred_sun.c(46): warning:  #223-D: function "isalnum" declared implicitly
-sacred_sun.c(48): warning:  #223-D: function "isdigit" declared implicitly
-sacred_sun.c(52): warning:  #223-D: function "islower" declared implicitly
-sacred_sun.c(56): warning:  #223-D: function "isupper" declared implicitly
-sacred_sun.c(61): warning:  #1-D: last line of file ends without a newline
-sacred_sun.c(61): warning:  #940-D: missing return statement at end of non-void function "ascii2halFhex"
-compiling sc16is7xx.c...
-sc16is7xx.h(46): warning:  #1-D: last line of file ends without a newline
-sc16is7xx.c(21): warning:  #61-D: integer operation result is out of range
-sc16is7xx.c(21): warning:  #68-D: integer conversion resulted in a change of sign
-sc16is7xx.c(41): warning:  #223-D: function "spi1" declared implicitly
-sc16is7xx.c(51): warning:  #223-D: function "spi1" declared implicitly
-sc16is7xx.c(63): warning:  #223-D: function "spi1" declared implicitly
-compiling EMAC_LPC17xx.c...
-linking...
-Program Size: Code=174056 RO-data=3288 RW-data=21600 ZI-data=43492  
-FromELF: creating hex file...
-".\EXE\UKU_6U.axf" - 0 Error(s), 146 Warning(s).
-Build target 'UKU-6U'
-compiling modbus.c...
-modbus.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
-modbus.c(133): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(138): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(143): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(148): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(152): warning:  #186-D: pointless comparison of unsigned integer with zero
-modbus.c(153): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(159): warning:  #186-D: pointless comparison of unsigned integer with zero
-modbus.c(163): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(167): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(171): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(175): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(179): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(183): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(187): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(191): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(195): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(199): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(203): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(207): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(211): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(215): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(219): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(223): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(227): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(231): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(63): warning:  #550-D: variable "modbus_rx_arg2" was set but never used
-modbus.c(64): warning:  #550-D: variable "modbus_rx_arg3" was set but never used
-modbus.c(419): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(423): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(566): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(570): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(653): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(657): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(754): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(759): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(920): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(924): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-linking...
-Program Size: Code=174056 RO-data=3288 RW-data=21600 ZI-data=43492  
-FromELF: creating hex file...
-".\EXE\UKU_6U.axf" - 0 Error(s), 38 Warning(s).
-Build target 'UKU-6U'
-assembling startup_LPC17xx.s...
-compiling Net_Config_HTTP.c...
-compiling common_func.c...
-compiling control.c...
-control.c(491): warning:  #550-D: variable "ibat_ips" was set but never used
-control.c(491): warning:  #550-D: variable "ibat_ips_" was set but never used
-control.c(765): warning:  #177-D: variable "temp_SS" was declared but never referenced
-control.c(2743): warning:  #9-D: nested comment is not allowed
-control.c(3760): warning:  #175-D: subscript out of range
-control.c(3760): warning:  #174-D: expression has no effect
-control.c(3762): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "signed char *"
-compiling mess.c...
-compiling ret.c...
-compiling gran.c...
-compiling avar_hndl.c...
-avar_hndl.c(271): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(357): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(456): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(467): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(478): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(844): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(848): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitly
-avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
-compiling eeprom_map.c...
-compiling main.c...
-main.c(6910): warning:  #177-D: variable "sss" was declared but never referenced
-main.c(6911): warning:  #177-D: variable "i" was declared but never referenced
-main.c(9013): warning:  #9-D: nested comment is not allowed
-main.c(18326): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18283)
-main.c(18438): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18382)
-main.c(18482): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18438)
-main.c(18560): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18566): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18571): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18576): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18581): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18601): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18607): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18612): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18617): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18622): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18643): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18653): warning:  #68-D: integer conversion resulted in a change of sign
-main.c(18696): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18482)
-main.c(18796): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18696)
-main.c(25103): warning:  #223-D: function "can2_out" declared implicitly
-main.c(26389): warning:  #223-D: function "can2_out" declared implicitly
-main.c(27402): warning:  #223-D: function "UARTInit" declared implicitly
-main.c(27460): warning:  #186-D: pointless comparison of unsigned integer with zero
-main.c(27515): warning:  #223-D: function "modbus_in" declared implicitly
-main.c(27704): warning:  #223-D: function "mnemo_hndl" declared implicitly
-main.c(27742): warning:  #223-D: function "npn_hndl" declared implicitly
-main.c(27757): warning:  #223-D: function "powerAntiAliasingHndl" declared implicitly
-main.c(642): warning:  #177-D: function "timer_poll" was declared but never referenced
-main.c(1503): warning: C3017W: ii_ may be used before being set
-compiling simbols.c...
-compiling graphic.c...
-graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
-graphic.c(183): warning:  #177-D: variable "y_bit_begin" was declared but never referenced
-graphic.c(348): warning:  #550-D: variable "s" was set but never used
-graphic.c(349): warning:  #550-D: variable "minus" was set but never used
-graphic.c(350): warning:  #550-D: variable "zero_on" was set but never used
-graphic.c(351): warning:  #550-D: variable "simb_num" was set but never used
-compiling snmp_data_file.c...
-snmp_data_file.c(617): warning:  #175-D: subscript out of range
-snmp_data_file.c(621): warning:  #175-D: subscript out of range
-snmp_data_file.c(621): warning:  #175-D: subscript out of range
-snmp_data_file.c(628): warning:  #175-D: subscript out of range
-snmp_data_file.c(628): warning:  #175-D: subscript out of range
-snmp_data_file.c(1325): warning:  #1166-D: returning pointer to local variable
-compiling SNMP_MIB.c...
-SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
-compiling memo.c...
-memo.c(70): warning:  #223-D: function "gran" declared implicitly
-compiling system_LPC17xx.c...
-compiling Timer.c...
-compiling beep.c...
-compiling ad7705.c...
-ad7705.c(19): warning:  #61-D: integer operation result is out of range
-ad7705.c(19): warning:  #68-D: integer conversion resulted in a change of sign
-compiling lcd_AGM1232_uku207_3.c...
-compiling 25lc640.c...
-25lc640.c(30): warning:  #61-D: integer operation result is out of range
-25lc640.c(30): warning:  #68-D: integer conversion resulted in a change of sign
-25lc640.c(48): warning:  #61-D: integer operation result is out of range
-25lc640.c(48): warning:  #68-D: integer conversion resulted in a change of sign
-compiling full_can.c...
-full_can.c(643): warning:  #174-D: expression has no effect
-full_can.c(899): warning:  #550-D: variable "temp" was set but never used
-full_can.c(1441): warning:  #514-D: pointless comparison of unsigned integer with a negative constant
-full_can.c(1525): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1541): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1556): warning:  #186-D: pointless comparison of unsigned integer with zero
-full_can.c(1621): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1638): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1655): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1672): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1689): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1706): warning:  #223-D: function "mem_copy" declared implicitly
-full_can.c(1716): warning:  #177-D: label "CAN_IN_AN1_end" was declared but never referenced
-full_can.c(1800): warning:  #177-D: variable "ptr" was declared but never referenced
-full_can.c(1800): warning:  #177-D: variable "j" was declared but never referenced
-full_can.c(1922): warning:  #550-D: variable "temp" was set but never used
-full_can.c(1949): warning:  #550-D: variable "temp" was set but never used
-compiling uart0.c...
-uart0.c(204): warning:  #177-D: variable "UOB" was declared but never referenced
-uart0.c(561): warning:  #223-D: function "mem_copy" declared implicitly
-compiling modbus.c...
-modbus.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
-modbus.c(133): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(138): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(143): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(148): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(152): warning:  #186-D: pointless comparison of unsigned integer with zero
-modbus.c(153): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(159): warning:  #186-D: pointless comparison of unsigned integer with zero
-modbus.c(163): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(167): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(171): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(175): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(179): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(183): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(187): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(191): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(195): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(199): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(203): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(207): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(211): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(215): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(219): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(223): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(227): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(231): warning:  #223-D: function "lc640_write_int" declared implicitly
-modbus.c(63): warning:  #550-D: variable "modbus_rx_arg2" was set but never used
-modbus.c(64): warning:  #550-D: variable "modbus_rx_arg3" was set but never used
-modbus.c(419): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(423): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(566): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(570): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(653): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(657): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(754): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(759): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-modbus.c(920): warning:  #223-D: function "putchar0" declared implicitly
-modbus.c(924): warning:  #223-D: function "putchar_sc16is700" declared implicitly
-compiling bat_driver.c...
-bat_driver.c(7): warning:  #223-D: function "lc640_read_int" declared implicitly
-bat_driver.c(31): warning:  #223-D: function "uart_out_buff0" declared implicitly
-bat_driver.c(38): warning:  #223-D: function "lc640_read_int" declared implicitly
-bat_driver.c(40): warning:  #223-D: function "UARTInit" declared implicitly
-bat_driver.c(42): warning:  #1-D: last line of file ends without a newline
-compiling sacred_sun.c...
-sacred_sun.c(14): warning:  #223-D: function "UARTInit" declared implicitly
-sacred_sun.c(23): warning:  #223-D: function "uart_out_buff0" declared implicitly
-sacred_sun.c(32): warning:  #223-D: function "uart_out_buff0" declared implicitly
-sacred_sun.c(46): warning:  #223-D: function "isalnum" declared implicitly
-sacred_sun.c(48): warning:  #223-D: function "isdigit" declared implicitly
-sacred_sun.c(52): warning:  #223-D: function "islower" declared implicitly
-sacred_sun.c(56): warning:  #223-D: function "isupper" declared implicitly
-sacred_sun.c(61): warning:  #1-D: last line of file ends without a newline
-sacred_sun.c(61): warning:  #940-D: missing return statement at end of non-void function "ascii2halFhex"
-compiling sc16is7xx.c...
-sc16is7xx.h(46): warning:  #1-D: last line of file ends without a newline
-sc16is7xx.c(21): warning:  #61-D: integer operation result is out of range
-sc16is7xx.c(21): warning:  #68-D: integer conversion resulted in a change of sign
-sc16is7xx.c(41): warning:  #223-D: function "spi1" declared implicitly
-sc16is7xx.c(51): warning:  #223-D: function "spi1" declared implicitly
-sc16is7xx.c(63): warning:  #223-D: function "spi1" declared implicitly
-compiling EMAC_LPC17xx.c...
-linking...
-Program Size: Code=174056 RO-data=3288 RW-data=21600 ZI-data=43492  
-FromELF: creating hex file...
-".\EXE\UKU_6U.axf" - 0 Error(s), 146 Warning(s).
+".\EXE\UKU_6U.axf" - 0 Error(s), 148 Warning(s).
 Build target 'UKU-6U'
 custom translating web.inp...
 Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
 FCARM FILE CONVERTER V2.29
-Completed 4 File(s), Ratio 99%
+Completed 3 File(s), Ratio 75%
 assembling startup_LPC17xx.s...
 compiling Net_Config_HTTP.c...
 compiling common_func.c...
@@ -2252,6 +1875,9 @@ SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be us
 SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+compiling HTTP_CGI.c...
+HTTP_CGI.c(436): warning:  #111-D: statement is unreachable
+HTTP_CGI.c(272): warning:  #177-D: variable "adv" was declared but never referenced
 compiling memo.c...
 memo.c(70): warning:  #223-D: function "gran" declared implicitly
 compiling system_LPC17xx.c...
@@ -2352,14 +1978,28 @@ sc16is7xx.c(51): warning:  #223-D: function "spi1" declared implicitly
 sc16is7xx.c(63): warning:  #223-D: function "spi1" declared implicitly
 compiling EMAC_LPC17xx.c...
 linking...
-Program Size: Code=174056 RO-data=3288 RW-data=21600 ZI-data=43492  
+Program Size: Code=184824 RO-data=8444 RW-data=21608 ZI-data=43804  
 FromELF: creating hex file...
-".\EXE\UKU_6U.axf" - 0 Error(s), 146 Warning(s).
+".\EXE\UKU_6U.axf" - 0 Error(s), 148 Warning(s).
+"FM.EXE" DEVICE(LPC1768,12.0,0) ERASE(DEVICE,PROTECTISP) HEXFILE(E:\L\UKU\UKU\EXE\UKU_6U.HEX,NOCHECKSUMS,NOFILL,PROTECTISP) COM(15,230400) HARDWARE(BOOTEXEC,100,50)
+Flash Magic Version 9.50.3976
+8051/XA Driver Version 3.50.3965
+ARM UART Driver Version 5.00.3965
+ARM Cortex UART Driver Version 7.01.3976
+ARM Ethernet Driver Version 2.20.3877
+ARM Cortex Ethernet Driver Version 2.60.3885
+ARM CAN Driver Version 2.25.3660
+(C) Embedded Systems Academy 2000-2015 All rights reserved
+NON PRODUCTION USE ONLY
+Connected
+Device selected
+Erase complete (DEVICE)
+Hex file programming complete (E:\L\UKU\UKU\EXE\UKU_6U.HEX)
 Build target 'UKU-6U'
 custom translating web.inp...
 Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
 FCARM FILE CONVERTER V2.29
-Completed 4 File(s), Ratio 99%
+Completed 3 File(s), Ratio 75%
 assembling startup_LPC17xx.s...
 compiling Net_Config_HTTP.c...
 compiling common_func.c...
@@ -2436,6 +2076,10 @@ SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be us
 SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
 SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+compiling HTTP_CGI.c...
+HTTP_CGI.c(436): warning:  #111-D: statement is unreachable
+HTTP_CGI.c(454): warning:  #223-D: function "get_button" declared implicitly
+HTTP_CGI.c(272): warning:  #177-D: variable "adv" was declared but never referenced
 compiling memo.c...
 memo.c(70): warning:  #223-D: function "gran" declared implicitly
 compiling system_LPC17xx.c...
@@ -2536,6 +2180,391 @@ sc16is7xx.c(51): warning:  #223-D: function "spi1" declared implicitly
 sc16is7xx.c(63): warning:  #223-D: function "spi1" declared implicitly
 compiling EMAC_LPC17xx.c...
 linking...
-Program Size: Code=181516 RO-data=297036 RW-data=21608 ZI-data=43804  
+.\EXE\UKU_6U.axf: Error: L6218E: Undefined symbol get_button (referred from http_cgi.o).
+Target not created
+Build target 'UKU-6U'
+custom translating web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
+FCARM FILE CONVERTER V2.29
+Completed 3 File(s), Ratio 75%
+assembling startup_LPC17xx.s...
+compiling Net_Config_HTTP.c...
+compiling common_func.c...
+compiling control.c...
+control.c(491): warning:  #550-D: variable "ibat_ips" was set but never used
+control.c(491): warning:  #550-D: variable "ibat_ips_" was set but never used
+control.c(765): warning:  #177-D: variable "temp_SS" was declared but never referenced
+control.c(2743): warning:  #9-D: nested comment is not allowed
+control.c(3760): warning:  #175-D: subscript out of range
+control.c(3760): warning:  #174-D: expression has no effect
+control.c(3762): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "signed char *"
+compiling mess.c...
+compiling ret.c...
+compiling gran.c...
+compiling avar_hndl.c...
+avar_hndl.c(271): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(357): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(456): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(467): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(478): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(844): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(848): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
+compiling eeprom_map.c...
+compiling main.c...
+main.c(6914): warning:  #177-D: variable "sss" was declared but never referenced
+main.c(6915): warning:  #177-D: variable "i" was declared but never referenced
+main.c(9017): warning:  #9-D: nested comment is not allowed
+main.c(18330): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18287)
+main.c(18442): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18386)
+main.c(18486): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18442)
+main.c(18564): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18570): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18575): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18580): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18585): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18605): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18611): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18616): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18621): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18626): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18647): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18657): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18700): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18486)
+main.c(18800): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18700)
+main.c(25107): warning:  #223-D: function "can2_out" declared implicitly
+main.c(26393): warning:  #223-D: function "can2_out" declared implicitly
+main.c(27406): warning:  #223-D: function "UARTInit" declared implicitly
+main.c(27464): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(27519): warning:  #223-D: function "modbus_in" declared implicitly
+main.c(27708): warning:  #223-D: function "mnemo_hndl" declared implicitly
+main.c(27746): warning:  #223-D: function "npn_hndl" declared implicitly
+main.c(27761): warning:  #223-D: function "powerAntiAliasingHndl" declared implicitly
+main.c(646): warning:  #177-D: function "timer_poll" was declared but never referenced
+main.c(1507): warning: C3017W: ii_ may be used before being set
+compiling simbols.c...
+compiling graphic.c...
+graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
+graphic.c(183): warning:  #177-D: variable "y_bit_begin" was declared but never referenced
+graphic.c(348): warning:  #550-D: variable "s" was set but never used
+graphic.c(349): warning:  #550-D: variable "minus" was set but never used
+graphic.c(350): warning:  #550-D: variable "zero_on" was set but never used
+graphic.c(351): warning:  #550-D: variable "simb_num" was set but never used
+compiling snmp_data_file.c...
+snmp_data_file.c(617): warning:  #175-D: subscript out of range
+snmp_data_file.c(621): warning:  #175-D: subscript out of range
+snmp_data_file.c(621): warning:  #175-D: subscript out of range
+snmp_data_file.c(628): warning:  #175-D: subscript out of range
+snmp_data_file.c(628): warning:  #175-D: subscript out of range
+snmp_data_file.c(1325): warning:  #1166-D: returning pointer to local variable
+compiling SNMP_MIB.c...
+SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+compiling HTTP_CGI.c...
+HTTP_CGI.c(437): warning:  #111-D: statement is unreachable
+HTTP_CGI.c(455): error:  #20: identifier "plazma" is undefined
+HTTP_CGI.c(273): warning:  #177-D: variable "adv" was declared but never referenced
+compiling memo.c...
+memo.c(70): warning:  #223-D: function "gran" declared implicitly
+compiling system_LPC17xx.c...
+compiling Timer.c...
+compiling beep.c...
+compiling ad7705.c...
+ad7705.c(19): warning:  #61-D: integer operation result is out of range
+ad7705.c(19): warning:  #68-D: integer conversion resulted in a change of sign
+compiling lcd_AGM1232_uku207_3.c...
+compiling 25lc640.c...
+25lc640.c(30): warning:  #61-D: integer operation result is out of range
+25lc640.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+25lc640.c(48): warning:  #61-D: integer operation result is out of range
+25lc640.c(48): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Web.c...
+compiling full_can.c...
+full_can.c(643): warning:  #174-D: expression has no effect
+full_can.c(899): warning:  #550-D: variable "temp" was set but never used
+full_can.c(1441): warning:  #514-D: pointless comparison of unsigned integer with a negative constant
+full_can.c(1525): warning:  #186-D: pointless comparison of unsigned integer with zero
+full_can.c(1541): warning:  #186-D: pointless comparison of unsigned integer with zero
+full_can.c(1556): warning:  #186-D: pointless comparison of unsigned integer with zero
+full_can.c(1621): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1638): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1655): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1672): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1689): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1706): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1716): warning:  #177-D: label "CAN_IN_AN1_end" was declared but never referenced
+full_can.c(1800): warning:  #177-D: variable "ptr" was declared but never referenced
+full_can.c(1800): warning:  #177-D: variable "j" was declared but never referenced
+full_can.c(1922): warning:  #550-D: variable "temp" was set but never used
+full_can.c(1949): warning:  #550-D: variable "temp" was set but never used
+compiling uart0.c...
+uart0.c(204): warning:  #177-D: variable "UOB" was declared but never referenced
+uart0.c(561): warning:  #223-D: function "mem_copy" declared implicitly
+compiling modbus.c...
+modbus.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+modbus.c(133): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(138): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(143): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(148): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(152): warning:  #186-D: pointless comparison of unsigned integer with zero
+modbus.c(153): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(159): warning:  #186-D: pointless comparison of unsigned integer with zero
+modbus.c(163): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(167): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(171): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(175): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(179): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(183): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(187): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(191): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(195): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(199): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(203): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(207): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(211): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(215): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(219): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(223): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(227): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(231): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(63): warning:  #550-D: variable "modbus_rx_arg2" was set but never used
+modbus.c(64): warning:  #550-D: variable "modbus_rx_arg3" was set but never used
+modbus.c(419): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(423): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(566): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(570): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(653): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(657): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(754): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(759): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(920): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(924): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+compiling bat_driver.c...
+bat_driver.c(7): warning:  #223-D: function "lc640_read_int" declared implicitly
+bat_driver.c(31): warning:  #223-D: function "uart_out_buff0" declared implicitly
+bat_driver.c(38): warning:  #223-D: function "lc640_read_int" declared implicitly
+bat_driver.c(40): warning:  #223-D: function "UARTInit" declared implicitly
+bat_driver.c(42): warning:  #1-D: last line of file ends without a newline
+compiling sacred_sun.c...
+sacred_sun.c(14): warning:  #223-D: function "UARTInit" declared implicitly
+sacred_sun.c(23): warning:  #223-D: function "uart_out_buff0" declared implicitly
+sacred_sun.c(32): warning:  #223-D: function "uart_out_buff0" declared implicitly
+sacred_sun.c(46): warning:  #223-D: function "isalnum" declared implicitly
+sacred_sun.c(48): warning:  #223-D: function "isdigit" declared implicitly
+sacred_sun.c(52): warning:  #223-D: function "islower" declared implicitly
+sacred_sun.c(56): warning:  #223-D: function "isupper" declared implicitly
+sacred_sun.c(61): warning:  #1-D: last line of file ends without a newline
+sacred_sun.c(61): warning:  #940-D: missing return statement at end of non-void function "ascii2halFhex"
+compiling sc16is7xx.c...
+sc16is7xx.h(46): warning:  #1-D: last line of file ends without a newline
+sc16is7xx.c(21): warning:  #61-D: integer operation result is out of range
+sc16is7xx.c(21): warning:  #68-D: integer conversion resulted in a change of sign
+sc16is7xx.c(41): warning:  #223-D: function "spi1" declared implicitly
+sc16is7xx.c(51): warning:  #223-D: function "spi1" declared implicitly
+sc16is7xx.c(63): warning:  #223-D: function "spi1" declared implicitly
+compiling EMAC_LPC17xx.c...
+Target not created
+Build target 'UKU-6U'
+custom translating web.inp...
+Custom: C:\Keil\ARM\bin\fcarm @Web\Web.inp
+FCARM FILE CONVERTER V2.29
+Completed 3 File(s), Ratio 75%
+assembling startup_LPC17xx.s...
+compiling Net_Config_HTTP.c...
+compiling common_func.c...
+compiling control.c...
+control.c(491): warning:  #550-D: variable "ibat_ips" was set but never used
+control.c(491): warning:  #550-D: variable "ibat_ips_" was set but never used
+control.c(765): warning:  #177-D: variable "temp_SS" was declared but never referenced
+control.c(2743): warning:  #9-D: nested comment is not allowed
+control.c(3760): warning:  #175-D: subscript out of range
+control.c(3760): warning:  #174-D: expression has no effect
+control.c(3762): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "signed char *"
+compiling mess.c...
+compiling ret.c...
+compiling gran.c...
+compiling avar_hndl.c...
+avar_hndl.c(271): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(357): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(456): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(467): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(478): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(844): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(848): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(989): warning:  #223-D: function "snmp_trap_send" declared implicitly
+avar_hndl.c(993): warning:  #223-D: function "snmp_trap_send" declared implicitly
+compiling eeprom_map.c...
+compiling main.c...
+main.c(6914): warning:  #177-D: variable "sss" was declared but never referenced
+main.c(6915): warning:  #177-D: variable "i" was declared but never referenced
+main.c(9017): warning:  #9-D: nested comment is not allowed
+main.c(18330): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18287)
+main.c(18442): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18386)
+main.c(18486): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18442)
+main.c(18564): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18570): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18575): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18580): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18585): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18605): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18611): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18616): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18621): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18626): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18647): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18657): warning:  #68-D: integer conversion resulted in a change of sign
+main.c(18700): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18486)
+main.c(18800): warning:  #47-D: incompatible redefinition of macro "SIMAXIDEF" (declared at line 18700)
+main.c(25107): warning:  #223-D: function "can2_out" declared implicitly
+main.c(26393): warning:  #223-D: function "can2_out" declared implicitly
+main.c(27406): warning:  #223-D: function "UARTInit" declared implicitly
+main.c(27464): warning:  #186-D: pointless comparison of unsigned integer with zero
+main.c(27519): warning:  #223-D: function "modbus_in" declared implicitly
+main.c(27708): warning:  #223-D: function "mnemo_hndl" declared implicitly
+main.c(27746): warning:  #223-D: function "npn_hndl" declared implicitly
+main.c(27761): warning:  #223-D: function "powerAntiAliasingHndl" declared implicitly
+main.c(646): warning:  #177-D: function "timer_poll" was declared but never referenced
+main.c(1507): warning: C3017W: ii_ may be used before being set
+compiling simbols.c...
+compiling graphic.c...
+graphic.c(182): warning:  #177-D: variable "num_bite" was declared but never referenced
+graphic.c(183): warning:  #177-D: variable "y_bit_begin" was declared but never referenced
+graphic.c(348): warning:  #550-D: variable "s" was set but never used
+graphic.c(349): warning:  #550-D: variable "minus" was set but never used
+graphic.c(350): warning:  #550-D: variable "zero_on" was set but never used
+graphic.c(351): warning:  #550-D: variable "simb_num" was set but never used
+compiling snmp_data_file.c...
+snmp_data_file.c(617): warning:  #175-D: subscript out of range
+snmp_data_file.c(621): warning:  #175-D: subscript out of range
+snmp_data_file.c(621): warning:  #175-D: subscript out of range
+snmp_data_file.c(628): warning:  #175-D: subscript out of range
+snmp_data_file.c(628): warning:  #175-D: subscript out of range
+snmp_data_file.c(1325): warning:  #1166-D: returning pointer to local variable
+compiling SNMP_MIB.c...
+SNMP_MIB.c(432): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+SNMP_MIB.c(433): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+SNMP_MIB.c(434): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+SNMP_MIB.c(435): warning:  #144-D: a value of type "void (*)(void)" cannot be used to initialize an entity of type "void (*)(int)"
+compiling HTTP_CGI.c...
+HTTP_CGI.c(437): warning:  #111-D: statement is unreachable
+HTTP_CGI.c(273): warning:  #177-D: variable "adv" was declared but never referenced
+compiling memo.c...
+memo.c(70): warning:  #223-D: function "gran" declared implicitly
+compiling system_LPC17xx.c...
+compiling Timer.c...
+compiling beep.c...
+compiling ad7705.c...
+ad7705.c(19): warning:  #61-D: integer operation result is out of range
+ad7705.c(19): warning:  #68-D: integer conversion resulted in a change of sign
+compiling lcd_AGM1232_uku207_3.c...
+compiling 25lc640.c...
+25lc640.c(30): warning:  #61-D: integer operation result is out of range
+25lc640.c(30): warning:  #68-D: integer conversion resulted in a change of sign
+25lc640.c(48): warning:  #61-D: integer operation result is out of range
+25lc640.c(48): warning:  #68-D: integer conversion resulted in a change of sign
+compiling Web.c...
+compiling full_can.c...
+full_can.c(643): warning:  #174-D: expression has no effect
+full_can.c(899): warning:  #550-D: variable "temp" was set but never used
+full_can.c(1441): warning:  #514-D: pointless comparison of unsigned integer with a negative constant
+full_can.c(1525): warning:  #186-D: pointless comparison of unsigned integer with zero
+full_can.c(1541): warning:  #186-D: pointless comparison of unsigned integer with zero
+full_can.c(1556): warning:  #186-D: pointless comparison of unsigned integer with zero
+full_can.c(1621): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1638): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1655): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1672): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1689): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1706): warning:  #223-D: function "mem_copy" declared implicitly
+full_can.c(1716): warning:  #177-D: label "CAN_IN_AN1_end" was declared but never referenced
+full_can.c(1800): warning:  #177-D: variable "ptr" was declared but never referenced
+full_can.c(1800): warning:  #177-D: variable "j" was declared but never referenced
+full_can.c(1922): warning:  #550-D: variable "temp" was set but never used
+full_can.c(1949): warning:  #550-D: variable "temp" was set but never used
+compiling uart0.c...
+uart0.c(204): warning:  #177-D: variable "UOB" was declared but never referenced
+uart0.c(561): warning:  #223-D: function "mem_copy" declared implicitly
+compiling modbus.c...
+modbus.c(74): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+modbus.c(133): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(138): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(143): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(148): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(152): warning:  #186-D: pointless comparison of unsigned integer with zero
+modbus.c(153): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(159): warning:  #186-D: pointless comparison of unsigned integer with zero
+modbus.c(163): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(167): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(171): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(175): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(179): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(183): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(187): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(191): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(195): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(199): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(203): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(207): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(211): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(215): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(219): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(223): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(227): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(231): warning:  #223-D: function "lc640_write_int" declared implicitly
+modbus.c(63): warning:  #550-D: variable "modbus_rx_arg2" was set but never used
+modbus.c(64): warning:  #550-D: variable "modbus_rx_arg3" was set but never used
+modbus.c(419): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(423): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(566): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(570): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(653): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(657): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(754): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(759): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+modbus.c(920): warning:  #223-D: function "putchar0" declared implicitly
+modbus.c(924): warning:  #223-D: function "putchar_sc16is700" declared implicitly
+compiling bat_driver.c...
+bat_driver.c(7): warning:  #223-D: function "lc640_read_int" declared implicitly
+bat_driver.c(31): warning:  #223-D: function "uart_out_buff0" declared implicitly
+bat_driver.c(38): warning:  #223-D: function "lc640_read_int" declared implicitly
+bat_driver.c(40): warning:  #223-D: function "UARTInit" declared implicitly
+bat_driver.c(42): warning:  #1-D: last line of file ends without a newline
+compiling sacred_sun.c...
+sacred_sun.c(14): warning:  #223-D: function "UARTInit" declared implicitly
+sacred_sun.c(23): warning:  #223-D: function "uart_out_buff0" declared implicitly
+sacred_sun.c(32): warning:  #223-D: function "uart_out_buff0" declared implicitly
+sacred_sun.c(46): warning:  #223-D: function "isalnum" declared implicitly
+sacred_sun.c(48): warning:  #223-D: function "isdigit" declared implicitly
+sacred_sun.c(52): warning:  #223-D: function "islower" declared implicitly
+sacred_sun.c(56): warning:  #223-D: function "isupper" declared implicitly
+sacred_sun.c(61): warning:  #1-D: last line of file ends without a newline
+sacred_sun.c(61): warning:  #940-D: missing return statement at end of non-void function "ascii2halFhex"
+compiling sc16is7xx.c...
+sc16is7xx.h(46): warning:  #1-D: last line of file ends without a newline
+sc16is7xx.c(21): warning:  #61-D: integer operation result is out of range
+sc16is7xx.c(21): warning:  #68-D: integer conversion resulted in a change of sign
+sc16is7xx.c(41): warning:  #223-D: function "spi1" declared implicitly
+sc16is7xx.c(51): warning:  #223-D: function "spi1" declared implicitly
+sc16is7xx.c(63): warning:  #223-D: function "spi1" declared implicitly
+compiling EMAC_LPC17xx.c...
+linking...
+Program Size: Code=185772 RO-data=8444 RW-data=21608 ZI-data=43804  
 FromELF: creating hex file...
-".\EXE\UKU_6U.axf" - 0 Error(s), 146 Warning(s).
+".\EXE\UKU_6U.axf" - 0 Error(s), 148 Warning(s).
+"FM.EXE" DEVICE(LPC1768,12.0,0) ERASE(DEVICE,PROTECTISP) HEXFILE(E:\L\UKU\UKU\EXE\UKU_6U.HEX,NOCHECKSUMS,NOFILL,PROTECTISP) COM(15,230400) HARDWARE(BOOTEXEC,100,50)
+Flash Magic Version 9.50.3976
+8051/XA Driver Version 3.50.3965
+ARM UART Driver Version 5.00.3965
+ARM Cortex UART Driver Version 7.01.3976
+ARM Ethernet Driver Version 2.20.3877
+ARM Cortex Ethernet Driver Version 2.60.3885
+ARM CAN Driver Version 2.25.3660
+(C) Embedded Systems Academy 2000-2015 All rights reserved
+NON PRODUCTION USE ONLY
+Connected
+Device selected
+Erase complete (DEVICE)
+Hex file programming complete (E:\L\UKU\UKU\EXE\UKU_6U.HEX)

@@ -632,6 +632,10 @@ char  	   speedChrgShowCnt;		//Счетчик показа информационного сообщения
 #define can1_out	mcp2515_transmit
 #endif
 
+
+short short_plazma = -100;
+
+
 //-----------------------------------------------
 void rtc_init (void) 
 {
@@ -27756,6 +27760,7 @@ while (1)
 
 		powerAntiAliasingHndl();
 		
+		short_plazma++;
 		}
 	if(b1min)
 		{
