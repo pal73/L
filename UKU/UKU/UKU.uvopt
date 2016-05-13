@@ -2224,7 +2224,7 @@
       <FileType>7</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>24</ColumnNumber>
+      <ColumnNumber>43</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
       <TopLine>1</TopLine>
       <CurrentLine>1</CurrentLine>
@@ -2257,8 +2257,8 @@
       <TopLine>0</TopLine>
       <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\WEB\mypage.html</PathWithFileName>
-      <FilenameWithoutPath>mypage.html</FilenameWithoutPath>
+      <PathWithFileName>.\WEB\mypage.cgx</PathWithFileName>
+      <FilenameWithoutPath>mypage.cgx</FilenameWithoutPath>
     </File>
     <File>
       <GroupNumber>1</GroupNumber>
@@ -2271,8 +2271,8 @@
       <TopLine>0</TopLine>
       <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
-      <PathWithFileName>.\WEB\mypage.cgx</PathWithFileName>
-      <FilenameWithoutPath>mypage.cgx</FilenameWithoutPath>
+      <PathWithFileName>.\WEB\index.htm</PathWithFileName>
+      <FilenameWithoutPath>index.htm</FilenameWithoutPath>
     </File>
   </Group>
 
@@ -2504,10 +2504,10 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>58</ColumnNumber>
+      <ColumnNumber>55</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>442</TopLine>
-      <CurrentLine>455</CurrentLine>
+      <TopLine>274</TopLine>
+      <CurrentLine>291</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>.\HTTP_CGI.c</PathWithFileName>
       <FilenameWithoutPath>HTTP_CGI.c</FilenameWithoutPath>
@@ -2888,7 +2888,7 @@
       <Documents>
         <Doc>
           <Name>E:\L\UKU\UKU\WEB\web.inp</Name>
-          <ColumnNumber>24</ColumnNumber>
+          <ColumnNumber>43</ColumnNumber>
           <TopLine>1</TopLine>
           <CurrentLine>1</CurrentLine>
         </Doc>
@@ -2912,9 +2912,9 @@
         </Doc>
         <Doc>
           <Name>.\HTTP_CGI.c</Name>
-          <ColumnNumber>58</ColumnNumber>
-          <TopLine>442</TopLine>
-          <CurrentLine>455</CurrentLine>
+          <ColumnNumber>55</ColumnNumber>
+          <TopLine>274</TopLine>
+          <CurrentLine>291</CurrentLine>
         </Doc>
         <Doc>
           <Name>C:\Keil\ARM\RV31\INC\RTL.h</Name>

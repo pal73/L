@@ -41,7 +41,7 @@
 ### ADS-LD Output File: '.\EXE\UKU_6U.axf'
 ### ADS-LD Command File: '.\EXE\UKU_6U.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile '.\EXE\UKU_6U.lnp', Handle=0x0000072C
+### Creating CmdFile '.\EXE\UKU_6U.lnp', Handle=0x0000082C
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\EXE\UKU_6U.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
