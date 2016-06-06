@@ -479,6 +479,16 @@
               <FileType>5</FileType>
               <FilePath>.\Web\xml_http.js</FilePath>
             </File>
+            <File>
+              <FileName>mypage.cgi</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Web\mypage.cgi</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Web\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1176,6 +1186,16 @@
               <FileType>5</FileType>
               <FilePath>.\Web\xml_http.js</FilePath>
             </File>
+            <File>
+              <FileName>mypage.cgi</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Web\mypage.cgi</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Web\mypage.cgx</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1833,6 +1853,16 @@
               <FileName>xml_http.js</FileName>
               <FileType>5</FileType>
               <FilePath>.\Web\xml_http.js</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgi</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Web\mypage.cgi</FilePath>
+            </File>
+            <File>
+              <FileName>mypage.cgx</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\Web\mypage.cgx</FilePath>
             </File>
           </Files>
         </Group>

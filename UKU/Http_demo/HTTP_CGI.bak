@@ -51,6 +51,7 @@ extern U8   lcd_text[2][16+1];
 
 /* Local variables. */
 static U8 P2;
+extern char plazma;
 static char const state[][11] = {
   "FREE",
   "CLOSED",

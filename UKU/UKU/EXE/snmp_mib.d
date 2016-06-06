@@ -1,0 +1,10 @@
+.\EXE\snmp_mib.o: SNMP_MIB.c
+.\EXE\snmp_mib.o: C:\Keil\ARM\RV31\INC\Net_Config.h
+.\EXE\snmp_mib.o: C:\Keil\ARM\RV31\INC\RTL.h
+.\EXE\snmp_mib.o: C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.H
+.\EXE\snmp_mib.o: C:\Keil\ARM\RV31\INC\core_cm3.h
+.\EXE\snmp_mib.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\EXE\snmp_mib.o: C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+.\EXE\snmp_mib.o: main.H
+.\EXE\snmp_mib.o: control.H
+.\EXE\snmp_mib.o: snmp_data_file.h
