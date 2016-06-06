@@ -88,7 +88,7 @@
 
 //     <o>Address byte 3 <0-255>
 //     <i> Default: 0
-#define _IP3           1
+#define _IP3           0
 
 //     <o>Address byte 4 <0-255>
 //     <i> Default: 100
