@@ -11,8 +11,13 @@
 
 #include <Net_Config.h>
 
+<<<<<<< HEAD
+/* Last-Modified: Sun, 08 May 2016 18:23:08 GMT */
+const U32 FileMD = 1462731788;
+=======
 /* Last-Modified: Thu, 12 May 2016 05:50:09 GMT */
 const U32 FileMD = 1463032209;
+>>>>>>> 4551f9e3793133f58d52c6da9038c61b0b814275
 
 /*---------------------------------------------------------------------------*/
 

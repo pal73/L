@@ -4,6 +4,11 @@
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
 E:\L\UKU\Http_demo\Http_demo.uvproj
+<<<<<<< HEAD
+Project File Date:  05/09/2016
+
+<h2>Output:</h2>
+=======
 Project File Date:  05/10/2016
 
 <h2>Output:</h2>
@@ -83,3 +88,4 @@ linking...
 Program Size: Code=24524 RO-data=36108 RW-data=160 ZI-data=21092  
 FromELF: creating hex file...
 ".\Obj\Http_demo.axf" - 0 Error(s), 2 Warning(s).
+>>>>>>> 4551f9e3793133f58d52c6da9038c61b0b814275

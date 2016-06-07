@@ -18,7 +18,11 @@
 ### ADS-LD Output File: '.\Obj\Http_demo.axf'
 ### ADS-LD Command File: '.\Obj\Http_demo.lnp'
 ### Checking for dirty Components...
+<<<<<<< HEAD
+### Creating CmdFile '.\Obj\Http_demo.lnp', Handle=0x00000174
+=======
 ### Creating CmdFile '.\Obj\Http_demo.lnp', Handle=0x000002FC
+>>>>>>> 4551f9e3793133f58d52c6da9038c61b0b814275
 ### Writing '.lnp' file
 ### ADS-LD Command file '.\Obj\Http_demo.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
