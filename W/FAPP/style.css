@@ -1,3 +1,54 @@
-#div1{
+#plazma1{
     background-color: aqua;
+}
+#table-keeper {
+    background-color: white;
+    height: 600px;
+    //width: 500px;
+    border-style: solid;
+    border: solid 1px red;
+}
+#table {
+    height: 400px;
+    width:400px;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: darkgray;
+}
+.key {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    border: solid 5px black;
+    border-radius: 10px;
+    background-color: chartreuse;
+    text-align: center;
+    display:table-cell;
+    vertical-align:bottom;
+    font-size: 55px;
+    //display: inline;
+}
+#key1 {
+    top: 80px;
+    left: 640px;
+
+}
+
+#key2 {
+     top: 80px;
+     left: 740px;
+
+ }
+
+#key3 {
+    top: 80px;
+    left:840px;
+
+}
+#key4 {
+    top: 80px;
+    left:940px;
+
 }
