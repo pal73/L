@@ -4,13 +4,13 @@
 var path_counter=0;
 var max_x=0;
 window.onload=function(){
-    var result = prompt("Введите размерность таблицы",2);
+    var result = prompt("Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂРЅРѕСЃС‚СЊ С‚Р°Р±Р»РёС†С‹",2);
     //alert("fglhopuiyh");
     max_x = parseInt(result);
     //var result__= result_*2;
     path_counter=0;
     iter(0,0);
-    alert("aaa "+path_counter + " вариантов");
+    alert("Р’СЃРµРіРѕ "+path_counter + " РІРѕР·РјРѕР¶РЅС‹С… РїСѓС‚РµР№");
 };
 
 function iter(xx,yy){
