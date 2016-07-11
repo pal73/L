@@ -1,0 +1,14 @@
+.\EXE\snmp_data_file.o: snmp_data_file.c
+.\EXE\snmp_data_file.o: snmp_data_file.h
+.\EXE\snmp_data_file.o: eeprom_map.h
+.\EXE\snmp_data_file.o: main.h
+.\EXE\snmp_data_file.o: C:\Keil\ARM\RV31\INC\rtl.h
+.\EXE\snmp_data_file.o: C:\Keil\ARM\RV31\INC\net_config.h
+.\EXE\snmp_data_file.o: control.h
+.\EXE\snmp_data_file.o: C:\Keil\ARM\INC\NXP\LPC17xx\LPC17xx.H
+.\EXE\snmp_data_file.o: C:\Keil\ARM\RV31\INC\core_cm3.h
+.\EXE\snmp_data_file.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\EXE\snmp_data_file.o: C:\Keil\ARM\INC\NXP\LPC17xx\system_LPC17xx.h
+.\EXE\snmp_data_file.o: C:\Keil\ARM\RV31\INC\string.h
+.\EXE\snmp_data_file.o: 25lc640.h
+.\EXE\snmp_data_file.o: common_func.h

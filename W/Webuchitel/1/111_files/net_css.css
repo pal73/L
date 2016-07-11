@@ -1,0 +1,110 @@
+/* CSS Document */
+
+body {
+	font-family:"Times New Roman", Times, serif;	 
+	background-color: #999999;
+}
+.canvas {
+	margin: auto;
+	width: 1080px;
+	background-color: #FFFFFF;
+	overflow: auto;
+	padding-top:10px;
+}
+.article {
+	width: 800px;
+	float: left;
+	border-right:#CCCCCC 2px ridge;
+	margin-bottom: 10px;
+	/*border-left: #CCCCCC 2px ridge;*/
+	padding: 0 10px 0 10px;
+	/*background-color: #FFFFFF;*/
+}
+.article .header {
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: ridge;
+	border-bottom-style: ridge;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	overflow: auto;
+}
+.article .footer{
+	border-top-width: 2px;
+	border-top-style: ridge;
+	border-top-color: #CCCCCC;
+	padding-top: 5px;
+}
+.article .footer .copyright {
+	float: left;
+}
+
+.nav {
+	margin-left: 820px;
+	width: 260px;
+	/*position: fixed;*/
+}
+.nav .header{
+	padding-left:20px;
+}
+.nav .header h3 {
+	margin: 5px;
+}
+
+.nav .references {
+	margin-left: 10px;
+	margin-top: 50px;
+	width: 250px;
+}
+.задание{
+	background-color:#FFFFCC; 
+	margin-left:10px; 
+	padding:0 10px; 
+	border-left:#6666FF thick solid;
+}
+.style1 { /*Заголовок в задании*/
+	color: #660000
+	}
+.коды { /*Пример кода*/
+	font-family: "Courier New", "Lucida Console", monospace;
+	color: #000099;
+}
+.рамка { /*Рамка и описание справа*/
+	border: 1px solid #000000;
+	float: left;
+	margin-right: 10px;
+}
+.обтекание { /*Описание справа*/
+	float: left;
+	margin-right: 15px;
+}
+.обтекание2 { /*Описание слева*/
+	float: right;
+	margin-left: 15px;
+}
+.ниже { /*Ниже плавающего элемента*/
+	clear: both;
+}
+
+/*Придание динамики ссылке посредством указателя псевдокласса*/
+a:link{			/*не посещённая*/
+	color:#000000;
+}
+a:visited{		/*посещённая*/
+	color:#666666;
+}
+a:hover{		/*курсор на ссылке*/
+	color:#990000;
+	text-decoration: none;
+}
+a:active{		/*нажатие*/
+	color:#FF0000;
+}
+/*Серые линии таблицы для Opera*/
+table.серый {
+	border: 1px solid #CCCCCC;
+}
+table.серый td {
+	border: 1px solid #CCCCCC;
+}
+
