@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="123" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="63342">
+    <method />
+  </configuration>
+</component>
