@@ -4,6 +4,7 @@
 var myGame = {
     timeCnt: 0,
     timeCntMax: 20,
+    mainCnt:123,
 
     start: function(){
         Crafty.init(400,300,"game_body");
@@ -38,7 +39,7 @@ var myGame = {
                 //this.x = this.x + 10;
                 }
             });
-        var textBox=Crafty.e("2D,Canvas,Color,Text")
+      /*  var textBox=Crafty.e("2D,Canvas,Color,Text")
             .attr({
                 x:100,
                 y:100,
@@ -49,7 +50,28 @@ var myGame = {
                // size:'20px'
             //})
             //.text('10000')
-            .color('#ffffff');
+            .color('#ffffff');*/
+        var textBox=Crafty.e('Mytextbox').text(myGame.mainCnt);
+        var textBox1=Crafty.e('Mytextbox')
+            .attr({
+                x:200,
+                y:250
+            });
+
         console.log("STOPSTARTING");
+        var blackbox = Crafty.e('2D, Canvas, Fourway, Color')
+            .attr({x: 100, y: 50, h: 30, w: 30})
+            .color('black')
+            .fourway(5);
+        blackbox.bind('NewDirection',function(){
+            myGame.mainCnt++;
+            console.log('NEWDIRECTION'+ myGame.mainCnt);
+            textBox.text(myGame.mainCnt);
+        });
+        blackbox.bind('Moved',function(e) {
+            myGame.mainCnt++;
+            console.log('MOVED' + myGame.mainCnt);
+            textBox1.text(e.axis + e.oldValue);
+        });
     }
 }
