@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript" src="point.js"></script>
+<script type="text/javascript" src="pointjs-init.js"></script>
+
+
+<script type="text/javascript">
+
+	var helps = [
+		'TEST FPS',
+	];
+
+
+	var obj = [], object;
+
+	game.newLoop('game', function () {
+		var dt = game.getDT(100);
+
+		if (mouse.isPress('LEFT'))
+			color = colors.randomColor(0, 255);
+
+		for (i in obj) {
+			obj[i].move(point(obj[i].dx*dt, obj[i].dy*dt));
+			obj[i].draw();
+			if (obj[i].x + obj[i].w > width || obj[i].x < 0) { obj[i].dx *= -1; }
+			if (obj[i].y + obj[i].h > height || obj[i].y < 0) { obj[i].dy *= -1; }
+		}
+
+		if (mouse.isDown('LEFT')) {
+			for (i = 0; i < 100; i++) {
+				object = game.newRectObject({
+					x : mouse.getPosition().x - 5, y : mouse.getPosition().y - 5,
+					w : 10, h : 10,
+					fillColor : color,
+				});
+				object.dx = random(-50, 50, true) * 0.1;
+				object.dy = random(-50, 50, true) * 0.1;
+				obj.push(object);
+			}
+		}
+
+		if (touch.isDown()) {
+			for (i = 0; i < 100; i++) {
+				object = game.newRectObject({
+					x : touch.getPosition().x - 5, y : touch.getPosition().y - 5,
+					w : 10, h : 10,
+					fillColor : color,
+				});
+				object.dx = random(-50, 50, true) * 0.1;
+				object.dy = random(-50, 50, true) * 0.1;
+				obj.push(object);
+			}
+		}
+
+		brush.drawTextLines({
+			x : 0, y : 10,
+			lines : [
+				'FPS: ' + sys.getFPS(),
+				'Прямоугольников: ' + obj.length,
+				'Треугольников: ' + obj.length*2,
+				'Вершин: ' + obj.length*4,
+			],
+			size : 50,
+			color : 'black',
+			strokeColor : 'white',
+			strokeWidth : 1,
+			style : 'bold'
+		});
+
+	});
+
+</script>
+
+</body>
+</html>
