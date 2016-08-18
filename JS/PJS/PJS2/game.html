@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<title>Минимальный игровой код PointJS</title>
+</head>
+<body>
+<script type="text/javascript" src="point.js"></script>
+
+
+<script type="text/javascript">
+
+var pjs = new PointJS('2d', 400, 400);
+pjs.system.initFullPage();
+
+var vector = pjs.vector;
+var log = pjs.system.log;
+var game = pjs.game;
+var point = vector.point;
+var size = vector.size;
+var camera = pjs.camera;
+var brush = pjs.brush;
+var OOP = pjs.OOP;
+var math = pjs.math;
+
+
+//var key = pjs.keyControl;
+//key.initKeyControl();
+
+var mouse = pjs.mouseControl;
+mouse.initMouseControl();
+mouse.initMouseControl();
+mouse.getPosition();
+
+
+//var touch = pjs.touchControl;
+//touch.initTouchControl();
+
+
+var text1 = game.newTextObject({
+	x : 30,
+	y : 30,
+	text : "9",
+	size : 40,
+	color : "#000000"
+})
+
+var rect = game.newRectObject({
+	w : 100,
+	h : 100,
+	x : 0,
+	y : 0,
+	fillColor : '#ff0000'
+});
+
+var rect2 = game.newRectObject({
+	w : 50,
+	h : 100,
+	x : 0,
+	y : 0,
+	fillColor : '#00ff00'
+});
+
+var nm = game.newMesh({
+	x : 400,
+	y : 400,
+	angle : 0,
+	add : [rect,text1]
+})
+
+var gameFild = game.newRectObject({
+	x:100,
+	y:100,
+	w:400,
+	h:400,
+	fillColor:"#aaaaaa",
+	strokeColor : "#DA4848",
+	strokeWidth : 2
+});
+
+var i;
+var tilesArr=[];
+for(i=0;i<15;i++){
+	tilesArr.push(
+		game.newMesh({
+			x:100+100*(i%4),
+			y:100+100*(math.toInt(i/4)),
+			add: [
+				game.newRectObject({
+					x:0,y:0,
+					w:100,h:100,
+					fillColor:"#25F4EB",
+					strokeColor:"#000000",
+					strokeWidth : 2
+				}),
+				game.newTextObject({
+					x : (i<9)?35:25,
+					y : 35,
+					text : i+1,
+					size : 40,
+					color : "#000000",
+					align:"left"
+				})
+			]
+		})
+	)
+}
+
+log(rect.getPosition());
+
+var gameArr=new Array(16);
+
+for(var i=0;i<15;i++){
+	gameArr[i]=i+1;
+}
+gameArr[15]=0;
+
+log(gameArr);
+
+gameArrDraw=function(){
+	for(var i in gameArr){
+		if(gameArr[i]!=0){
+			tilesArr[i-1].draw();
+		}
+	}
+}
+
+game.newLoop('game', function () {
+	game.fill('#D9D9D9');
+	//rect.setPositionC(mouse.getPosition());
+	//rect2.setPositionC(mouse.getPosition());
+	//mouse.getM
+	//game.clear();
+	//rect.move({x : 1});
+	//rect.draw();
+	//rect2.draw();
+	gameFild.draw();
+	/*tilesArr[0].draw();
+	tilesArr[1].draw();
+	tilesArr[2].draw();
+	tilesArr[3].draw();
+	tilesArr[4].draw();*/
+	//for(i in tilesArr){
+		//tilesArr[i].draw();
+	//}
+	//gameArrDraw();
+	//nm.setPosition(mouse.getPosition());
+	//nm.draw();
+	//log(mouse.getPosition());
+});
+
+game.startLoop('game');
+
+</script>
+
+</body>
+</html>

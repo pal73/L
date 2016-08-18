@@ -13,68 +13,77 @@
 <script type="text/javascript">
 
 	var helps = [
-		'TEST FPS',
+		'Управление - стрелки',
+		'Проверка столкновений'
 	];
 
-
-	var obj = [], object;
-
-	game.newLoop('game', function () {
-		var dt = game.getDT(100);
-
-		if (mouse.isPress('LEFT'))
-			color = colors.randomColor(0, 255);
-
-		for (i in obj) {
-			obj[i].move(point(obj[i].dx*dt, obj[i].dy*dt));
-			obj[i].draw();
-			if (obj[i].x + obj[i].w > width || obj[i].x < 0) { obj[i].dx *= -1; }
-			if (obj[i].y + obj[i].h > height || obj[i].y < 0) { obj[i].dy *= -1; }
-		}
-
-		if (mouse.isDown('LEFT')) {
-			for (i = 0; i < 100; i++) {
-				object = game.newRectObject({
-					x : mouse.getPosition().x - 5, y : mouse.getPosition().y - 5,
-					w : 10, h : 10,
-					fillColor : color,
-				});
-				object.dx = random(-50, 50, true) * 0.1;
-				object.dy = random(-50, 50, true) * 0.1;
-				obj.push(object);
-			}
-		}
-
-		if (touch.isDown()) {
-			for (i = 0; i < 100; i++) {
-				object = game.newRectObject({
-					x : touch.getPosition().x - 5, y : touch.getPosition().y - 5,
-					w : 10, h : 10,
-					fillColor : color,
-				});
-				object.dx = random(-50, 50, true) * 0.1;
-				object.dy = random(-50, 50, true) * 0.1;
-				obj.push(object);
-			}
-		}
-
-		brush.drawTextLines({
-			x : 0, y : 10,
-			lines : [
-				'FPS: ' + sys.getFPS(),
-				'Прямоугольников: ' + obj.length,
-				'Треугольников: ' + obj.length*2,
-				'Вершин: ' + obj.length*4,
-			],
-			size : 50,
-			color : 'black',
-			strokeColor : 'white',
-			strokeWidth : 1,
-			style : 'bold'
+	var drawFPS_ = function (color) {
+		brush.drawText({
+			x : (gjs.camera.getPositionC().x)-500, y : gjs.camera.getPositionC().y-100,
+			text : 'FPS: '+sys.getFPS() + "  " + gjs.math.toInt(gjs.camera.getPositionC().x)+ "  " + gjs.math.toInt(gjs.camera.getPositionC().y),
+			color : color || 'white',
+			size : 20
 		});
+	};
 
+	var pl = game.newCircleObject({
+		x : 50, y : 50,
+		radius : 20,
+		fillColor : colors.randomColor(100, 255),
+		strokeColor : '#E33131',
+		strokeWidth : 3
 	});
 
+	var min = [], i;
+
+	var pLL=game.newCircleObject({
+		x : 0, y : 0,
+		radius : 10,
+		//fillColor : colors.randomColor(100, 255),
+		strokeColor : "white",
+		strokeWidth : 1
+	})
+
+	for (i=0; i < 1000; i++) {
+		min.push(
+				game.newCircleObject({
+					x : random(-width*2, width*2), y : random(-height*2, height*2),
+					radius : random(4, 8, true),
+					fillColor : colors.randomColor(100, 255),
+					strokeColor : colors.randomColor(100, 255),
+					strokeWidth : 1
+				})
+		);
+	}
+
+	game.newLoop('game', function () {
+		gjs.camera.setPositionC(pl.getPosition(1));
+		//gjs.camera.setPositionC(point(0,0));
+
+		pl.moveTimeC(mouse.getPosition(), 100);
+
+
+		for (i in min) {
+			if (!min[i]) continue;
+
+
+			min[i].draw();
+
+			if (min[i].getDistance(pl.getPosition(1)) < pl.getRadius() + 10) {
+				min[i].moveTimeC(pl.getPosition(1), 50);
+			}
+
+			if (min[i].isDynamicInside(pl.getDynamicBox())) {
+				pl.scaleC(0.5);
+				min.splice(i, 1);
+			}
+		}
+
+		pl.draw();
+		pLL.draw();
+		drawFPS_();
+		//drawHELP(10,10);
+	});
 </script>
 
 </body>
