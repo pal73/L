@@ -30,13 +30,59 @@ var math = pjs.math;
 
 var mouse = pjs.mouseControl;
 mouse.initMouseControl();
-mouse.initMouseControl();
-mouse.getPosition();
+//mouse.initMouseControl();
+//mouse.getPosition();
 
 
 //var touch = pjs.touchControl;
 //touch.initTouchControl();
+function randomChange(){
+	var emptyPosition=0;
+	for(var i=0;i<16;i++){
+		if(gameArr[i]==0){
+			emptyPosition=i;
+			break;
+		}
+	}
+	log ("emptyPosition=" + emptyPosition);
+	var vector=Math.floor(Math.random() * 4 ) + 1;
+	log ("vector=" + vector);
+	var secondArg;
+	switch (vector) {
 
+		case 1: //U
+			if(emptyPosition > 3)secondArg = emptyPosition - 4;
+			else secondArg = emptyPosition + 4;
+			break;
+		case 2:	//R
+			if ((emptyPosition % 4) < 3)secondArg = emptyPosition + 1;
+			else secondArg = emptyPosition - 1;
+			break;
+		case 3:	//D
+			if (emptyPosition < 12)secondArg = emptyPosition + 4;
+			else secondArg = emptyPosition - 4;
+			break;
+		case 4:	//L
+			if ((vector == 4) && ((emptyPosition % 4) > 0))secondArg = emptyPosition - 1;
+			else secondArg = emptyPosition + 1;
+			break;
+	}
+	log ("secondArg=" + secondArg);
+	changeTiles(emptyPosition,secondArg);
+}
+function changeTiles(arg1,arg2){
+	if(arg1==arg2)return 0;
+	if((arg1<0)||(arg1>15))return 0;
+	if((arg2<0)||(arg2>15))return 0;
+	var razn = Math.abs(arg2-arg1);
+	if((razn!=1)&&(razn!=4))return 0;
+	if(((arg2-arg1)==1)&&((arg2%4)==0))return 0;
+	if(((arg1-arg2)==1)&&((arg1%4)==0))return 0;
+
+	var temp = gameArr[arg1];
+	gameArr[arg1]=gameArr[arg2];
+	gameArr[arg2]=temp;
+}
 
 var text1 = game.newTextObject({
 	x : 30,
@@ -119,12 +165,35 @@ gameArr[15]=0;
 log(gameArr);
 
 gameArrDraw=function(){
-	for(var i in gameArr){
-		if(gameArr[i]!=0){
-			tilesArr[i-1].draw();
+	for(var i = 0; i<16 ; i++){
+		//log("i="+i+" gameArr[i]=" + gameArr[i]);
+		var tempo=gameArr[i];
+		//log("tempo="+tempo);
+		//tempo=i;
+		if(tempo!=0){
+			//tilesArr[gameArr[i]-1].draw();
+			brush.drawRect({
+				x:100+i%4*100,
+				y:100+(math.toInt(i/4))*100,
+				w:100,
+				h:100,
+				fillColor:"#25F4EB",
+				strokeColor:"#000000",
+				strokeWidth : 2
+			})
+			brush.drawText({
+				x : gameFild.getPosition().x+(((i)%4)*100)+((gameArr[i]<10)?40:26),
+				y : gameFild.getPosition().y+(math.toInt(i/4))*100+30,
+				text : tempo,
+				size : 40,
+				color : "#000000",
+				align:"left"
+			})
 		}
 	}
 }
+
+
 
 game.newLoop('game', function () {
 	game.fill('#D9D9D9');
@@ -141,16 +210,43 @@ game.newLoop('game', function () {
 	tilesArr[2].draw();
 	tilesArr[3].draw();
 	tilesArr[4].draw();*/
-	//for(i in tilesArr){
-		//tilesArr[i].draw();
-	//}
-	//gameArrDraw();
+	//for(i in tilesArr){	tilesArr[i].draw();	}
+	gameArrDraw();
+	//tilesArr[1/*gameArr[i]*/].draw();
 	//nm.setPosition(mouse.getPosition());
 	//nm.draw();
 	//log(mouse.getPosition());
+	if(mouse.isPress("LEFT")) {
+		if(mouse.isInStatic(gameFild.getStaticBox())){
+			var dx = mouse.getPosition().x-gameFild.getPosition().x;
+			var dy = mouse.getPosition().y-gameFild.getPosition().y;
+			var numberOfTiles=math.toInt(dx/100)+ ((math.toInt(dy/100))*4)
+			log("Мышь нажата внутри игрового поля " + dx + "    "+ dy + "   "+numberOfTiles);
+			var emptyPosition=0;
+			for(var i=0;i<16;i++){
+				//log(gameArr[i]);
+				if(gameArr[i]==0){
+					emptyPosition=(i);
+					break;
+				}
+
+			}
+			log("emptyPosition  " +emptyPosition);
+			changeTiles(emptyPosition,numberOfTiles);
+		}
+	}
 });
 
-game.startLoop('game');
+/*
+game.fill('#D9D9D9');
+gameFild.draw();
+gameArrDraw();
+*/
+
+
+
+for(var i=0;i<2000;i++)randomChange();
+game.startLoop("game");
 
 </script>
 
