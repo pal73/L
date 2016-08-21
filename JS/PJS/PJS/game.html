@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<title>Минимальный игровой код PointJS</title>
+</head>
+<body>
+<script type="text/javascript" src="point.js"></script>
+
+
+<script type="text/javascript">
+
+var pjs = new PointJS('2d', 400, 400);
+pjs.system.initFullPage();
+
+var vector = pjs.vector;
+var log = pjs.system.log;
+var game = pjs.game;
+var point = vector.point;
+var size = vector.size;
+var camera = pjs.camera;
+var brush = pjs.brush;
+var OOP = pjs.OOP;
+var math = pjs.math;
+
+
+//var key = pjs.keyControl;
+//key.initKeyControl();
+
+//var mouse = pjs.mouseControl;
+//mouse.initMouseControl();
+
+//var touch = pjs.touchControl;
+//touch.initTouchControl();
+
+game.newLoop('game', function () {
+	game.fill('#D9D9D9');
+
+	brush.drawText({
+		x : 10, y : 10,
+		text : 'Hello, World!',
+		size : 30,
+		color : '#515151'
+	});
+
+});
+
+game.startLoop('game');
+
+</script>
+
+</body>
+</html>
