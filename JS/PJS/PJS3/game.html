@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<title>Минимальный игровой код PointJS</title>
+</head>
+<body>
+<script type="text/javascript" src="point.js"></script>
+
+
+<script type="text/javascript">
+
+var pjs = new PointJS('2d', 400, 400);
+pjs.system.initFullPage();
+
+
+
+var vector = pjs.vector;
+var log = pjs.system.log;
+var game = pjs.game;
+var point = vector.point;
+var size = vector.size;
+var camera = pjs.camera;
+var brush = pjs.brush;
+var OOP = pjs.OOP;
+var math = pjs.math;
+var width = game.getWH().w;
+var height = game.getWH().h;
+
+log(width);
+var key = pjs.keyControl;
+key.initKeyControl();
+
+var stars = [];
+var createStars = function(count){
+	OOP.forInt(count,function(){
+		var w = math.random(1,3);
+		var h = math.random(1,3);
+		var x = math.random(0,width-w);
+		var y = math.random(0,height-h);
+		var dx = 2;// math.random(0,2);
+		var dy = 2;// math.random(0,2);
+		stars.push(game.newRectObject({
+			w : w,
+			h : h,
+			x : x,
+			y : y,
+			fillColor : "#FFFFFF",
+			userdata : {
+				dx : 3,
+				dy : 4
+			}
+		}))
+	});
+};
+game.fill('#000000');
+createStars(500);
+game.newLoop('game', function () {
+	game.clear();
+	game.fill('#000000');
+
+	OOP.forArr(stars,function(el){
+		el.draw();
+		//log(el.dx);
+		//el.move(point(el.ddx,el.dy));
+	});
+
+	log(stars[0].dx,stars[0].dy);
+	/*brush.drawText({
+		x : 10, y : 10,
+		text : 'Hello, World1!',
+		size : 30,
+		color : '#515151'
+	});*/
+});
+
+game.startLoop('game');
+
+</script>
+
+</body>
+</html>
