@@ -39,34 +39,60 @@ var createStars = function(count){
 		var h = math.random(1,3);
 		var x = math.random(0,width-w);
 		var y = math.random(0,height-h);
-		var dx = 2;// math.random(0,2);
-		var dy = 2;// math.random(0,2);
+		var dx = math.random(0,2);
+		var dy = math.random(0,2);
 		stars.push(game.newRectObject({
 			w : w,
 			h : h,
 			x : x,
 			y : y,
 			fillColor : "#FFFFFF",
-			userdata : {
-				dx : 3,
-				dy : 4
+			userData : {
+				dx : dx/100,
+				dy : dy/100
 			}
 		}))
 	});
 };
-game.fill('#000000');
+//game.fill('#000000');
 createStars(500);
+var pl = game.newRectObject({
+	x : 10, y : 10,
+	w : 50, h : 25,
+	fillColor : "#ffff00"
+})
+var pl1 = game.newRectObject({
+	x : -300, y : -300,
+	w : 10, h : 10,
+	fillColor : "#ff0000"
+})
+
 game.newLoop('game', function () {
 	game.clear();
 	game.fill('#000000');
-
+	camera.moveTimeC(pl.getPositionC(),50);
+	var camPos = camera.getPosition();
 	OOP.forArr(stars,function(el){
 		el.draw();
 		//log(el.dx);
-		//el.move(point(el.ddx,el.dy));
+		el.move(point(el.dx,el.dy));
+		if(el.x<camPos.x) el.x=camPos.x+width-el.w;
+		if(el.x>camPos.x+width)el.x=camPos.x;
+		if(el.y<camPos.y) el.y=camPos.y+height-el.h;
+		if(el.y>camPos.y+height)el.y=camPos.y;
+
 	});
 
-	log(stars[0].dx,stars[0].dy);
+	pl.draw();
+	pl1.draw();
+
+	if(key.isDown("UP"))pl.moveAngle(3);
+	if(key.isDown("RIGHT"))pl.turn(2);
+	if(key.isDown("LEFT"))pl.turn(-2);
+/*	log(math.toInt(stars[0].x)+"  "+
+		math.toInt(stars[0].y)+"  "+
+		math.toInt(camPos.x)+"  "+
+		math.toInt(camPos.y)+"  ");*/
 	/*brush.drawText({
 		x : 10, y : 10,
 		text : 'Hello, World1!',

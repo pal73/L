@@ -1,0 +1,1 @@
+PJS3 - разобрал ручками пример из Создание игр на JavaScript, бесконечное звездное небо, двигающиеся звезды  https://www.youtube.com/watch?v=MGLz4rH5buc
