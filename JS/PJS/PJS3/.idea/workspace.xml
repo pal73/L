@@ -24,7 +24,7 @@
       <file leaf-file-name="game.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/game.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5011547">
+            <state vertical-scroll-proportion="0.5105882">
               <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
               <folding />
             </state>
@@ -59,9 +59,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="777" />
-    <option name="y" value="1" />
     <option name="width" value="900" />
-    <option name="height" value="1036" />
+    <option name="height" value="1020" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -171,7 +170,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="777" y="1" width="900" height="1036" extended-state="1" />
+    <frame x="777" y="0" width="900" height="1020" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -243,7 +242,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/game.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5011547">
+        <state vertical-scroll-proportion="0.5105882">
           <caret line="94" column="37" selection-start-line="94" selection-start-column="37" selection-end-line="94" selection-end-column="37" />
           <folding />
         </state>
