@@ -1,0 +1,2 @@
+javac GameTetris.java
+pause
