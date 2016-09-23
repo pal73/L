@@ -11,7 +11,7 @@
 
 <script type="text/javascript">
 
-var pjs = new PointJS('2d', 400, 400);
+var pjs = new PointJS('2d', 400, 400,{backGroundColor : '#555555'});
 pjs.system.initFullPage();
 
 var vector = pjs.vector;
@@ -31,23 +31,24 @@ var math = pjs.math;
 //var mouse = pjs.mouseControl;
 //mouse.initMouseControl();
 
-//var touch = pjs.touchControl;
-//touch.initTouchControl();
+var touch = pjs.touchControl;
+touch.initTouchControl();
 
 
-game.newLoop('game', function () {
-	game.fill('#D9D9D9');
-
-	brush.drawText({
-		x : 10, y : 10,
-		text : 'Hello, World1!',
-		size : 30,
-		color : '#515151'
-	});
-
+game.newLoop('menu', function () {
+	game.clearContext();
+	if(touch.isDown()) {
+		brush.drawCircle({
+			x:touch.getPosition().x-50,
+			y:touch.getPosition().y-50,
+			radius:50,
+			fillColor:'#CA2CAE'
+		});
+	}
 });
 
-game.startLoop('game');
+game.setLoop('menu');
+game.start();
 
 </script>
 
