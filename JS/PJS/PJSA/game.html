@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width,user-scalable=no"/>
-	<title>Минимальный игровой код PointJS</title>
+	<title>Android Game</title>
 </head>
 <body>
 <script type="text/javascript" src="point.js"></script>
@@ -11,7 +11,7 @@
 
 <script type="text/javascript">
 
-var pjs = new PointJS('2d', 400, 400,{backGroundColor : '#555555'});
+var pjs = new PointJS('2d', 400, 400,{backgroundColor : '#DCDCDC'});
 pjs.system.initFullPage();
 
 var vector = pjs.vector;
@@ -24,6 +24,8 @@ var brush = pjs.brush;
 var OOP = pjs.OOP;
 var math = pjs.math;
 
+var width = pjs.system.getWH().w;
+var height = pjs.system.getWH().h;
 
 //var key = pjs.keyControl;
 //key.initKeyControl();
@@ -34,15 +36,37 @@ var math = pjs.math;
 var touch = pjs.touchControl;
 touch.initTouchControl();
 
+log(width);
+log(height);
 
 game.newLoop('menu', function () {
-	game.clearContext();
+	game.clear();
+
+	brush.drawText({
+		text:'Новая игра',
+		x:width/2,y:height/2-30,
+		size:30,
+		align:'center',
+		stile:'italic bold',
+		color:'#FD0202'
+
+	});
+
+	brush.drawText({
+		text:'Выход',
+		x:width/2,y:height/2,
+		size:30,
+		align:'center',
+		stile:'italic bold',
+		color:'#FD0202'
+
+	});
 	if(touch.isDown()) {
 		brush.drawCircle({
 			x:touch.getPosition().x-50,
 			y:touch.getPosition().y-50,
 			radius:50,
-			fillColor:'#CA2CAE'
+			fillColor:'#BA2EAB'
 		});
 	}
 });
