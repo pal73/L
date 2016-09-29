@@ -7,72 +7,19 @@
 </head>
 <body>
 <script type="text/javascript" src="point.js"></script>
+<script type="text/javascript" src="init.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+
 
 
 <script type="text/javascript">
 
-var pjs = new PointJS('2d', 400, 400,{backgroundColor : '#DCDCDC'});
-pjs.system.initFullPage();
 
-var vector = pjs.vector;
-var log = pjs.system.log;
-var game = pjs.game;
-var point = vector.point;
-var size = vector.size;
-var camera = pjs.camera;
-var brush = pjs.brush;
-var OOP = pjs.OOP;
-var math = pjs.math;
 
-var width = pjs.system.getWH().w;
-var height = pjs.system.getWH().h;
 
-//var key = pjs.keyControl;
-//key.initKeyControl();
-
-//var mouse = pjs.mouseControl;
-//mouse.initMouseControl();
-
-var touch = pjs.touchControl;
-touch.initTouchControl();
-
-log(width);
-log(height);
-
-game.newLoop('menu', function () {
+game.newLoop('game',function(){
 	game.clear();
-
-	brush.drawText({
-		text:'Новая игра',
-		x:width/2,y:height/2-30,
-		size:30,
-		align:'center',
-		stile:'italic bold',
-		color:'#FD0202'
-
-	});
-
-	brush.drawText({
-		text:'Выход',
-		x:width/2,y:height/2,
-		size:30,
-		align:'center',
-		stile:'italic bold',
-		color:'#FD0202'
-
-	});
-	if(touch.isDown()) {
-		brush.drawCircle({
-			x:touch.getPosition().x-50,
-			y:touch.getPosition().y-50,
-			radius:50,
-			fillColor:'#BA2EAB'
-		});
-	}
 });
-
-game.setLoop('menu');
-game.start();
 
 </script>
 
