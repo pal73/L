@@ -14,11 +14,23 @@
 
 <script type="text/javascript">
 
-
+var tank = game.newImageObject({
+	x:0,y:0,
+	file:"images/t3.png"
+});
 
 
 game.newLoop('game',function(){
 	game.clear();
+
+	tank.draw();
+
+	var tp=touch.getPosition();
+
+	if(touch.isDown() && tank.getDistance(tp)>10){
+		tank.rotate(tp);
+		tank.moveAngle(1);
+	}
 });
 
 </script>
