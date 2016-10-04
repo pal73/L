@@ -20,16 +20,16 @@ var tank = game.newImageObject({
 });
 
 
+
 game.newLoop('game',function(){
 	game.clear();
-
+	var fixPos=touch.getFixPos;
 	tank.draw();
 
-	var tp=touch.getPosition();
 
-	if(touch.isDown() && tank.getDistance(tp)>10){
-		tank.rotate(tp);
-		tank.moveAngle(1);
+	var tp=touch.getPosition();
+	if(fixPos) {
+		
 	}
 });
 
