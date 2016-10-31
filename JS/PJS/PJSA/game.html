@@ -23,14 +23,19 @@ var tank = game.newImageObject({
 
 game.newLoop('game',function(){
 	game.clear();
-	var fixPos=touch.getFixPos;
+	var fixPos=touch.getFixPosition();
 	tank.draw();
 
 
 	var tp=touch.getPosition();
-	if(fixPos) {
+	
+	brush.drawLineA({
+		x1:fixPos.x,y1:fixPos.y,
+		x2:tp.x,y2:tp.y,
+		strokeColor:'red'
+	});
 		
-	}
+
 });
 
 </script>
