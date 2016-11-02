@@ -7,47 +7,30 @@
 </head>
 <body>
 <script type="text/javascript" src="point.js"></script>
+<script type="text/javascript" src="init.js"></script>
 
 
 <script type="text/javascript">
 
-var pjs = new PointJS('2d', 600, 400);
-//pjs.system.initFullPage();
-
-var vector = pjs.vector;
-var log = pjs.system.log;
-var game = pjs.game;
-var point = vector.point;
-var size = vector.size;
-var camera = pjs.camera;
-var brush = pjs.brush;
-var OOP = pjs.OOP;
-var math = pjs.math;
 
 
-//var key = pjs.keyControl;
-//key.initKeyControl();
 
-//var mouse = pjs.mouseControl;
-//mouse.initMouseControl();
-
-//var touch = pjs.touchControl;
-//touch.initTouchControl();
 
 
 var jocker = game.newRectObject({
-	x:100,
-	y:100,
+	x:500,
+	y:200,
 	h:100,
-	w:100,
-	fillColor:"Red"
+	w:20,
+	fillColor:"Yellow"
 })
 
+log(game.getWH.w);
 game.newLoop('game', function () {
 	game.fill('#D9D9ff');
 
 	jocker.draw();
-	console.log(jocker);
+	
 });
 
 game.startLoop('game');
