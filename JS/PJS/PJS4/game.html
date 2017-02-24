@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<title>Минимальный игровой код PointJS</title>
+</head>
+<body>
+<script type="text/javascript" src="point.js"></script>
+<script type="text/javascript" src="init.js"></script>
+
+
+<script type="text/javascript">
+
+
+
+
+
+
+var jocker = game.newRectObject({
+	x:500,
+	y:200,
+	h:100,
+	w:20,
+	fillColor:"Yellow"
+})
+
+log(game.getWH.w);
+game.newLoop('game', function () {
+	game.fill('#D9D9ff');
+
+	jocker.draw();
+	
+});
+
+game.startLoop('game');
+
+</script>
+
+</body>
+</html>
