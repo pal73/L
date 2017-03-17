@@ -1,5 +1,40 @@
 from tkinter import *
 from tkinter.filedialog import *
+import sys
+import glob
+import serial
+from threading import Timer
+
+
+
+def open_port(self):
+    try:
+        ser = serial.Serial(portSelect.get(),9600,timeout = 0) 
+        but1[Text]="закрыть порт"
+    except (serial.SerialException):
+        pass
+def start_read(self):
+    read_the_octeth_request(1000)
+    
+def read_the_octeth_request(adress=0):
+    
+    transmit_buff=b'read'
+    print (transmit_buff)
+    #transmit_buff.append('r')
+    #transmit_buff.append('e')
+    #transmit_buff.append('a')
+    #transmit_buff.append('d')
+    #transmit_buff.append(adress%256)
+    #transmit_bufftransmit_buff.append(int(adress/256))
+    transmit_buff+=bytes([int(adress%256)])
+    transmit_buff+=bytes([int(adress/256)])
+    print (transmit_buff)
+    
+    #aaa="gkhghjg"
+    
+    #ser.write(‘’.join(transmit_buff)))     # write a string
+    ser.write(transmit_buff);
+    ser.close()             # close port
 
 def open_file(event):
     op = askopenfilename()
@@ -53,6 +88,7 @@ but6 = Button(root,
           
 txt=Text(root,height=20,width=50,font=('courier new',10),wrap=WORD)
 scr1 = Scrollbar(root,command=txt.yview)
+#lis1 = Listbox(root,selectmode=SINGLE,height=4)
 txt.configure(yscrollcommand=scr1.set)
 
 #but1.pack()
@@ -64,15 +100,51 @@ but5.place(relx=0.1,rely=0.6)
 but6.place(relx=0.1,rely=0.7)
 txt.place(relx=0.3,rely=0.1)
 scr1.place(relx=0.95,rely=0.1)
+#lis1.place(relx=0.1,rely=0.1)
 
-
+but1.bind("<Button-1>", open_port)
 but4.bind("<Button-1>", open_file)
+but2.bind("<Button-1>", start_read)
 
+ports = ['COM%s' % (i + 1) for i in range(256)]
+result = []
+for port in ports:
+    try:
+        s = serial.Serial(port)
+        s.close()
+        result.append(port)
+    except (OSError, serial.SerialException):
+        pass
+print (result)
+
+#for i in result:
+   # lis1.insert(END,i) 
+   
+def om1_call(self):
+    print (portSelect.get())
+
+abc = 0
+
+def hello():
+    print ("hello, world %s" % abc)
+    global abc
+    abc+=1;
+    root.after(300,hello)
+
+
+        
+portSelect = StringVar()
+portSelect.set(result[0])
+om1 = OptionMenu(root, portSelect,*result,command=om1_call)
+om1.place(relx=0.1,rely=0.1)
+om1.config(width=9)
+     
 #txt = Text(root,width=40,height=15,font="12")
 #txt.pack()
 
 
 #op = askopenfilename()
 ##sa = asksaveasfilename()
- 
+
+root.after(3000,hello) 
 root.mainloop()
