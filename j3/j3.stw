@@ -1,0 +1,16 @@
+;	STMicroelectronics Workspace file
+
+[Version]
+Keyword=ST7Workspace-V0.7
+
+[Project0]
+Filename=j3.stp
+Dependencies=
+
+[Project1]
+Filename=..\..\users\pal\devices\fat35\soft\fat35o\fat35o.stp
+Dependencies=
+[Options]
+ActiveProject=j3
+ActiveConfig=Debug
+AddSortedElements=1
