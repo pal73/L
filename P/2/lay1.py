@@ -10,6 +10,6 @@ while 1:
     #Result=(win32api.GetKeyboardLayout(idProcess));
     Result=(win32api.GetKeyboardLayout(idProcess[0]));
     print (Result)
-    with serial.Serial('COM10', 19200, timeout=1) as port:
+    with serial.Serial('COM4', 19200, timeout=1) as port:
         port.write(b'hello')
     time.sleep(1)
