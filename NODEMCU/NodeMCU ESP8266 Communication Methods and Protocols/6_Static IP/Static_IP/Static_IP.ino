@@ -8,11 +8,15 @@ const char* deviceName = "pal_esp"; //used to identify in router
 //On board LED Connected to GPIO2
 #define LED 2
 //SSID and Password of your Wi-Fi router
-const char* ssid = "PAL-HOME-XI";
-const char* password = "palpalpal";
+//const char* ssid = "PAL-HOME-XI";
+//const char* password = "palpalpal";
+const char* ssid = "SPA2016";
+const char* password = "UMHHwAGa";
 void setup(void){
 Serial.begin(115200);
 Serial.println("");
+Serial.print("ESP8266 MAC: ");
+Serial.println(WiFi.macAddress());
 //Prevent connecting to Wi-Fi based on previous configuration
 WiFi.disconnect();
 // DHCP Hostname (useful for finding device for static lease)
@@ -31,6 +35,7 @@ Serial.print("Connected to ");
 Serial.println(ssid);
 Serial.print("IP address: ");
 Serial.println(WiFi.localIP()); //IP address assigned to your ESP
+
 }
 //============================================================
 // LOOP
