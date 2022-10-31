@@ -13,3 +13,4 @@ for folderName,subfolders,filenames in os.walk(os.getcwd()):
         print('ÔÀÉË Â ÏÀÏÊÅ ' + folderName + ':' + filename)
 
     print('')
+    #input('')
