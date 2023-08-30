@@ -1,0 +1,15 @@
+Creating   'snk7mb.eep'
+Creating   'snk7mb.obj'
+Creating   'snk7mb.lst'
+
+Assembling 'snk7mb.asm'
+Including  'snk7mb.vec'
+Including  'snk7mb.inc'
+
+Program memory usage:
+Code             :  26682 words
+Constants (dw/db):   8273 words
+Unused           :      0 words
+Total            :  34955 words
+
+Assembly complete with no errors.

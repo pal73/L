@@ -12,7 +12,7 @@ def bt1_actor():
     label1["text"]=f"Мама мыла раму {temp}"
 
 win = tk.Tk()
-win.title("Знакомство с Button")
+win.title("Знакомство с Button1")
 win.geometry("500x500+200+200")
 
 

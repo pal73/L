@@ -1,0 +1,16 @@
+Creating   'snk7ex.eep'
+Creating   'snk7ex.obj'
+Creating   'snk7ex.lst'
+
+Assembling 'snk7ex.asm'
+Including  'snk7ex.vec'
+Including  'snk7ex.inc'
+
+Program memory usage:
+Code             : 2776 words
+Constants (dw/db):   24 words
+Unused           :    0 words
+Total            : 2800 words
+
+Assembly complete with no errors.
+Deleting   'snk7ex.eep'

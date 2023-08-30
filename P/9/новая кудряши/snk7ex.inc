@@ -1,0 +1,39 @@
+	.DEF _t0_cnt0=R4
+	.DEF _t0_cnt1=R5
+	.DEF _t0_cnt2=R6
+	.DEF _t0_cnt3=R7
+	.DEF _t0_cnt4=R8
+	.DEF _plazma=R9
+	.DEF _plazma1=R10
+	.DEF _adc_cnt_main=R11
+	.DEF _self_max=R12
+	.DEF _adc_ch=R14
+_ADMUX_CONST:
+	.DB  0xC2,0xC3,0xC4,0xC5,0x46,0xC2,0xC2
+_PTR_IN_TEMPER:
+	.DB  0x5,0x3
+_PTR_IN_VL:
+	.DB  0x7,0x0
+_PTR_IN_UPP:
+	.DB  0x5,0x7,0x3,0x0
+_3:
+	.DB  0x81,0x81,0x81,0x81
+_4:
+	.DB  0x81,0x81,0x81,0x81
+_5:
+	.DB  0x81,0x81,0x81,0x81
+
+__GLOBAL_INI_TBL:
+	.DW  0x04
+	.DW  _dv_on
+	.DW  _3*2
+
+	.DW  0x04
+	.DW  _dv_on_old
+	.DW  _4*2
+
+	.DW  0x04
+	.DW  _dv_stat
+	.DW  _5*2
+
+	.DW  0
