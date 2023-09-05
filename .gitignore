@@ -25,4 +25,9 @@ out
 /J/PROLOGISTIC/1-System/2/2/build/
 *.bak
 *.m3~
+<<<<<<< HEAD
 *.log
+=======
+/CubeIDE/1/.metadata/*.log
+/CubeIDE/1/.metadata
+>>>>>>> 5aaa8cf5a7377bd153aa73a70859a68f3dc0fccc

@@ -1,0 +1,14 @@
+Разбор уроков по TKinter
+
+
+PROJ1
+По уроку https://www.youtube.com/watch?v=mLySBcS-6p0&t=308s&ab_channel=egoroff_channel
+Создание окна и его главные свойства, иконка в окне.
+
+PROJ2
+По уроку https://www.youtube.com/watch?v=Ridn10uaq20&t=16s&ab_channel=egoroff_channel
+Виджет Label и его свойства и методы.
+
+PROJ3
+По уроку https://www.youtube.com/watch?v=_pUeSkDMY6w&t=1s&ab_channel=egoroff_channel
+Виджет Button и все о нем. Обработчики.
