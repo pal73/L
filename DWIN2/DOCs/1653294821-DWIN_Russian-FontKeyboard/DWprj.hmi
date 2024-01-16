@@ -1,0 +1,11 @@
+[INIT]
+PICFIX=1
+VARCount=64
+Version=-1
+SCREENDSIZE=854X480
+SPADDRESS=5000
+[CMD]
+CMD0=1234=test
+[IMG]
+0=0_screen.png
+1=1_keyboard.png
