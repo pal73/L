@@ -98,11 +98,11 @@ int main(void)
   while (1)
   {
   HAL_Delay(100);
-  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_4);
+  HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
   num++;
   //num=powf(num,2);
   //printf("Hello %s  %d \r\n", "worlddd", num);
-  printf("Hello11 %s  %d \r\n", "world", num);
+  //printf("Hello11 %s  %d \r\n", "world", num);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
