@@ -1,0 +1,2 @@
+https://how2electronics.com/interfacing-ad8495-k-type-thermocouple-amplifier-with-arduino/
+https://how2electronics.com/industrial-thermometer-max6675-thermocouple-arduino/

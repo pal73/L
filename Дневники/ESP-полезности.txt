@@ -1,0 +1,22 @@
+https://randomnerdtutorials.com/esp32-save-data-permanently-preferences/ - хранение 
+неразрушаемых данных в ESP32
+https://randomnerdtutorials.com/install-esp32-filesystem-uploader-arduino-ide/ -
+файловая система(SPIFFS), загрузчик для нее. Пример работы с ней
+https://dzen.ru/a/X2EDHoFpqHgWugvE -
+файловая система(SPIFFS), загрузчик для нее. Пример работы с ней
+https://habr.com/ru/articles/483280/ - 
+файловая система(SPIFFS), загрузчик для нее. Пример работы с ней
+
+
+Important notes
+ESP8266 operates in two WiFi modes: AP (access point - used for pairing) and STA (stationary - used for normal operation)
+
+After first pairing, ESP8266 stores the pairing data into its EEPROM and always boots to STA mode when powered on
+
+To clear the pairing data and boot to AP mode, send the following command to ESP8266 over the serial port: "!CLEAR_PARAMS\r\n" (see "serialInputHandler()" method in "program_base.cpp" source)
+
+Implement custom handling of GUI-O messages within "mqttReceiveCallback(...)" method in "program_sta.cpp" source
+
+
+
+
