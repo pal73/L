@@ -1,0 +1,53 @@
+1. Зарегился на HiveMQ под аккаунтом GOOGLE.
+Они выдали мне брокера
+
+URL
+
+9d0e50c38ae44ca1a18ab6f2964b43b5.s1.eu.hivemq.cloud
+
+Port (TLS)
+
+8883
+
+Started
+
+Thu Nov 07 2024 12:27:34
+
+Вход на сайт через https://console.hivemq.cloud/
+
+Создал там один Credentials(Реквизиты для входа) :
+
+Pavel	
+PUBLISH_SUBSCRIBE
+Pal351
+
+Итоговые данные для работы с брокером:
+
+Cluster URL
+9d0e50c38ae44ca1a18ab6f2964b43b5.s1.eu.hivemq.cloud
+
+Port
+8883
+
+Websocket Port
+8884
+
+TLS MQTT URL
+9d0e50c38ae44ca1a18ab6f2964b43b5.s1.eu.hivemq.cloud:8883
+
+TLS WebSocket URL
+9d0e50c38ae44ca1a18ab6f2964b43b5.s1.eu.hivemq.cloud:8884/mqtt
+
+
+Наткнулся на BOODSKAP
+=================================================
+в менеджере библиотек Ардуино есть библиотека
+https://developer.boodskap.io/
+https://boodskap.io/
+https://github.com/BoodskapPlatform/arduino-examples
+есть приложение
+
+=================================================
+
+https://voltiq.ru/how-to-use-mqtt-for-smart-home-arduino-esp32/
+
