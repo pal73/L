@@ -1,0 +1,4 @@
+https://how2electronics.com/interfacing-ad8495-k-type-thermocouple-amplifier-with-arduino/
+https://how2electronics.com/industrial-thermometer-max6675-thermocouple-arduino/
+
+В E:\L\ESP_LEARN\MAX6675_ESP8266 лежит скетч с работающим кодом

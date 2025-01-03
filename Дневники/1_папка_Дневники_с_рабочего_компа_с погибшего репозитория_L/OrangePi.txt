@@ -1,0 +1,15 @@
+1. Питание через MicroUSB.
+2. Соединяяем веревкой с роутером. Если установки Ethernet-а 
+в OPi не совпадают с сетью роутера то единственный выход - настраивать
+OPi через его UART на плате.
+3. Логин root, пароль - 1234.
+
+4. Начало хорошо описано здесь - https://robot-on.ru/articles/orange-pi-zero-ustanovka-sistemi. 
+
+5. Здесь https://psenyukov.ru/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0-%D1%81-gpio-%D1%80%D0%B0%D0%B7%D1%8A%D0%B5%D0%BC%D0%B0%D0%BC%D0%B8-%D0%B2-orange-pi/   хороший материал по питон и по управлению GPIO
+
+6. файловый менеджер вызывается командой MC
+ 
+7. Установка Mosquitto https://robot-on.ru/articles/ystanovka-mqtt-brokera-mosquitto-raspberry-orange-pi 
+
+8. Хорошая терминалка для SSH  -- https://mobaxterm.mobatek.net/download-home-edition.html . 
