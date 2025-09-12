@@ -1,4 +1,4 @@
-1. Драйвер для ESP32.
+﻿1. Драйвер для ESP32.
 
 На плате стоит какой-то CH9102X. (USB\VID_1A86&PID_55D4)
 
@@ -24,16 +24,13 @@ THONNY 4.1.4  это делать отказался и на буке и на к
 ESPшек, там я ее и подсмотрел.
 
 Сначала стираем содержимое ESP32:
-	для компа  - C:\Users\PAL-HOME\AppData\Local\Arduino15\packages\esp32\tools\esptool_py\4.6>es
-ptool.exe --chip esp32 erase_flash
+	для компа  - C:\Users\PAL-HOME\AppData\Local\Arduino15\packages\esp32\tools\esptool_py\4.6>esptool.exe --chip esp32 erase_flash
 	для бука - python -m esptool --chip esp32 erase_flash 
 
 Далее: Заливаем прошивку интерпретатора Питона. Прошивку положить в одну папку с esptool.exe если на компе. Или 
 сделать эту папку текущей в случае esptool.py :
 
-для компа C:\Users\PAL-HOME\AppData\Local\Arduino15\packages\esp32\tools\esptool_py\4.6>es
-ptool.exe --chip esp32 --port COM44 write_flash -z 0x1000 ESP32_GENERIC-20240602
--v1.23.0.bin
+для компа C:\Users\PAL-HOME\AppData\Local\Arduino15\packages\esp32\tools\esptool_py\4.6>esptool.exe --chip esp32 --port COM44 write_flash -z 0x1000 ESP32_GENERIC-20240602-v1.23.0.bin
 
 для бука python -m esptool --chip esp32 --port COM44 write_flash -z 0x1000 ESP32_GENERIC-20240602-v1.23.0.bin
 
